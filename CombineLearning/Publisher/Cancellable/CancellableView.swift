@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CancellableView: View {
-    // We subscribe the view to ObservableObject by @StateObject
     @StateObject var vm = CancellableViewModel()
     
     var body: some View {
@@ -24,7 +23,7 @@ struct CancellableView: View {
             Button("Cancel") {
                 vm.validated = ""
                 vm.cancellable?.cancel()
-            }
+            } // validated will be work till Cancel button is not tapped. If it is tapped The flow will be stopped
             
         } .padding()
     }
