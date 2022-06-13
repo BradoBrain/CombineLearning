@@ -21,6 +21,7 @@ class DelayViewModel: ObservableObject {
             }
             .delay(for: 5, scheduler: RunLoop.main) // to set 5 second delay and specifying that it will be on the main thread
             .sink { [unowned self] value in
+                data = "Downloaded Data"
                 status = "Process has finished"
             }
     }

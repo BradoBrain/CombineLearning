@@ -17,6 +17,8 @@
 		0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB8F28572E24006C3310 /* PublishedView.swift */; };
 		0FBBDB9328573860006C3310 /* CancellableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB9228573860006C3310 /* CancellableViewModel.swift */; };
 		0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB942857388C006C3310 /* CancellableView.swift */; };
+		0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */; };
+		0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11D28577E05001C764A /* StoreInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		0FBBDB8F28572E24006C3310 /* PublishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedView.swift; sourceTree = "<group>"; };
 		0FBBDB9228573860006C3310 /* CancellableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableViewModel.swift; sourceTree = "<group>"; };
 		0FBBDB942857388C006C3310 /* CancellableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableView.swift; sourceTree = "<group>"; };
+		0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInViewModel.swift; sourceTree = "<group>"; };
+		0FE1E11D28577E05001C764A /* StoreInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				0FBBDB8B28572B5F006C3310 /* @Published */,
 				0FBBDB912857382D006C3310 /* Cancellable */,
+				0F46074F285754260011C61D /* DelayOperator */,
+				0FE1E11A28577A93001C764A /* MultipleCancelling */,
 			);
 			path = Publisher;
 			sourceTree = "<group>";
@@ -103,7 +109,6 @@
 		0FBBDB8928572B2C006C3310 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
-				0F46074F285754260011C61D /* DelayOperator */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -131,6 +136,15 @@
 				0FBBDB942857388C006C3310 /* CancellableView.swift */,
 			);
 			path = Cancellable;
+			sourceTree = "<group>";
+		};
+		0FE1E11A28577A93001C764A /* MultipleCancelling */ = {
+			isa = PBXGroup;
+			children = (
+				0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */,
+				0FE1E11D28577E05001C764A /* StoreInView.swift */,
+			);
+			path = MultipleCancelling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +219,8 @@
 			files = (
 				0F88E8B6285756D4008EE448 /* DelayViewModel.swift in Sources */,
 				0FBBDB9328573860006C3310 /* CancellableViewModel.swift in Sources */,
+				0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */,
+				0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,

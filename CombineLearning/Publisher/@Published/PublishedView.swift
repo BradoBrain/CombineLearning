@@ -13,14 +13,15 @@ struct PublishedView: View {
     @StateObject var vm = PublishedViewModel()
     
     var body: some View {
-        VStack(spacing: 15) {
-            TextField("Enter a name", text: $vm.name)
+        VStack(alignment: .leading, spacing: 15) {
+            
+            TextField("Enter a name", text: $vm.userName)
                 .textFieldStyle(.roundedBorder)
             
             Text(vm.validated)
-                .padding()
-                .foregroundColor( !vm.name.isEmpty ? .green : .red)
-                .background(Circle().foregroundColor(.gray).opacity(0.5))
+                .font(.callout)
+                .foregroundColor(vm.userName.count >= 8 ? .green : .red)
+                .opacity(vm.userName.count < 1 ? 0 : 1)
             
         } .padding()
     }
