@@ -12,6 +12,8 @@ Empty - publisher that publishes nothing. Immediately or fail immediately (or ke
 
 Fail - publisher that published a failure (with an error). If input is valid, return a publisher, else return a Fail publisher.
 
+Future is publisher that publishes only one value and close pipeline (ONLY ONE TIME). It can be publish immedietely, delay or wait for a user response etc. 
+
 **Operators**
 
 .map - simple operator to do logic operations.
@@ -19,7 +21,6 @@ Fail - publisher that published a failure (with an error). If input is valid, re
 .tryMap - has an option to throw an error
 
 .delay - operator that give us to specify time and thread for long operations.
-
 
 **Subscribers**
 
