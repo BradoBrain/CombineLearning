@@ -20,7 +20,7 @@ struct PublishedView: View {
             
             Text(vm.validated)
                 .font(.callout)
-                .foregroundColor(vm.userName.count >= 8 ? .green : .red)
+                .foregroundColor(vm.userValidationColor)
                 .opacity(vm.userName.count < 1 ? 0 : 1)
             
         } .padding()

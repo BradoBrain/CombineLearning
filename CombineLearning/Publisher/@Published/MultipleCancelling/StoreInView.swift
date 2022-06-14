@@ -20,16 +20,14 @@ struct StoreInView: View {
             
             Text(vm.loginValidation)
                 .font(.callout)
-                .foregroundColor(vm.login.count >= 5 ? .green : .red)
-                .opacity(vm.login.count < 1 || isTapped ? 0 : 1)
+                .foregroundColor(vm.logValidColor)
             
             SecureField("Enter a password", text: $vm.password)
                 .textFieldStyle(.roundedBorder)
             
             Text(vm.passwordValidation)
                 .font(.callout)
-                .foregroundColor(vm.password.count >= 8 ? .green : .red)
-                .opacity(vm.password.count < 1 || isTapped ? 0 : 1)
+                .foregroundColor(vm.passwValidColor)
             
             Spacer()
             
