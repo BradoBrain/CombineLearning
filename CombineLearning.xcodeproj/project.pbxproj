@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F382B9D2858947100D68D57 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9C2858947100D68D57 /* FailView.swift */; };
+		0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9E2858948200D68D57 /* FailViewModel.swift */; };
 		0F88E8B6285756D4008EE448 /* DelayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88E8B5285756D4008EE448 /* DelayViewModel.swift */; };
 		0F88E8B82857573A008EE448 /* DelayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88E8B72857573A008EE448 /* DelayView.swift */; };
 		0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F382B9C2858947100D68D57 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
+		0F382B9E2858948200D68D57 /* FailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailViewModel.swift; sourceTree = "<group>"; };
 		0F88E8B5285756D4008EE448 /* DelayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayViewModel.swift; sourceTree = "<group>"; };
 		0F88E8B72857573A008EE448 /* DelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayView.swift; sourceTree = "<group>"; };
 		0FBBDB77285728F0006C3310 /* CombineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F382B9B2858945800D68D57 /* Fail */ = {
+			isa = PBXGroup;
+			children = (
+				0F382B9E2858948200D68D57 /* FailViewModel.swift */,
+				0F382B9C2858947100D68D57 /* FailView.swift */,
+			);
+			path = Fail;
+			sourceTree = "<group>";
+		};
 		0F46074F285754260011C61D /* DelayOperator */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				0FDEEDB628587AE200165988 /* @Published */,
-				0FDEEDBC28587E0400165988 /* @Empty */,
+				0FDEEDBC28587E0400165988 /* Empty */,
+				0F382B9B2858945800D68D57 /* Fail */,
 			);
 			path = Publisher;
 			sourceTree = "<group>";
@@ -151,13 +165,13 @@
 			path = "@Published";
 			sourceTree = "<group>";
 		};
-		0FDEEDBC28587E0400165988 /* @Empty */ = {
+		0FDEEDBC28587E0400165988 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
 				0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */,
 				0FDEEDBF28587E4C00165988 /* EmptyView.swift */,
 			);
-			path = "@Empty";
+			path = Empty;
 			sourceTree = "<group>";
 		};
 		0FE1E11A28577A93001C764A /* MultipleCancelling */ = {
@@ -251,6 +265,8 @@
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
+				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
+				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
