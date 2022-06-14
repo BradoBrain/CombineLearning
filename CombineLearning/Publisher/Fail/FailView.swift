@@ -23,9 +23,9 @@ struct FailView: View {
             
             Button("Save") {
                 vm.save(num: Int(number) ?? -1)
-            }            
-            
+            }
         } .padding()
+
     }
 }
 

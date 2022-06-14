@@ -8,15 +8,17 @@
 import Foundation
 import Combine
 
-enum InvalidNumError: String, Error {
-    case lessThanZero = "Less Than Zero"
-    case moreThanTen = "More Than Ten"
+enum InvalidNumError: Error {
+    case lessThanZero
+    case moreThanTen
 }
 
 
 class FailViewModel: ObservableObject {
+
     @Published var num = 0
     @Published var error: InvalidNumError?
+    
     
     func save(num: Int) {
         _ = Validator.validValue(num: num) // we alredy has a logic in this publisher from Validator
@@ -31,7 +33,9 @@ class FailViewModel: ObservableObject {
 }
 
 
-class Validator {
+class Validator: Identifiable, ObservableObject {
+
+    
     static func validValue(num: Int) -> AnyPublisher<Int, InvalidNumError> { // Able to return different publisher
         if num < 0 {
             return Fail(error: InvalidNumError.lessThanZero)
@@ -44,5 +48,18 @@ class Validator {
         return Just(num)
             .setFailureType(to: InvalidNumError.self) // In coomon way Just publisher doesn't throw an error. We use it to match up the failure types
             .eraseToAnyPublisher()
+    }
+}
+
+
+extension InvalidNumError: CustomStringConvertible {
+    public var description: String {
+        switch self {
+        
+        case .lessThanZero:
+            return "Less Than Zero"
+        case .moreThanTen:
+            return "More Than Ten"
+        }
     }
 }
