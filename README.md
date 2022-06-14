@@ -1,6 +1,8 @@
 # CombineLearning
 
-Repo for adding materials of learning Combine framework
+Repo for adding materials of learning Combine framework. Status in process.
+
+
 
 **Publishers**
 
