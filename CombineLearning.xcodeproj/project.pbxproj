@@ -27,6 +27,8 @@
 		0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11D28577E05001C764A /* StoreInView.swift */; };
 		0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070622859C755003B840E /* DeferredFutureView.swift */; };
 		0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070642859C76B003B840E /* DeferredFutureViewModel.swift */; };
+		0FF070682859D04C003B840E /* JustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070672859D04C003B840E /* JustViewModel.swift */; };
+		0FF0706A2859D05A003B840E /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070692859D05A003B840E /* JustView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		0FE1E11D28577E05001C764A /* StoreInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInView.swift; sourceTree = "<group>"; };
 		0FF070622859C755003B840E /* DeferredFutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredFutureView.swift; sourceTree = "<group>"; };
 		0FF070642859C76B003B840E /* DeferredFutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredFutureViewModel.swift; sourceTree = "<group>"; };
+		0FF070672859D04C003B840E /* JustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewModel.swift; sourceTree = "<group>"; };
+		0FF070692859D05A003B840E /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 				0FDEEDBC28587E0400165988 /* Empty */,
 				0F382B9B2858945800D68D57 /* Fail */,
 				0F330BA22858CEC20011A237 /* Future */,
+				0FF070662859D035003B840E /* Just */,
 			);
 			path = Publisher;
 			sourceTree = "<group>";
@@ -201,6 +206,15 @@
 				0FE1E11D28577E05001C764A /* StoreInView.swift */,
 			);
 			path = MultipleCancelling;
+			sourceTree = "<group>";
+		};
+		0FF070662859D035003B840E /* Just */ = {
+			isa = PBXGroup;
+			children = (
+				0FF070672859D04C003B840E /* JustViewModel.swift */,
+				0FF070692859D05A003B840E /* JustView.swift */,
+			);
+			path = Just;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +297,7 @@
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
+				0FF070682859D04C003B840E /* JustViewModel.swift in Sources */,
 				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
@@ -290,6 +305,7 @@
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
+				0FF0706A2859D05A003B840E /* JustView.swift in Sources */,
 				0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
