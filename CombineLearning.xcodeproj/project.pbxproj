@@ -25,6 +25,8 @@
 		0FDEEDC028587E4C00165988 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEEDBF28587E4C00165988 /* EmptyView.swift */; };
 		0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */; };
 		0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11D28577E05001C764A /* StoreInView.swift */; };
+		0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070622859C755003B840E /* DeferredFutureView.swift */; };
+		0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070642859C76B003B840E /* DeferredFutureViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		0FDEEDBF28587E4C00165988 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInViewModel.swift; sourceTree = "<group>"; };
 		0FE1E11D28577E05001C764A /* StoreInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInView.swift; sourceTree = "<group>"; };
+		0FF070622859C755003B840E /* DeferredFutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredFutureView.swift; sourceTree = "<group>"; };
+		0FF070642859C76B003B840E /* DeferredFutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredFutureViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			children = (
 				0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */,
 				0F330BA02858CEBC0011A237 /* FutureView.swift */,
+				0FF070642859C76B003B840E /* DeferredFutureViewModel.swift */,
+				0FF070622859C755003B840E /* DeferredFutureView.swift */,
 			);
 			path = Future;
 			sourceTree = "<group>";
@@ -277,12 +283,14 @@
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
+				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
+				0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

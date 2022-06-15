@@ -27,11 +27,11 @@ class FutureViewModel: ObservableObject {
     func getSurname() {
        let futurePublisher = Future<String, Never> { promise in
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) { // It is just delay for example
-                promise(.success("Brain")) // Resuly isn't needed. We can miss it
+                promise(.success("Brain")) // Result isn't needed. We can miss it
             }
         }
         cancellable = futurePublisher           // Pipeline is also non-error and we could use .assign(to:)
-            .sink { [unowned self] info in      // It is just example how we can manage our pipeline when we have time to cancel() it
+            .sink { [unowned self] info in      // It is just example how we can manage our pipeline when we have to cancel() it
                 self.surname = info
             }
     }
