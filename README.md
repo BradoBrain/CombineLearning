@@ -16,6 +16,8 @@ Future - publisher that publishes only one value and close pipeline (ONLY ONE TI
 
 Deferred - publisher that give us not execute Future immediately (other publisdhers not execute immediately)
 
+Just - publisher that makes from any variable a publisher. Send it to pipeline one time and stop the pipeline.
+
 **Operators**
 
 .map - simple operator to do logic operations.
