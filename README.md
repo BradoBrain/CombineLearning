@@ -14,6 +14,8 @@ Fail - publisher that published a failure (with an error). If input is valid, re
 
 Future - publisher that publishes only one value and close pipeline (ONLY ONE TIME). It can be publish immedietely, delay or wait for a user response etc. 
 
+Deferred - publisher that give us not execute Future immediately (other publisdhers not execute immediately)
+
 **Operators**
 
 .map - simple operator to do logic operations.
