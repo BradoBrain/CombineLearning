@@ -24,7 +24,7 @@ class PassthroughSubViewModel: ObservableObject {
     let verifyPhoneNumber = PassthroughSubject<String, Never>() // It will not retain a value and expects a String
     
     init() {
-        verifyPhoneNumber                                   //publisher will receive a String and not return any error
+        verifyPhoneNumber                                   // publisher will receive a String and not return any error
             .map { phoneNumber -> PhoneNumberStatus in      // but .map return an enum and store the result to status property
                 if phoneNumber.count == 13 && phoneNumber.first == "+" {
                     return PhoneNumberStatus.ok
