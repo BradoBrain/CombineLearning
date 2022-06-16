@@ -20,6 +20,8 @@ Just - publisher that makes from any variable a publisher. Send it to pipeline o
 
 PassthroughSubject - publisher (like  the CurrentValueSubject) that doesn't hold on to a value. It allows us to create a pipeline to send value through.
 
+Sequence - publisher that sends elements of a collection through a pipeline one at a time. Once all items have been sent, the pipeline finishes. No more items even if we add more it to the collection later.
+
 **Operators**
 
 .map - simple operator to do logic operations.
