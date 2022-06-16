@@ -18,6 +18,8 @@ Deferred - publisher that give us not execute Future immediately (other publisdh
 
 Just - publisher that makes from any variable a publisher. Send it to pipeline one time and stop the pipeline.
 
+PassthroughSubject - publisher (like  the CurrentValueSubject) that doesn't hold on to a value. It allows us to create a pipeline to send value through.
+
 **Operators**
 
 .map - simple operator to do logic operations.
