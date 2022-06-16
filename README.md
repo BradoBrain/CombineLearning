@@ -1,6 +1,9 @@
 # CombineLearning
 
-Repo for adding materials of learning Combine framework. Status in process.
+Repo for adding materials of learning Combine framework. 
+In Combine we have a three main topics: Publishers, Operators and Subscribers.
+
+Status of the repo: learning publishers
 
 
 
