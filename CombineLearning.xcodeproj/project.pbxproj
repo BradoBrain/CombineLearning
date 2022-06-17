@@ -15,6 +15,8 @@
 		0F86F076285B28E200369D99 /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86F075285B28E200369D99 /* SequenceView.swift */; };
 		0F88E8B6285756D4008EE448 /* DelayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88E8B5285756D4008EE448 /* DelayViewModel.swift */; };
 		0F88E8B82857573A008EE448 /* DelayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88E8B72857573A008EE448 /* DelayView.swift */; };
+		0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BE61C285C72BC00AAE827 /* TimerView.swift */; };
+		0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BE61E285C72CB00AAE827 /* TimerViewModel.swift */; };
 		0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */; };
 		0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7C285728F0006C3310 /* ContentView.swift */; };
 		0FBBDB7F285728F2006C3310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7E285728F2006C3310 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		0F86F075285B28E200369D99 /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
 		0F88E8B5285756D4008EE448 /* DelayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayViewModel.swift; sourceTree = "<group>"; };
 		0F88E8B72857573A008EE448 /* DelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayView.swift; sourceTree = "<group>"; };
+		0F8BE61C285C72BC00AAE827 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0F8BE61E285C72CB00AAE827 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		0FBBDB77285728F0006C3310 /* CombineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLearningApp.swift; sourceTree = "<group>"; };
 		0FBBDB7C285728F0006C3310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +118,15 @@
 			path = Sequence;
 			sourceTree = "<group>";
 		};
+		0F8BE61B285C726D00AAE827 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				0F8BE61E285C72CB00AAE827 /* TimerViewModel.swift */,
+				0F8BE61C285C72BC00AAE827 /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 		0FBBDB6E285728F0006C3310 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +175,7 @@
 				0FF070662859D035003B840E /* Just */,
 				0FD2013C285B1DBD000072FD /* PassthroughSubject */,
 				0F86F072285B289D00369D99 /* Sequence */,
+				0F8BE61B285C726D00AAE827 /* Timer */,
 			);
 			path = Publisher;
 			sourceTree = "<group>";
@@ -325,11 +339,13 @@
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
+				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
 				0FF070682859D04C003B840E /* JustViewModel.swift in Sources */,
 				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
+				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
