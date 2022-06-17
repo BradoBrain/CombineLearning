@@ -20,18 +20,15 @@ struct TimerView: View {
                    minimumValueLabel: Text("Slow"),
                    maximumValueLabel: Text("Fast"),
                    label: { Text("Interval") })
+            .padding()
             
             List(vm.data, id: \.self) { dataIn in
                 Text(dataIn)
             } .font(.system(.title, design: .rounded))
-            
-            
-            
-            
-        } .padding()
-            .onAppear {
-                vm.start()
-            }
+        }
+        .onAppear {
+            vm.start()
+        }
     }
 }
 
