@@ -27,6 +27,8 @@ Sequence - publisher that sends elements of a collection through a pipeline one 
 
 Timer - publisher repeatedly publish current date and time with interval that you set up. You also could attach operators to run some code at an interval.
 
+DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
+
 **Operators**
 
 .map - simple operator to do logic operations.
