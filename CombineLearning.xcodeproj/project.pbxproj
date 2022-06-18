@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002198285E4F1300B2719E /* TryAllSatisfyView.swift */; };
+		0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */; };
 		0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */; };
 		0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330BA02858CEBC0011A237 /* FutureView.swift */; };
 		0F382B9D2858947100D68D57 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9C2858947100D68D57 /* FailView.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F002198285E4F1300B2719E /* TryAllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyView.swift; sourceTree = "<group>"; };
+		0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyViewModel.swift; sourceTree = "<group>"; };
 		0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
 		0F330BA02858CEBC0011A237 /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
 		0F382B9C2858947100D68D57 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F002197285E4EF400B2719E /* TryAllSatisfy */ = {
+			isa = PBXGroup;
+			children = (
+				0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */,
+				0F002198285E4F1300B2719E /* TryAllSatisfyView.swift */,
+			);
+			path = TryAllSatisfy;
+			sourceTree = "<group>";
+		};
 		0F330BA22858CEC20011A237 /* Future */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +182,7 @@
 		0F945194285DDE8E001C300C /* To check matching criteria */ = {
 			isa = PBXGroup;
 			children = (
+				0F002197285E4EF400B2719E /* TryAllSatisfy */,
 				0F945195285DDF11001C300C /* AllSatisfy */,
 			);
 			path = "To check matching criteria";
@@ -410,6 +424,8 @@
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
+				0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */,
+				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
