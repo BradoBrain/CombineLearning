@@ -17,6 +17,8 @@ struct DataTaskPublView: View {
             } .listStyle(.plain)
         .onAppear {
             vm.fetch()
+        } .alert(item: $vm.errorForAlert) { error in
+            Alert(title: Text(error.title), message: Text(error.message))
         }
     }
 }

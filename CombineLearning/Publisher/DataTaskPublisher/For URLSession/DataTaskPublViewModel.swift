@@ -22,8 +22,18 @@ struct Model: Decodable {
     let text: String
 }
 
+// Make error struct
+
+struct ErrorToView: Identifiable, Error {
+    let id = UUID()
+    let title: String = "Error"
+    var message: String = "You should try again later"
+}
+
 class DataTaskPublViewModel: ObservableObject {
     @Published var dataForView: [Model] = []
+    @Published var errorForAlert: ErrorToView?
+    
     var cancellable: Set<AnyCancellable> = []
     
     func fetch() {
@@ -34,8 +44,10 @@ class DataTaskPublViewModel: ObservableObject {
             }
             .decode(type: [Model].self, decoder: JSONDecoder()) // To decode our Model struct from bytes to our JSON like a Model fields
             .receive(on: RunLoop.main) // Here we move our data from background pipeline to new foreground thread
-            .sink(receiveCompletion: { completion in
-                print(completion) // Here is our error if we get it
+            .sink(receiveCompletion: { [unowned self] completion in // Here is our error if we get it
+                if case .failure(let error) = completion {
+                    errorForAlert = ErrorToView(message: "See details: \(error.localizedDescription)")
+                }
             }, receiveValue: { [unowned self] dataFromModel in
                 dataForView = dataFromModel
             })
