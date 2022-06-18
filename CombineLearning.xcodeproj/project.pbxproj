@@ -21,6 +21,8 @@
 		0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BE623285C7A7000AAE827 /* DataTaskPublView.swift */; };
 		0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945190285DC9D9001C300C /* DataTaskPubImageView.swift */; };
 		0F945193285DC9EA001C300C /* DataTaskPubImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945192285DC9EA001C300C /* DataTaskPubImageViewModel.swift */; };
+		0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945196285DDF6E001C300C /* AllSatisfyViewModel.swift */; };
+		0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945198285DDF7E001C300C /* AllSatisfyView.swift */; };
 		0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */; };
 		0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7C285728F0006C3310 /* ContentView.swift */; };
 		0FBBDB7F285728F2006C3310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7E285728F2006C3310 /* Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		0F8BE623285C7A7000AAE827 /* DataTaskPublView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublView.swift; sourceTree = "<group>"; };
 		0F945190285DC9D9001C300C /* DataTaskPubImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPubImageView.swift; sourceTree = "<group>"; };
 		0F945192285DC9EA001C300C /* DataTaskPubImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPubImageViewModel.swift; sourceTree = "<group>"; };
+		0F945196285DDF6E001C300C /* AllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyViewModel.swift; sourceTree = "<group>"; };
+		0F945198285DDF7E001C300C /* AllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyView.swift; sourceTree = "<group>"; };
 		0FBBDB77285728F0006C3310 /* CombineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLearningApp.swift; sourceTree = "<group>"; };
 		0FBBDB7C285728F0006C3310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +166,23 @@
 			path = "For Image";
 			sourceTree = "<group>";
 		};
+		0F945194285DDE8E001C300C /* To check matching criteria */ = {
+			isa = PBXGroup;
+			children = (
+				0F945195285DDF11001C300C /* AllSatisfy */,
+			);
+			path = "To check matching criteria";
+			sourceTree = "<group>";
+		};
+		0F945195285DDF11001C300C /* AllSatisfy */ = {
+			isa = PBXGroup;
+			children = (
+				0F945196285DDF6E001C300C /* AllSatisfyViewModel.swift */,
+				0F945198285DDF7E001C300C /* AllSatisfyView.swift */,
+			);
+			path = AllSatisfy;
+			sourceTree = "<group>";
+		};
 		0FBBDB6E285728F0006C3310 = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +240,7 @@
 		0FBBDB8928572B2C006C3310 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				0F945194285DDE8E001C300C /* To check matching criteria */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -376,6 +398,7 @@
 				0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */,
 				0FDEEDC028587E4C00165988 /* EmptyView.swift in Sources */,
 				0F8BE622285C7A5F00AAE827 /* DataTaskPublViewModel.swift in Sources */,
+				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
@@ -386,6 +409,7 @@
 				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
+				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
