@@ -41,6 +41,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryAllSatisfy - operator that work like the .allSatisfy and can publish an error
 
+.contains - operator that signal if an item coming through pipeline matches criteria. It publishes the true and finishes pipeline when match is found. Others data will not go through the pipeline flow. If there is no value that match our criteria it publishes the false and closes pipeline.
+
 
 
 .map - simple operator to do logic operations.
