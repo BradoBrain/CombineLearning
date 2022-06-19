@@ -27,7 +27,7 @@ class ContainsViewModel: ObservableObject {
         inputData.publisher
             .prefix(2) // returns first 2 items
             .sink { [unowned self] item in
-                description += item + ""
+                description += (item + " ")
             }
             .store(in: &cancellable)
         
