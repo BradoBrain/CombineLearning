@@ -49,6 +49,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 // Mathematical operations
 
+.count - operator that publishes count of items it receives.
 
 
 // Sequence operations
