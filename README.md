@@ -44,12 +44,29 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 .contains - operator that signal if an item coming through pipeline matches criteria. It publishes the true and finishes pipeline when match is found. Others data will not go through the pipeline flow. If there is no value that match our criteria it publishes the false and closes pipeline.
 
 
+// Mathematical operations
 
+
+
+// Sequence operations
+
+
+//Timing control
+.delay - operator that give us to specify time and thread for long operations.
+// Filtering
+
+// Mapping
 .map - simple operator to do logic operations.
 
 .tryMap - has an option to throw an error
 
-.delay - operator that give us to specify time and thread for long operations.
+// Reducing
+
+
+// Selecting
+
+// Specifying shedulers
+
 
 **Subscribers**
 
