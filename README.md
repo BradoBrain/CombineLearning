@@ -37,7 +37,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 // Operators to check matching criteria
 
-.allStisfy - operator to test all items that are coming through pipeline and check the criteria. As soon as on of the items does not match it, false will be published. If all items match criteria then true is published.
+.allSatisfy - operator to test all items that are coming through pipeline and check the criteria. As soon as on of the items does not match it, false will be published. If all items match criteria then true is published.
 
 .tryAllSatisfy - operator that work like the .allSatisfy and can publish an error
 
