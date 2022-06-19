@@ -21,6 +21,8 @@ struct TryContainsWhereView: View {
                 
                 Text("Odesa").tag("Odesa")
                 
+                Text("Budapest").tag("Budapest")
+                
                 Text("Huilostan").tag("Huilostan")
             } .pickerStyle(.segmented)
             
