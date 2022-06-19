@@ -55,10 +55,13 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 
 //Timing control
+
 .delay - operator that give us to specify time and thread for long operations.
+
 // Filtering
 
 // Mapping
+
 .map - simple operator to do logic operations.
 
 .tryMap - has an option to throw an error
