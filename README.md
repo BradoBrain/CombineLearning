@@ -43,6 +43,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .contains - operator that signal if an item coming through pipeline matches criteria. It publishes the true and finishes pipeline when match is found. Others data will not go through the pipeline flow. If there is no value that match our criteria it publishes the false and closes pipeline.
 
+.contains(where:) - operator gives us an additional clouser to specify our criteria. Very useful when the item aren't simple type like String and Int. Item that don't match criteria not published and when first item is match, true is published and pipeline is closed. If there are no matches at the end of items, false will be published and pipeline will be finished.
+
 
 // Mathematical operations
 
