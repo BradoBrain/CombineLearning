@@ -43,6 +43,8 @@
 		0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070642859C76B003B840E /* DeferredFutureViewModel.swift */; };
 		0FF070682859D04C003B840E /* JustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070672859D04C003B840E /* JustViewModel.swift */; };
 		0FF0706A2859D05A003B840E /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070692859D05A003B840E /* JustView.swift */; };
+		0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF12249285F0EAC0052F11E /* ContainsViewModel.swift */; };
+		0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1224D285F0ED50052F11E /* ContainsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		0FF070642859C76B003B840E /* DeferredFutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredFutureViewModel.swift; sourceTree = "<group>"; };
 		0FF070672859D04C003B840E /* JustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewModel.swift; sourceTree = "<group>"; };
 		0FF070692859D05A003B840E /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
+		0FF12249285F0EAC0052F11E /* ContainsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsViewModel.swift; sourceTree = "<group>"; };
+		0FF1224D285F0ED50052F11E /* ContainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,7 @@
 		0F945194285DDE8E001C300C /* To check matching criteria */ = {
 			isa = PBXGroup;
 			children = (
+				0FF12248285F0E870052F11E /* Contains */,
 				0F002197285E4EF400B2719E /* TryAllSatisfy */,
 				0F945195285DDF11001C300C /* AllSatisfy */,
 			);
@@ -331,6 +336,15 @@
 			path = Just;
 			sourceTree = "<group>";
 		};
+		0FF12248285F0E870052F11E /* Contains */ = {
+			isa = PBXGroup;
+			children = (
+				0FF12249285F0EAC0052F11E /* ContainsViewModel.swift */,
+				0FF1224D285F0ED50052F11E /* ContainsView.swift */,
+			);
+			path = Contains;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -414,11 +428,13 @@
 				0F8BE622285C7A5F00AAE827 /* DataTaskPublViewModel.swift in Sources */,
 				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
+				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
+				0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */,
 				0FF070682859D04C003B840E /* JustViewModel.swift in Sources */,
 				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
