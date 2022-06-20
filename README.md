@@ -53,6 +53,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .max - operator republishes just maximum value from upstream (it do that only when publisher has finished with all of items).
 
+.max(by: ) - operator that republishes max value it receive from upstream using criteria you specify. We can get and weigh value against each other. With this operator pipeline knows how to sort item and it's able to publish min value.
+
 
 // Sequence operations
 
