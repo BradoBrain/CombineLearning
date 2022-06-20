@@ -14,29 +14,34 @@ struct Appartment: Identifiable {
     let id = UUID()
     var appartmentTitle: String
     var city: String
-    var coast: Int
+    var cost: Int
 }
 
 class MaxByViewModel: ObservableObject {
     @Published var appartment: [Appartment] = []
-    @Published var minCoast = 0
+    @Published var minCost = 0
+    @Published var maxCost = 0
     
     func fetch() {
         let inputData = [
-            Appartment(appartmentTitle: "Appartment 1", city: "Kyiv", coast: 15_000),
-            Appartment(appartmentTitle: "Appartment 2", city: "Odesa", coast: 12_000),
-            Appartment(appartmentTitle: "Appartment 3", city: "Lviv", coast: 13_000)
+            Appartment(appartmentTitle: "Appartment 1", city: "Kyiv", cost: 15_000),
+            Appartment(appartmentTitle: "Appartment 2", city: "Odesa", cost: 12_000),
+            Appartment(appartmentTitle: "Appartment 3", city: "Lviv", cost: 13_000)
         ]
         
         appartment = inputData
         _ = inputData.publisher
-        //            .max(by: { (currentValue, nextValue) -> Bool in
-        //                return currentValue.coast < nextValue.coast
-        //            })
-        // short
-            .max { $0.coast > $1.coast }
+            .max(by: { (currentValue, nextValue) -> Bool in
+                return currentValue.cost < nextValue.cost
+            })
             .sink { [unowned self] appartment in
-                minCoast = appartment.coast
+                maxCost = appartment.cost
+            }
+        
+        _ = inputData.publisher
+            .max { $0.cost > $1.cost } // short version
+            .sink { [unowned self] appartment in
+                minCost = appartment.cost
             }
     }
 }

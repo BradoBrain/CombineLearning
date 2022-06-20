@@ -12,7 +12,7 @@ struct MaxByView: View {
     
     var body: some View {
         List {
-            Section(header: Text("Appartment Selection"), footer: Text("The min coast is: \(vm.minCoast)").bold()) {
+            Section(header: Text("Appartment Selection"), footer: Text("Min cost: \(vm.minCost). Max cost: \(vm.maxCost)").bold()) {
                 ForEach(vm.appartment, id: \.id) { item in
                     HStack {
                         Text("\(item.appartmentTitle),")
@@ -21,7 +21,7 @@ struct MaxByView: View {
                         
                         Spacer()
                         
-                        Text("\(item.coast)")
+                        Text("\(item.cost)")
                     }
                 }
             }
