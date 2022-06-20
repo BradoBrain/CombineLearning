@@ -51,6 +51,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .count - operator that publishes count of items it receives.
 
+.max - operator republishes just maximum value from upstream (it do that only when publisher has finished with all of items).
+
 
 // Sequence operations
 
