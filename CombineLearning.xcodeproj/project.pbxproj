@@ -11,6 +11,8 @@
 		0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */; };
 		0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A128605E650004A781 /* MaxViewModel.swift */; };
 		0F0404A428605E730004A781 /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A328605E730004A781 /* MaxView.swift */; };
+		0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A528606A5E0004A781 /* MaxByView.swift */; };
+		0F0404A828606A6E0004A781 /* MaxByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A728606A6E0004A781 /* MaxByViewModel.swift */; };
 		0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */; };
 		0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330BA02858CEBC0011A237 /* FutureView.swift */; };
 		0F382B9D2858947100D68D57 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9C2858947100D68D57 /* FailView.swift */; };
@@ -60,6 +62,8 @@
 		0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyViewModel.swift; sourceTree = "<group>"; };
 		0F0404A128605E650004A781 /* MaxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewModel.swift; sourceTree = "<group>"; };
 		0F0404A328605E730004A781 /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
+		0F0404A528606A5E0004A781 /* MaxByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByView.swift; sourceTree = "<group>"; };
+		0F0404A728606A6E0004A781 /* MaxByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByViewModel.swift; sourceTree = "<group>"; };
 		0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
 		0F330BA02858CEBC0011A237 /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
 		0F382B9C2858947100D68D57 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
@@ -132,6 +136,15 @@
 				0F0404A328605E730004A781 /* MaxView.swift */,
 			);
 			path = Max;
+			sourceTree = "<group>";
+		};
+		0F0404A928606A890004A781 /* MaxBy */ = {
+			isa = PBXGroup;
+			children = (
+				0F0404A728606A6E0004A781 /* MaxByViewModel.swift */,
+				0F0404A528606A5E0004A781 /* MaxByView.swift */,
+			);
+			path = MaxBy;
 			sourceTree = "<group>";
 		};
 		0F330BA22858CEC20011A237 /* Future */ = {
@@ -396,6 +409,7 @@
 			children = (
 				0FF13ECA285F5DEC0087FEDC /* Count */,
 				0F0404A028605E4E0004A781 /* Max */,
+				0F0404A928606A890004A781 /* MaxBy */,
 			);
 			path = "Mathematical operations";
 			sourceTree = "<group>";
@@ -499,6 +513,7 @@
 				0FF13EC2285F4E0D0087FEDC /* TryContainsWhereViewModel.swift in Sources */,
 				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
+				0F0404A828606A6E0004A781 /* MaxByViewModel.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
@@ -521,6 +536,7 @@
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
+				0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */,
 				0FF0706A2859D05A003B840E /* JustView.swift in Sources */,
 				0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */,
 			);
