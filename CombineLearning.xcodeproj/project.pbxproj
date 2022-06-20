@@ -13,6 +13,8 @@
 		0F0404A428605E730004A781 /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A328605E730004A781 /* MaxView.swift */; };
 		0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A528606A5E0004A781 /* MaxByView.swift */; };
 		0F0404A828606A6E0004A781 /* MaxByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A728606A6E0004A781 /* MaxByViewModel.swift */; };
+		0F0404AB28607D810004A781 /* TryMaxByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404AA28607D810004A781 /* TryMaxByViewModel.swift */; };
+		0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404AC28607D900004A781 /* TryMaxByView.swift */; };
 		0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */; };
 		0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330BA02858CEBC0011A237 /* FutureView.swift */; };
 		0F382B9D2858947100D68D57 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9C2858947100D68D57 /* FailView.swift */; };
@@ -64,6 +66,8 @@
 		0F0404A328605E730004A781 /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
 		0F0404A528606A5E0004A781 /* MaxByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByView.swift; sourceTree = "<group>"; };
 		0F0404A728606A6E0004A781 /* MaxByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByViewModel.swift; sourceTree = "<group>"; };
+		0F0404AA28607D810004A781 /* TryMaxByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMaxByViewModel.swift; sourceTree = "<group>"; };
+		0F0404AC28607D900004A781 /* TryMaxByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMaxByView.swift; sourceTree = "<group>"; };
 		0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
 		0F330BA02858CEBC0011A237 /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
 		0F382B9C2858947100D68D57 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
@@ -145,6 +149,15 @@
 				0F0404A528606A5E0004A781 /* MaxByView.swift */,
 			);
 			path = MaxBy;
+			sourceTree = "<group>";
+		};
+		0F0404AE28607DA20004A781 /* TruMaxBy */ = {
+			isa = PBXGroup;
+			children = (
+				0F0404AA28607D810004A781 /* TryMaxByViewModel.swift */,
+				0F0404AC28607D900004A781 /* TryMaxByView.swift */,
+			);
+			path = TruMaxBy;
 			sourceTree = "<group>";
 		};
 		0F330BA22858CEC20011A237 /* Future */ = {
@@ -410,6 +423,7 @@
 				0FF13ECA285F5DEC0087FEDC /* Count */,
 				0F0404A028605E4E0004A781 /* Max */,
 				0F0404A928606A890004A781 /* MaxBy */,
+				0F0404AE28607DA20004A781 /* TruMaxBy */,
 			);
 			path = "Mathematical operations";
 			sourceTree = "<group>";
@@ -501,6 +515,7 @@
 				0F945193285DC9EA001C300C /* DataTaskPubImageViewModel.swift in Sources */,
 				0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */,
 				0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */,
+				0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */,
 				0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */,
 				0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */,
 				0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */,
@@ -536,6 +551,7 @@
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
+				0F0404AB28607D810004A781 /* TryMaxByViewModel.swift in Sources */,
 				0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */,
 				0FF0706A2859D05A003B840E /* JustView.swift in Sources */,
 				0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */,
