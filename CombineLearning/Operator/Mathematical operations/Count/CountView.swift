@@ -15,6 +15,9 @@ struct CountView: View {
             Form {
                 NavigationLink(destination: DetailCountView(data: vm.partsArray), label: {
                     Text(vm.framework)
+                    
+                    Spacer()
+                    
                     Text("\(vm.count)")
                 })
             } .navigationBarTitle(".count operator")
