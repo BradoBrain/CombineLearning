@@ -17,6 +17,8 @@
 		0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404AC28607D900004A781 /* TryMaxByView.swift */; };
 		0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE862861C259000DB83F /* DropUntilViewModel.swift */; };
 		0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE882861C268000DB83F /* DropUntilView.swift */; };
+		0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE8A2861C80D000DB83F /* DropFirstView.swift */; };
+		0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE8C2861C821000DB83F /* DropFirstViewModel.swift */; };
 		0F2E7F1A2861BAC10020263E /* AppendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F192861BAC10020263E /* AppendView.swift */; };
 		0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */; };
 		0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */; };
@@ -74,6 +76,8 @@
 		0F0404AC28607D900004A781 /* TryMaxByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMaxByView.swift; sourceTree = "<group>"; };
 		0F11DE862861C259000DB83F /* DropUntilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropUntilViewModel.swift; sourceTree = "<group>"; };
 		0F11DE882861C268000DB83F /* DropUntilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropUntilView.swift; sourceTree = "<group>"; };
+		0F11DE8A2861C80D000DB83F /* DropFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstView.swift; sourceTree = "<group>"; };
+		0F11DE8C2861C821000DB83F /* DropFirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstViewModel.swift; sourceTree = "<group>"; };
 		0F2E7F192861BAC10020263E /* AppendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendView.swift; sourceTree = "<group>"; };
 		0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendViewModel.swift; sourceTree = "<group>"; };
 		0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
@@ -177,11 +181,21 @@
 			path = DropUntilOutputFrom;
 			sourceTree = "<group>";
 		};
+		0F11DE8E2861C837000DB83F /* DropFirst */ = {
+			isa = PBXGroup;
+			children = (
+				0F11DE8C2861C821000DB83F /* DropFirstViewModel.swift */,
+				0F11DE8A2861C80D000DB83F /* DropFirstView.swift */,
+			);
+			path = DropFirst;
+			sourceTree = "<group>";
+		};
 		0F2E7F172861BA4A0020263E /* Sequence operations */ = {
 			isa = PBXGroup;
 			children = (
 				0F2E7F182861BAA90020263E /* Append */,
 				0F11DE852861C227000DB83F /* DropUntilOutputFrom */,
+				0F11DE8E2861C837000DB83F /* DropFirst */,
 			);
 			path = "Sequence operations";
 			sourceTree = "<group>";
@@ -572,6 +586,7 @@
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
+				0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */,
 				0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */,
 				0FF070682859D04C003B840E /* JustViewModel.swift in Sources */,
 				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
@@ -588,6 +603,7 @@
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
+				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
