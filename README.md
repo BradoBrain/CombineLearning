@@ -67,6 +67,10 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .append - operator that publishes the data after the publisher has sent out all of its items. It add items to the end.
 
+.drop(untilOutputFrom: ) - operator that does not publishes or send items down to the pipeline until it receives items from second pipeline that will give a signal to accept the publishing.
+
+.dropFirst - operator that able to prevent a certain number of items from initially being published.
+
 
 //Timing control
 
