@@ -35,7 +35,7 @@ class TryMaxByViewModel: ObservableObject {
                 if current.city == "Unknown" {
                     throw InvalidCityError(city: "Unknown")
                 }
-                return current.city > next.city
+                return current.city < next.city
             })
             .sink(receiveCompletion: { [unowned self] completion in
                 if case .failure(let error) = completion {
