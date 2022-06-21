@@ -65,6 +65,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 // Sequence operations
 
+.append - operator that publishes the data after the publisher has sent out all of its items. It add items to the end.
+
 
 //Timing control
 
