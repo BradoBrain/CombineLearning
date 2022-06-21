@@ -57,6 +57,11 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryMax(by: ) - operator that works like .max(by: ) and able to throw an error
 
+.min - does exactly the opposite from what .max does.
+
+.min(by: ) - does exactly the opposite from what .max(by: ) does.
+
+.tryMin(by: ) - does exactly the opposite from what .tryMax(by: ) does.
 
 // Sequence operations
 
