@@ -51,6 +51,8 @@
 		0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */; };
 		0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */; };
 		0FDEEDC028587E4C00165988 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEEDBF28587E4C00165988 /* EmptyView.swift */; };
+		0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF35832862FC8200CEF357 /* DropFirstCountViewModel.swift */; };
+		0FDF35862862FC9900CEF357 /* DropFirstCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF35852862FC9900CEF357 /* DropFirstCountView.swift */; };
 		0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */; };
 		0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11D28577E05001C764A /* StoreInView.swift */; };
 		0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070622859C755003B840E /* DeferredFutureView.swift */; };
@@ -111,6 +113,8 @@
 		0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubViewModel.swift; sourceTree = "<group>"; };
 		0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		0FDEEDBF28587E4C00165988 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		0FDF35832862FC8200CEF357 /* DropFirstCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstCountViewModel.swift; sourceTree = "<group>"; };
+		0FDF35852862FC9900CEF357 /* DropFirstCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstCountView.swift; sourceTree = "<group>"; };
 		0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInViewModel.swift; sourceTree = "<group>"; };
 		0FE1E11D28577E05001C764A /* StoreInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInView.swift; sourceTree = "<group>"; };
 		0FF070622859C755003B840E /* DeferredFutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredFutureView.swift; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 				0F2E7F182861BAA90020263E /* Append */,
 				0F11DE852861C227000DB83F /* DropUntilOutputFrom */,
 				0F11DE8E2861C837000DB83F /* DropFirst */,
+				0FDF35832862FC8200CEF357 /* DropFirstCountViewModel.swift */,
+				0FDF35852862FC9900CEF357 /* DropFirstCountView.swift */,
 			);
 			path = "Sequence operations";
 			sourceTree = "<group>";
@@ -585,6 +591,7 @@
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
+				0FDF35862862FC9900CEF357 /* DropFirstCountView.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
 				0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */,
 				0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */,
@@ -600,6 +607,7 @@
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
+				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
