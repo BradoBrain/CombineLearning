@@ -55,6 +55,8 @@
 		0FDF35862862FC9900CEF357 /* DropFirstCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF35852862FC9900CEF357 /* DropFirstCountView.swift */; };
 		0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF35882862FF5A00CEF357 /* PrefixView.swift */; };
 		0FDF358B2862FF6E00CEF357 /* PrefixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF358A2862FF6E00CEF357 /* PrefixViewModel.swift */; };
+		0FDF358E28630BB100CEF357 /* PrependViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF358D28630BB100CEF357 /* PrependViewModel.swift */; };
+		0FDF359028630BBE00CEF357 /* PrependView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF358F28630BBE00CEF357 /* PrependView.swift */; };
 		0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */; };
 		0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1E11D28577E05001C764A /* StoreInView.swift */; };
 		0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF070622859C755003B840E /* DeferredFutureView.swift */; };
@@ -119,6 +121,8 @@
 		0FDF35852862FC9900CEF357 /* DropFirstCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstCountView.swift; sourceTree = "<group>"; };
 		0FDF35882862FF5A00CEF357 /* PrefixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixView.swift; sourceTree = "<group>"; };
 		0FDF358A2862FF6E00CEF357 /* PrefixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixViewModel.swift; sourceTree = "<group>"; };
+		0FDF358D28630BB100CEF357 /* PrependViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrependViewModel.swift; sourceTree = "<group>"; };
+		0FDF358F28630BBE00CEF357 /* PrependView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrependView.swift; sourceTree = "<group>"; };
 		0FE1E11B28577AF5001C764A /* StoreInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInViewModel.swift; sourceTree = "<group>"; };
 		0FE1E11D28577E05001C764A /* StoreInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInView.swift; sourceTree = "<group>"; };
 		0FF070622859C755003B840E /* DeferredFutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredFutureView.swift; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 				0F11DE8E2861C837000DB83F /* DropFirst */,
 				0FDF35872862FF2D00CEF357 /* DropFirstCount */,
 				0FDF358C2862FF8600CEF357 /* Prefix */,
+				0FDF359128630BC600CEF357 /* Prepend */,
 			);
 			path = "Sequence operations";
 			sourceTree = "<group>";
@@ -459,6 +464,15 @@
 			path = Prefix;
 			sourceTree = "<group>";
 		};
+		0FDF359128630BC600CEF357 /* Prepend */ = {
+			isa = PBXGroup;
+			children = (
+				0FDF358D28630BB100CEF357 /* PrependViewModel.swift */,
+				0FDF358F28630BBE00CEF357 /* PrependView.swift */,
+			);
+			path = Prepend;
+			sourceTree = "<group>";
+		};
 		0FE1E11A28577A93001C764A /* MultipleCancelling */ = {
 			isa = PBXGroup;
 			children = (
@@ -633,6 +647,7 @@
 				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
+				0FDF358E28630BB100CEF357 /* PrependViewModel.swift in Sources */,
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
 				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
@@ -641,6 +656,7 @@
 				0F0404AB28607D810004A781 /* TryMaxByViewModel.swift in Sources */,
 				0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */,
 				0FF0706A2859D05A003B840E /* JustView.swift in Sources */,
+				0FDF359028630BBE00CEF357 /* PrependView.swift in Sources */,
 				0FDF358B2862FF6E00CEF357 /* PrefixViewModel.swift in Sources */,
 				0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */,
 			);
