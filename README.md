@@ -75,6 +75,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .prefix - operator that republished only specify by prefix number of items. After prefix number is hit the pipeline finishes.
 
+.prefix(untilOutputFrom:) - operator will let items continue to be passed through a pipeline until it receives a value from another pipeline. This is the opposite of .drop(untilOutputFrom:) operator. The second pipeline is like a switch that closes the first pipeline.
+
 
 
 //Timing control
