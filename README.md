@@ -73,6 +73,9 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .dropFirst(count: ) - operator can specify number of dropping data
 
+.prefix - operator that republished only specify by prefix number of items. After prefix number is hit the pipeline finishes.
+
+
 
 //Timing control
 
