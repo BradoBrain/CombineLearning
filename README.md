@@ -71,6 +71,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .dropFirst - operator that able to prevent a certain number of items from initially being published.
 
+.dropFirst(count: ) - operator can specify number of dropping data
+
 
 //Timing control
 
