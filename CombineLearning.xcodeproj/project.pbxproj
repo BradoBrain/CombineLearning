@@ -25,6 +25,8 @@
 		0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330BA02858CEBC0011A237 /* FutureView.swift */; };
 		0F382B9D2858947100D68D57 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9C2858947100D68D57 /* FailView.swift */; };
 		0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9E2858948200D68D57 /* FailViewModel.swift */; };
+		0F5A4419286454C000AF75BB /* DebounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A4418286454C000AF75BB /* DebounceView.swift */; };
+		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
 		0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9A285F22490062CC44 /* ContainsWhereView.swift */; };
 		0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */; };
 		0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86F073285B28C600369D99 /* SequenceViewModel.swift */; };
@@ -90,6 +92,8 @@
 		0F330BA02858CEBC0011A237 /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
 		0F382B9C2858947100D68D57 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
 		0F382B9E2858948200D68D57 /* FailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailViewModel.swift; sourceTree = "<group>"; };
+		0F5A4418286454C000AF75BB /* DebounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceView.swift; sourceTree = "<group>"; };
+		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
 		0F848A9A285F22490062CC44 /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
 		0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
 		0F86F073285B28C600369D99 /* SequenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceViewModel.swift; sourceTree = "<group>"; };
@@ -253,6 +257,23 @@
 			path = DelayOperator;
 			sourceTree = "<group>";
 		};
+		0F5A44172864548F00AF75BB /* Timing control */ = {
+			isa = PBXGroup;
+			children = (
+				0F5A441C286454D500AF75BB /* Debounce */,
+			);
+			path = "Timing control";
+			sourceTree = "<group>";
+		};
+		0F5A441C286454D500AF75BB /* Debounce */ = {
+			isa = PBXGroup;
+			children = (
+				0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */,
+				0F5A4418286454C000AF75BB /* DebounceView.swift */,
+			);
+			path = Debounce;
+			sourceTree = "<group>";
+		};
 		0F848A99285F22020062CC44 /* ContainsWhere */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +409,7 @@
 				0F945194285DDE8E001C300C /* To check matching criteria */,
 				0FF13EC5285F5DAC0087FEDC /* Mathematical operations */,
 				0F2E7F172861BA4A0020263E /* Sequence operations */,
+				0F5A44172864548F00AF75BB /* Timing control */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -599,6 +621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5A4419286454C000AF75BB /* DebounceView.swift in Sources */,
 				0F88E8B6285756D4008EE448 /* DelayViewModel.swift in Sources */,
 				0F0404A428605E730004A781 /* MaxView.swift in Sources */,
 				0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */,
@@ -641,6 +664,7 @@
 				0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */,
 				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
+				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
