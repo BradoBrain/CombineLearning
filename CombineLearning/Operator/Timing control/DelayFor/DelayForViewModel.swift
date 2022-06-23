@@ -27,7 +27,7 @@ class DelayForViewModel: ObservableObject {
             .delay(for: .seconds(delay), scheduler: RunLoop.main)
             .first() // Publishes first element then finishes
             .sink(receiveCompletion: { [unowned self] completion in
-                isFetched = false // Look at DelayForView to see that it is hidding the ProgressView
+                isFetched = false // It will hide the ProgressView. Look at DelayForView.
             }, receiveValue: { [unowned self] value in
                 data = value
             })

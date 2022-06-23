@@ -70,7 +70,7 @@ struct ProgressView: View {
             }
         }
         .onAppear {
-            withAnimation(.default.delay(0.1).repeatForever(autoreverses: false)) {
+            withAnimation(.default.delay(0.3).repeatForever(autoreverses: false)) {
                 isProgress1.toggle()
                 isProgress2.toggle()
                 isProgress3.toggle()
