@@ -85,6 +85,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .delay - operator that give us to specify time and thread for long operations.
 
+.delay(for: ) - operator pauses items from the data flow. This works only once for all items and allows them through.
+
 // Filtering
 
 // Mapping
