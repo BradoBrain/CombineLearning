@@ -81,6 +81,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 //Timing control
 
+.debounce - operator like a pause.
+
 .delay - operator that give us to specify time and thread for long operations.
 
 // Filtering
