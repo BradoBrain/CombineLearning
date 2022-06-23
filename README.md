@@ -87,6 +87,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .delay(for: ) - operator pauses items from the data flow. This works only once for all items and allows them through.
 
+.measureInterval - operator that tell us how much time was between one item and another one. It won't republish item values.
+
 // Filtering
 
 // Mapping
