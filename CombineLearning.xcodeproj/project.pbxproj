@@ -27,6 +27,8 @@
 		0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9E2858948200D68D57 /* FailViewModel.swift */; };
 		0F5A4419286454C000AF75BB /* DebounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A4418286454C000AF75BB /* DebounceView.swift */; };
 		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
+		0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */; };
+		0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441F286458ED00AF75BB /* DelayForView.swift */; };
 		0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9A285F22490062CC44 /* ContainsWhereView.swift */; };
 		0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */; };
 		0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86F073285B28C600369D99 /* SequenceViewModel.swift */; };
@@ -94,6 +96,8 @@
 		0F382B9E2858948200D68D57 /* FailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailViewModel.swift; sourceTree = "<group>"; };
 		0F5A4418286454C000AF75BB /* DebounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceView.swift; sourceTree = "<group>"; };
 		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
+		0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForViewModel.swift; sourceTree = "<group>"; };
+		0F5A441F286458ED00AF75BB /* DelayForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForView.swift; sourceTree = "<group>"; };
 		0F848A9A285F22490062CC44 /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
 		0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
 		0F86F073285B28C600369D99 /* SequenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceViewModel.swift; sourceTree = "<group>"; };
@@ -261,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				0F5A441C286454D500AF75BB /* Debounce */,
+				0F5A4421286458F300AF75BB /* DelayFor */,
 			);
 			path = "Timing control";
 			sourceTree = "<group>";
@@ -272,6 +277,15 @@
 				0F5A4418286454C000AF75BB /* DebounceView.swift */,
 			);
 			path = Debounce;
+			sourceTree = "<group>";
+		};
+		0F5A4421286458F300AF75BB /* DelayFor */ = {
+			isa = PBXGroup;
+			children = (
+				0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */,
+				0F5A441F286458ED00AF75BB /* DelayForView.swift */,
+			);
+			path = DelayFor;
 			sourceTree = "<group>";
 		};
 		0F848A99285F22020062CC44 /* ContainsWhere */ = {
@@ -651,6 +665,7 @@
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
+				0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */,
 				0FDF35862862FC9900CEF357 /* DropFirstCountView.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
 				0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */,
@@ -677,6 +692,7 @@
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
+				0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */,
 				0F0404AB28607D810004A781 /* TryMaxByViewModel.swift in Sources */,
 				0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */,
 				0FF0706A2859D05A003B840E /* JustView.swift in Sources */,
