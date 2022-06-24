@@ -27,6 +27,8 @@
 		0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9E2858948200D68D57 /* FailViewModel.swift */; };
 		0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BD14F2865E657001E6932 /* ThrottleViewModel.swift */; };
 		0F3BD1522865E667001E6932 /* ThrottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BD1512865E667001E6932 /* ThrottleView.swift */; };
+		0F3BD1552865F04A001E6932 /* TimeOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BD1542865F04A001E6932 /* TimeOutView.swift */; };
+		0F3BD1572865F05C001E6932 /* TimeOutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BD1562865F05C001E6932 /* TimeOutViewModel.swift */; };
 		0F5A4419286454C000AF75BB /* DebounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A4418286454C000AF75BB /* DebounceView.swift */; };
 		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
 		0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */; };
@@ -100,6 +102,8 @@
 		0F382B9E2858948200D68D57 /* FailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailViewModel.swift; sourceTree = "<group>"; };
 		0F3BD14F2865E657001E6932 /* ThrottleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleViewModel.swift; sourceTree = "<group>"; };
 		0F3BD1512865E667001E6932 /* ThrottleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleView.swift; sourceTree = "<group>"; };
+		0F3BD1542865F04A001E6932 /* TimeOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOutView.swift; sourceTree = "<group>"; };
+		0F3BD1562865F05C001E6932 /* TimeOutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOutViewModel.swift; sourceTree = "<group>"; };
 		0F5A4418286454C000AF75BB /* DebounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceView.swift; sourceTree = "<group>"; };
 		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
 		0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForViewModel.swift; sourceTree = "<group>"; };
@@ -269,6 +273,15 @@
 			path = Throttle;
 			sourceTree = "<group>";
 		};
+		0F3BD1582865F069001E6932 /* TimeOut */ = {
+			isa = PBXGroup;
+			children = (
+				0F3BD1562865F05C001E6932 /* TimeOutViewModel.swift */,
+				0F3BD1542865F04A001E6932 /* TimeOutView.swift */,
+			);
+			path = TimeOut;
+			sourceTree = "<group>";
+		};
 		0F46074F285754260011C61D /* DelayOperator */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +298,7 @@
 				0F5A4421286458F300AF75BB /* DelayFor */,
 				0F87026228646B3900709E5A /* MeasureInterval */,
 				0F3BD1532865E66E001E6932 /* Throttle */,
+				0F3BD1582865F069001E6932 /* TimeOut */,
 			);
 			path = "Timing control";
 			sourceTree = "<group>";
@@ -713,6 +727,7 @@
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
+				0F3BD1572865F05C001E6932 /* TimeOutViewModel.swift in Sources */,
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
@@ -726,6 +741,7 @@
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
 				0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */,
 				0F0404AB28607D810004A781 /* TryMaxByViewModel.swift in Sources */,
+				0F3BD1552865F04A001E6932 /* TimeOutView.swift in Sources */,
 				0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */,
 				0FF0706A2859D05A003B840E /* JustView.swift in Sources */,
 				0FDF359028630BBE00CEF357 /* PrependView.swift in Sources */,
