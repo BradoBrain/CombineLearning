@@ -35,6 +35,8 @@
 		0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441F286458ED00AF75BB /* DelayForView.swift */; };
 		0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9A285F22490062CC44 /* ContainsWhereView.swift */; };
 		0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */; };
+		0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F856ABB286639AA0029BF5C /* CompactMapView.swift */; };
+		0F856ABE286639BC0029BF5C /* CompactMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F856ABD286639BC0029BF5C /* CompactMapViewModel.swift */; };
 		0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86F073285B28C600369D99 /* SequenceViewModel.swift */; };
 		0F86F076285B28E200369D99 /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86F075285B28E200369D99 /* SequenceView.swift */; };
 		0F87025F28646AFB00709E5A /* MeasureIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F87025E28646AFB00709E5A /* MeasureIntervalView.swift */; };
@@ -110,6 +112,8 @@
 		0F5A441F286458ED00AF75BB /* DelayForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForView.swift; sourceTree = "<group>"; };
 		0F848A9A285F22490062CC44 /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
 		0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
+		0F856ABB286639AA0029BF5C /* CompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapView.swift; sourceTree = "<group>"; };
+		0F856ABD286639BC0029BF5C /* CompactMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapViewModel.swift; sourceTree = "<group>"; };
 		0F86F073285B28C600369D99 /* SequenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceViewModel.swift; sourceTree = "<group>"; };
 		0F86F075285B28E200369D99 /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
 		0F87025E28646AFB00709E5A /* MeasureIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureIntervalView.swift; sourceTree = "<group>"; };
@@ -330,6 +334,15 @@
 			path = ContainsWhere;
 			sourceTree = "<group>";
 		};
+		0F856ABA2866395A0029BF5C /* Filtering */ = {
+			isa = PBXGroup;
+			children = (
+				0F856ABD286639BC0029BF5C /* CompactMapViewModel.swift */,
+				0F856ABB286639AA0029BF5C /* CompactMapView.swift */,
+			);
+			path = Filtering;
+			sourceTree = "<group>";
+		};
 		0F86F072285B289D00369D99 /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +479,7 @@
 				0FF13EC5285F5DAC0087FEDC /* Mathematical operations */,
 				0F2E7F172861BA4A0020263E /* Sequence operations */,
 				0F5A44172864548F00AF75BB /* Timing control */,
+				0F856ABA2866395A0029BF5C /* Filtering */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -698,6 +712,7 @@
 				0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */,
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
 				0FF13EC7285F5DD40087FEDC /* CountView.swift in Sources */,
+				0F856ABE286639BC0029BF5C /* CompactMapViewModel.swift in Sources */,
 				0F87025F28646AFB00709E5A /* MeasureIntervalView.swift in Sources */,
 				0FF13EC2285F4E0D0087FEDC /* TryContainsWhereViewModel.swift in Sources */,
 				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
@@ -720,6 +735,7 @@
 				0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */,
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
+				0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */,
 				0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */,
 				0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */,
 				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
