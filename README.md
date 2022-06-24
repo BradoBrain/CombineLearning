@@ -91,6 +91,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .throttle - operator that set an interval and republishes just one value out of many we received during this interval. We have a choise to republish recent value or first.
 
+.timeout - operator with we can finish the pipeline when task process is too long
+
 // Filtering
 
 // Mapping
