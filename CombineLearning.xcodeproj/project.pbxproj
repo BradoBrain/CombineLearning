@@ -25,6 +25,8 @@
 		0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330BA02858CEBC0011A237 /* FutureView.swift */; };
 		0F382B9D2858947100D68D57 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9C2858947100D68D57 /* FailView.swift */; };
 		0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9E2858948200D68D57 /* FailViewModel.swift */; };
+		0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BD14F2865E657001E6932 /* ThrottleViewModel.swift */; };
+		0F3BD1522865E667001E6932 /* ThrottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BD1512865E667001E6932 /* ThrottleView.swift */; };
 		0F5A4419286454C000AF75BB /* DebounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A4418286454C000AF75BB /* DebounceView.swift */; };
 		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
 		0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */; };
@@ -96,6 +98,8 @@
 		0F330BA02858CEBC0011A237 /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
 		0F382B9C2858947100D68D57 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
 		0F382B9E2858948200D68D57 /* FailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailViewModel.swift; sourceTree = "<group>"; };
+		0F3BD14F2865E657001E6932 /* ThrottleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleViewModel.swift; sourceTree = "<group>"; };
+		0F3BD1512865E667001E6932 /* ThrottleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleView.swift; sourceTree = "<group>"; };
 		0F5A4418286454C000AF75BB /* DebounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceView.swift; sourceTree = "<group>"; };
 		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
 		0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForViewModel.swift; sourceTree = "<group>"; };
@@ -256,6 +260,15 @@
 			path = Fail;
 			sourceTree = "<group>";
 		};
+		0F3BD1532865E66E001E6932 /* Throttle */ = {
+			isa = PBXGroup;
+			children = (
+				0F3BD14F2865E657001E6932 /* ThrottleViewModel.swift */,
+				0F3BD1512865E667001E6932 /* ThrottleView.swift */,
+			);
+			path = Throttle;
+			sourceTree = "<group>";
+		};
 		0F46074F285754260011C61D /* DelayOperator */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +284,7 @@
 				0F5A441C286454D500AF75BB /* Debounce */,
 				0F5A4421286458F300AF75BB /* DelayFor */,
 				0F87026228646B3900709E5A /* MeasureInterval */,
+				0F3BD1532865E66E001E6932 /* Throttle */,
 			);
 			path = "Timing control";
 			sourceTree = "<group>";
@@ -693,6 +707,7 @@
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
 				0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */,
+				0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */,
 				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
@@ -706,6 +721,7 @@
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
 				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
+				0F3BD1522865E667001E6932 /* ThrottleView.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
 				0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */,
