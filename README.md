@@ -89,6 +89,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .measureInterval - operator that tell us how much time was between one item and another one. It won't republish item values.
 
+.throttle - operator that set an interval and republishes just one value out of many we received during this interval. We have a choise to republish recent value or first.
+
 // Filtering
 
 // Mapping
