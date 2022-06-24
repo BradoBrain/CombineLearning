@@ -95,6 +95,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 // Filtering
 
+.compactMap - operator that give us a way to drop all nils that come through pipeline.
+
 // Mapping
 
 .map - simple operator to do logic operations.
