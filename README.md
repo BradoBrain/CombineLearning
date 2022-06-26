@@ -117,6 +117,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryMap - has an option to throw an error
 
+.replaceNil - operator that give us replace nil that we got from data on any value we specify.
 
 
 // Reducing
