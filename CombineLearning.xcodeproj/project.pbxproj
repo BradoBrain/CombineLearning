@@ -59,6 +59,8 @@
 		0F945193285DC9EA001C300C /* DataTaskPubImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945192285DC9EA001C300C /* DataTaskPubImageViewModel.swift */; };
 		0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945196285DDF6E001C300C /* AllSatisfyViewModel.swift */; };
 		0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945198285DDF7E001C300C /* AllSatisfyView.swift */; };
+		0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F956860286890C700C9056A /* RemoveDuplicatesByViewModel.swift */; };
+		0F956863286890D300C9056A /* RemoveDuplicatesByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F956862286890D300C9056A /* RemoveDuplicatesByView.swift */; };
 		0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */; };
 		0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7C285728F0006C3310 /* ContentView.swift */; };
 		0FBBDB7F285728F2006C3310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7E285728F2006C3310 /* Assets.xcassets */; };
@@ -144,6 +146,8 @@
 		0F945192285DC9EA001C300C /* DataTaskPubImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPubImageViewModel.swift; sourceTree = "<group>"; };
 		0F945196285DDF6E001C300C /* AllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyViewModel.swift; sourceTree = "<group>"; };
 		0F945198285DDF7E001C300C /* AllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyView.swift; sourceTree = "<group>"; };
+		0F956860286890C700C9056A /* RemoveDuplicatesByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesByViewModel.swift; sourceTree = "<group>"; };
+		0F956862286890D300C9056A /* RemoveDuplicatesByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesByView.swift; sourceTree = "<group>"; };
 		0FBBDB77285728F0006C3310 /* CombineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLearningApp.swift; sourceTree = "<group>"; };
 		0FBBDB7C285728F0006C3310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -403,6 +407,7 @@
 				0F2BD859286836AD001A7148 /* Filter */,
 				0F7AF72528687004003CC6CA /* TryFilter */,
 				0F7AF72A286875C5003CC6CA /* RemoveDuplicates */,
+				0F956864286890D900C9056A /* RemoveDuplicatesBy */,
 			);
 			path = Filtering;
 			sourceTree = "<group>";
@@ -480,6 +485,15 @@
 				0F945198285DDF7E001C300C /* AllSatisfyView.swift */,
 			);
 			path = AllSatisfy;
+			sourceTree = "<group>";
+		};
+		0F956864286890D900C9056A /* RemoveDuplicatesBy */ = {
+			isa = PBXGroup;
+			children = (
+				0F956860286890C700C9056A /* RemoveDuplicatesByViewModel.swift */,
+				0F956862286890D300C9056A /* RemoveDuplicatesByView.swift */,
+			);
+			path = RemoveDuplicatesBy;
 			sourceTree = "<group>";
 		};
 		0FBBDB6E285728F0006C3310 = {
@@ -798,6 +812,7 @@
 				0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */,
 				0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */,
 				0FF070682859D04C003B840E /* JustViewModel.swift in Sources */,
+				0F956863286890D300C9056A /* RemoveDuplicatesByView.swift in Sources */,
 				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
 				0F2BD85128682F82001A7148 /* TryCompactMapViewModel.swift in Sources */,
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
@@ -810,6 +825,7 @@
 				0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */,
 				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
+				0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */,
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
