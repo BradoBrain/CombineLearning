@@ -107,6 +107,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .removeDuplicates(by:) operator works like the removeDuplicates operator but for objects that do not conform to the Equatable protocol. Since removeDuplicates won’t be able to tell if the previous item is the same as the current item, you can specify what makes the two items equal inside this closure.
 
+.tryRemoveDuplicates(by: ) - operator like .removeDuplicates(by: ) but allow to throw an error
+
 
 // Mapping
 
