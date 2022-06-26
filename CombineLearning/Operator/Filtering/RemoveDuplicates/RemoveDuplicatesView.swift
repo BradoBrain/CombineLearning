@@ -16,7 +16,7 @@ struct RemoveDuplicatesView: View {
                 Text("\(data)")
             }
             
-            Text("It does not remove dublicates when they don't go one after another")
+            Text("It does not remove duplicates when they don't go one after another")
                 .foregroundColor(.red)
         }
         .onAppear {
