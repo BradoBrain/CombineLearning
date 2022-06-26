@@ -39,6 +39,8 @@
 		0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441F286458ED00AF75BB /* DelayForView.swift */; };
 		0F7AF72228686FF2003CC6CA /* TryFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF72128686FF2003CC6CA /* TryFilterViewModel.swift */; };
 		0F7AF72428686FFE003CC6CA /* TryFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF72328686FFE003CC6CA /* TryFilterView.swift */; };
+		0F7AF727286875A8003CC6CA /* RemoveDuplicatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF726286875A8003CC6CA /* RemoveDuplicatesView.swift */; };
+		0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */; };
 		0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9A285F22490062CC44 /* ContainsWhereView.swift */; };
 		0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */; };
 		0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F856ABB286639AA0029BF5C /* CompactMapView.swift */; };
@@ -122,6 +124,8 @@
 		0F5A441F286458ED00AF75BB /* DelayForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForView.swift; sourceTree = "<group>"; };
 		0F7AF72128686FF2003CC6CA /* TryFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFilterViewModel.swift; sourceTree = "<group>"; };
 		0F7AF72328686FFE003CC6CA /* TryFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFilterView.swift; sourceTree = "<group>"; };
+		0F7AF726286875A8003CC6CA /* RemoveDuplicatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesView.swift; sourceTree = "<group>"; };
+		0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesViewModel.swift; sourceTree = "<group>"; };
 		0F848A9A285F22490062CC44 /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
 		0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
 		0F856ABB286639AA0029BF5C /* CompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapView.swift; sourceTree = "<group>"; };
@@ -373,6 +377,15 @@
 			path = TryFilter;
 			sourceTree = "<group>";
 		};
+		0F7AF72A286875C5003CC6CA /* RemoveDuplicates */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */,
+				0F7AF726286875A8003CC6CA /* RemoveDuplicatesView.swift */,
+			);
+			path = RemoveDuplicates;
+			sourceTree = "<group>";
+		};
 		0F848A99285F22020062CC44 /* ContainsWhere */ = {
 			isa = PBXGroup;
 			children = (
@@ -389,6 +402,7 @@
 				0F2BD85428682F99001A7148 /* TryCompactMap */,
 				0F2BD859286836AD001A7148 /* Filter */,
 				0F7AF72528687004003CC6CA /* TryFilter */,
+				0F7AF72A286875C5003CC6CA /* RemoveDuplicates */,
 			);
 			path = Filtering;
 			sourceTree = "<group>";
@@ -767,6 +781,7 @@
 				0F856ABE286639BC0029BF5C /* CompactMapViewModel.swift in Sources */,
 				0F87025F28646AFB00709E5A /* MeasureIntervalView.swift in Sources */,
 				0FF13EC2285F4E0D0087FEDC /* TryContainsWhereViewModel.swift in Sources */,
+				0F7AF727286875A8003CC6CA /* RemoveDuplicatesView.swift in Sources */,
 				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */,
@@ -774,6 +789,7 @@
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0F87026128646B1400709E5A /* MeasureIntervalViewModel.swift in Sources */,
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
+				0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */,
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
 				0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */,
