@@ -103,6 +103,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryFilter - operator works like .filter with option to throw an error
 
+.removeDuplicates - operator that just remove duplicates of data that are one after another (!). If the data being sent through the pipeline conforms to the Equatable protocol then this operator will do all the work of removing duplicates for you.
+
 
 // Mapping
 
