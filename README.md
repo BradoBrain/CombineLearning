@@ -101,7 +101,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .filter - operator that give us to republish data based on our criteria.
 
-
+.tryFilter - operator works like .filter with option to throw an error
 
 
 // Mapping
