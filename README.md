@@ -109,6 +109,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryRemoveDuplicates(by: ) - operator like .removeDuplicates(by: ) but allow to throw an error
 
+.replaceEmpty operator that we can use when we want to show or set some value in the case that nothing came down your pipeline. This could be useful in situations where you want to set some default data or notify the user that there was no data.
 
 // Mapping
 
