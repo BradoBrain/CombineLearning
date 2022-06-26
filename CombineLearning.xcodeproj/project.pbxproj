@@ -21,6 +21,8 @@
 		0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE8C2861C821000DB83F /* DropFirstViewModel.swift */; };
 		0F2BD85128682F82001A7148 /* TryCompactMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD85028682F82001A7148 /* TryCompactMapViewModel.swift */; };
 		0F2BD85328682F91001A7148 /* TryCompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD85228682F91001A7148 /* TryCompactMapView.swift */; };
+		0F2BD8562868368A001A7148 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD8552868368A001A7148 /* FilterView.swift */; };
+		0F2BD8582868369A001A7148 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD8572868369A001A7148 /* FilterViewModel.swift */; };
 		0F2E7F1A2861BAC10020263E /* AppendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F192861BAC10020263E /* AppendView.swift */; };
 		0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */; };
 		0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */; };
@@ -100,6 +102,8 @@
 		0F11DE8C2861C821000DB83F /* DropFirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstViewModel.swift; sourceTree = "<group>"; };
 		0F2BD85028682F82001A7148 /* TryCompactMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCompactMapViewModel.swift; sourceTree = "<group>"; };
 		0F2BD85228682F91001A7148 /* TryCompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCompactMapView.swift; sourceTree = "<group>"; };
+		0F2BD8552868368A001A7148 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		0F2BD8572868369A001A7148 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		0F2E7F192861BAC10020263E /* AppendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendView.swift; sourceTree = "<group>"; };
 		0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendViewModel.swift; sourceTree = "<group>"; };
 		0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
@@ -248,6 +252,15 @@
 			path = TryCompactMap;
 			sourceTree = "<group>";
 		};
+		0F2BD859286836AD001A7148 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				0F2BD8572868369A001A7148 /* FilterViewModel.swift */,
+				0F2BD8552868368A001A7148 /* FilterView.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
 		0F2E7F172861BA4A0020263E /* Sequence operations */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +374,7 @@
 			children = (
 				0F2BD84F28682F5D001A7148 /* CompactMap */,
 				0F2BD85428682F99001A7148 /* TryCompactMap */,
+				0F2BD859286836AD001A7148 /* Filter */,
 			);
 			path = Filtering;
 			sourceTree = "<group>";
@@ -719,6 +733,7 @@
 				0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */,
 				0FF13EC9285F5DE30087FEDC /* CountViewModel.swift in Sources */,
 				0FBBDB9328573860006C3310 /* CancellableViewModel.swift in Sources */,
+				0F2BD8582868369A001A7148 /* FilterViewModel.swift in Sources */,
 				0F945193285DC9EA001C300C /* DataTaskPubImageViewModel.swift in Sources */,
 				0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */,
 				0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */,
@@ -771,6 +786,7 @@
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
+				0F2BD8562868368A001A7148 /* FilterView.swift in Sources */,
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
 				0FDF358E28630BB100CEF357 /* PrependViewModel.swift in Sources */,
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
