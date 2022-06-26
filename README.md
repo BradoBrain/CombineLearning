@@ -113,7 +113,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 // Mapping
 
-.map - simple operator to do logic operations.
+.map - simple operator that give us to inspect items coming through and validate them, update to something else or even change the type of the items. We can do anything we want within it.
 
 .tryMap - has an option to throw an error
 
