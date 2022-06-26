@@ -37,6 +37,8 @@
 		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
 		0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */; };
 		0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441F286458ED00AF75BB /* DelayForView.swift */; };
+		0F7AF72228686FF2003CC6CA /* TryFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF72128686FF2003CC6CA /* TryFilterViewModel.swift */; };
+		0F7AF72428686FFE003CC6CA /* TryFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF72328686FFE003CC6CA /* TryFilterView.swift */; };
 		0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9A285F22490062CC44 /* ContainsWhereView.swift */; };
 		0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */; };
 		0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F856ABB286639AA0029BF5C /* CompactMapView.swift */; };
@@ -118,6 +120,8 @@
 		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
 		0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForViewModel.swift; sourceTree = "<group>"; };
 		0F5A441F286458ED00AF75BB /* DelayForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForView.swift; sourceTree = "<group>"; };
+		0F7AF72128686FF2003CC6CA /* TryFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFilterViewModel.swift; sourceTree = "<group>"; };
+		0F7AF72328686FFE003CC6CA /* TryFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFilterView.swift; sourceTree = "<group>"; };
 		0F848A9A285F22490062CC44 /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
 		0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
 		0F856ABB286639AA0029BF5C /* CompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapView.swift; sourceTree = "<group>"; };
@@ -360,6 +364,15 @@
 			path = DelayFor;
 			sourceTree = "<group>";
 		};
+		0F7AF72528687004003CC6CA /* TryFilter */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AF72128686FF2003CC6CA /* TryFilterViewModel.swift */,
+				0F7AF72328686FFE003CC6CA /* TryFilterView.swift */,
+			);
+			path = TryFilter;
+			sourceTree = "<group>";
+		};
 		0F848A99285F22020062CC44 /* ContainsWhere */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +388,7 @@
 				0F2BD84F28682F5D001A7148 /* CompactMap */,
 				0F2BD85428682F99001A7148 /* TryCompactMap */,
 				0F2BD859286836AD001A7148 /* Filter */,
+				0F7AF72528687004003CC6CA /* TryFilter */,
 			);
 			path = Filtering;
 			sourceTree = "<group>";
@@ -735,6 +749,7 @@
 				0FBBDB9328573860006C3310 /* CancellableViewModel.swift in Sources */,
 				0F2BD8582868369A001A7148 /* FilterViewModel.swift in Sources */,
 				0F945193285DC9EA001C300C /* DataTaskPubImageViewModel.swift in Sources */,
+				0F7AF72428686FFE003CC6CA /* TryFilterView.swift in Sources */,
 				0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */,
 				0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */,
 				0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */,
@@ -786,6 +801,7 @@
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
+				0F7AF72228686FF2003CC6CA /* TryFilterViewModel.swift in Sources */,
 				0F2BD8562868368A001A7148 /* FilterView.swift in Sources */,
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
 				0FDF358E28630BB100CEF357 /* PrependViewModel.swift in Sources */,
