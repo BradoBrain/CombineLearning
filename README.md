@@ -11,7 +11,7 @@ Operators in process ...
 
 
 
-[x] **Publishers**
+- [x] **Publishers**
 
 @Published - property wrapper with ObservableObject to notify any view that @Published has been changed. We use it with @StateObject.
 
