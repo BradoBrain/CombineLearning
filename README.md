@@ -105,6 +105,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .removeDuplicates - operator that just remove duplicates of data that are one after another (!). If the data being sent through the pipeline conforms to the Equatable protocol then this operator will do all the work of removing duplicates for you.
 
+.removeDuplicates(by:) operator works like the removeDuplicates operator but for objects that do not conform to the Equatable protocol. Since removeDuplicates won’t be able to tell if the previous item is the same as the current item, you can specify what makes the two items equal inside this closure.
+
 
 // Mapping
 
