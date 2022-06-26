@@ -69,6 +69,8 @@
 		0FB591DF2868C92C007F5FB8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591DE2868C92C007F5FB8 /* MapView.swift */; };
 		0FB591E22868D545007F5FB8 /* TryMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591E12868D545007F5FB8 /* TryMapView.swift */; };
 		0FB591E42868D557007F5FB8 /* TryMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591E32868D557007F5FB8 /* TryMapViewModel.swift */; };
+		0FB591E72868DB5E007F5FB8 /* ReplaceNilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591E62868DB5E007F5FB8 /* ReplaceNilViewModel.swift */; };
+		0FB591E92868DB6D007F5FB8 /* ReplaceNilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591E82868DB6D007F5FB8 /* ReplaceNilView.swift */; };
 		0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */; };
 		0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7C285728F0006C3310 /* ContentView.swift */; };
 		0FBBDB7F285728F2006C3310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7E285728F2006C3310 /* Assets.xcassets */; };
@@ -164,6 +166,8 @@
 		0FB591DE2868C92C007F5FB8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0FB591E12868D545007F5FB8 /* TryMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMapView.swift; sourceTree = "<group>"; };
 		0FB591E32868D557007F5FB8 /* TryMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMapViewModel.swift; sourceTree = "<group>"; };
+		0FB591E62868DB5E007F5FB8 /* ReplaceNilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceNilViewModel.swift; sourceTree = "<group>"; };
+		0FB591E82868DB6D007F5FB8 /* ReplaceNilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceNilView.swift; sourceTree = "<group>"; };
 		0FBBDB77285728F0006C3310 /* CombineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLearningApp.swift; sourceTree = "<group>"; };
 		0FBBDB7C285728F0006C3310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -537,6 +541,7 @@
 			children = (
 				0FB591E02868C934007F5FB8 /* Map */,
 				0FB591E52868D55F007F5FB8 /* TryMap */,
+				0FB591EA2868DB75007F5FB8 /* ReplaceNil */,
 			);
 			path = Mapping;
 			sourceTree = "<group>";
@@ -557,6 +562,15 @@
 				0FB591E12868D545007F5FB8 /* TryMapView.swift */,
 			);
 			path = TryMap;
+			sourceTree = "<group>";
+		};
+		0FB591EA2868DB75007F5FB8 /* ReplaceNil */ = {
+			isa = PBXGroup;
+			children = (
+				0FB591E62868DB5E007F5FB8 /* ReplaceNilViewModel.swift */,
+				0FB591E82868DB6D007F5FB8 /* ReplaceNilView.swift */,
+			);
+			path = ReplaceNil;
 			sourceTree = "<group>";
 		};
 		0FBBDB6E285728F0006C3310 = {
@@ -853,6 +867,7 @@
 				0FF13EC4285F4E1C0087FEDC /* TryContainsWhereView.swift in Sources */,
 				0FDEEDC028587E4C00165988 /* EmptyView.swift in Sources */,
 				0F8BE622285C7A5F00AAE827 /* DataTaskPublViewModel.swift in Sources */,
+				0FB591E72868DB5E007F5FB8 /* ReplaceNilViewModel.swift in Sources */,
 				0F2E7F1A2861BAC10020263E /* AppendView.swift in Sources */,
 				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */,
@@ -901,6 +916,7 @@
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
 				0F3BD1572865F05C001E6932 /* TimeOutViewModel.swift in Sources */,
+				0FB591E92868DB6D007F5FB8 /* ReplaceNilView.swift in Sources */,
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
