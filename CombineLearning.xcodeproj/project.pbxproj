@@ -61,6 +61,8 @@
 		0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F945198285DDF7E001C300C /* AllSatisfyView.swift */; };
 		0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F956860286890C700C9056A /* RemoveDuplicatesByViewModel.swift */; };
 		0F956863286890D300C9056A /* RemoveDuplicatesByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F956862286890D300C9056A /* RemoveDuplicatesByView.swift */; };
+		0F9568662868974000C9056A /*  TryRemoveDuplicatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9568652868974000C9056A /*  TryRemoveDuplicatesView.swift */; };
+		0F9568682868975900C9056A /*  TryRemoveDuplicatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9568672868975900C9056A /*  TryRemoveDuplicatesViewModel.swift */; };
 		0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */; };
 		0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7C285728F0006C3310 /* ContentView.swift */; };
 		0FBBDB7F285728F2006C3310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBDB7E285728F2006C3310 /* Assets.xcassets */; };
@@ -148,6 +150,8 @@
 		0F945198285DDF7E001C300C /* AllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyView.swift; sourceTree = "<group>"; };
 		0F956860286890C700C9056A /* RemoveDuplicatesByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesByViewModel.swift; sourceTree = "<group>"; };
 		0F956862286890D300C9056A /* RemoveDuplicatesByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesByView.swift; sourceTree = "<group>"; };
+		0F9568652868974000C9056A /*  TryRemoveDuplicatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TryRemoveDuplicatesView.swift"; sourceTree = "<group>"; };
+		0F9568672868975900C9056A /*  TryRemoveDuplicatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TryRemoveDuplicatesViewModel.swift"; sourceTree = "<group>"; };
 		0FBBDB77285728F0006C3310 /* CombineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBBDB7A285728F0006C3310 /* CombineLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLearningApp.swift; sourceTree = "<group>"; };
 		0FBBDB7C285728F0006C3310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -408,6 +412,7 @@
 				0F7AF72528687004003CC6CA /* TryFilter */,
 				0F7AF72A286875C5003CC6CA /* RemoveDuplicates */,
 				0F956864286890D900C9056A /* RemoveDuplicatesBy */,
+				0F9568692868976000C9056A /*  TryRemoveDuplicates */,
 			);
 			path = Filtering;
 			sourceTree = "<group>";
@@ -494,6 +499,15 @@
 				0F956862286890D300C9056A /* RemoveDuplicatesByView.swift */,
 			);
 			path = RemoveDuplicatesBy;
+			sourceTree = "<group>";
+		};
+		0F9568692868976000C9056A /*  TryRemoveDuplicates */ = {
+			isa = PBXGroup;
+			children = (
+				0F9568672868975900C9056A /*  TryRemoveDuplicatesViewModel.swift */,
+				0F9568652868974000C9056A /*  TryRemoveDuplicatesView.swift */,
+			);
+			path = " TryRemoveDuplicates";
 			sourceTree = "<group>";
 		};
 		0FBBDB6E285728F0006C3310 = {
@@ -824,6 +838,7 @@
 				0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */,
 				0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */,
 				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
+				0F9568662868974000C9056A /*  TryRemoveDuplicatesView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */,
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
@@ -837,6 +852,7 @@
 				0F2BD8562868368A001A7148 /* FilterView.swift in Sources */,
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
 				0FDF358E28630BB100CEF357 /* PrependViewModel.swift in Sources */,
+				0F9568682868975900C9056A /*  TryRemoveDuplicatesViewModel.swift in Sources */,
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
 				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,

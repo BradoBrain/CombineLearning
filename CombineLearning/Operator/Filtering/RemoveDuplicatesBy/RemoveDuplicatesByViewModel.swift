@@ -37,6 +37,7 @@ class RemoveDuplicatesByViewModel: ObservableObject {
             .removeDuplicates(by: { previousUser, currentUser -> Bool in
                 previousUser.email == currentUser.email // If email are the same it will remove a duplicate
             })
+//            .removeDuplicates { $0.email == $1.email } it is shorthand
             .sink { [unowned self] value in
                 dataForView.append(value)
             }
