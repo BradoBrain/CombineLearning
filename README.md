@@ -103,6 +103,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryMap - has an option to throw an error
 
+.tryCompactMap - operator like .compactMap but with option to throw an error
+
 // Reducing
 
 
