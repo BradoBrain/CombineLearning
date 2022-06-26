@@ -13,7 +13,7 @@ Operators in process ...
 
 - [x] **Publishers**
 
-@Published - property wrapper with ObservableObject to notify any view that @Published has been changed. We use it with @StateObject.
+@Published - property wrapper with ObservableObject to notify any view that @Published has been changed. We use it with @StateObject. `#1589F0`
 
 Empty - publisher that publishes nothing. Immediately or fail immediately (or keep pipeline open without complete).
 
