@@ -97,13 +97,20 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .compactMap - operator that give us a way to drop all nils that come through pipeline.
 
+.tryCompactMap - operator like .compactMap but with option to throw an error
+
+.filter - operator that give us to republish data based on our criteria.
+
+
+
+
 // Mapping
 
 .map - simple operator to do logic operations.
 
 .tryMap - has an option to throw an error
 
-.tryCompactMap - operator like .compactMap but with option to throw an error
+
 
 // Reducing
 
