@@ -19,6 +19,8 @@
 		0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE882861C268000DB83F /* DropUntilView.swift */; };
 		0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE8A2861C80D000DB83F /* DropFirstView.swift */; };
 		0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11DE8C2861C821000DB83F /* DropFirstViewModel.swift */; };
+		0F2BD85128682F82001A7148 /* TryCompactMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD85028682F82001A7148 /* TryCompactMapViewModel.swift */; };
+		0F2BD85328682F91001A7148 /* TryCompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD85228682F91001A7148 /* TryCompactMapView.swift */; };
 		0F2E7F1A2861BAC10020263E /* AppendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F192861BAC10020263E /* AppendView.swift */; };
 		0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */; };
 		0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */; };
@@ -96,6 +98,8 @@
 		0F11DE882861C268000DB83F /* DropUntilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropUntilView.swift; sourceTree = "<group>"; };
 		0F11DE8A2861C80D000DB83F /* DropFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstView.swift; sourceTree = "<group>"; };
 		0F11DE8C2861C821000DB83F /* DropFirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirstViewModel.swift; sourceTree = "<group>"; };
+		0F2BD85028682F82001A7148 /* TryCompactMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCompactMapViewModel.swift; sourceTree = "<group>"; };
+		0F2BD85228682F91001A7148 /* TryCompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCompactMapView.swift; sourceTree = "<group>"; };
 		0F2E7F192861BAC10020263E /* AppendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendView.swift; sourceTree = "<group>"; };
 		0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendViewModel.swift; sourceTree = "<group>"; };
 		0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
@@ -226,6 +230,24 @@
 			path = DropFirst;
 			sourceTree = "<group>";
 		};
+		0F2BD84F28682F5D001A7148 /* CompactMap */ = {
+			isa = PBXGroup;
+			children = (
+				0F856ABD286639BC0029BF5C /* CompactMapViewModel.swift */,
+				0F856ABB286639AA0029BF5C /* CompactMapView.swift */,
+			);
+			path = CompactMap;
+			sourceTree = "<group>";
+		};
+		0F2BD85428682F99001A7148 /* TryCompactMap */ = {
+			isa = PBXGroup;
+			children = (
+				0F2BD85028682F82001A7148 /* TryCompactMapViewModel.swift */,
+				0F2BD85228682F91001A7148 /* TryCompactMapView.swift */,
+			);
+			path = TryCompactMap;
+			sourceTree = "<group>";
+		};
 		0F2E7F172861BA4A0020263E /* Sequence operations */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,8 +359,8 @@
 		0F856ABA2866395A0029BF5C /* Filtering */ = {
 			isa = PBXGroup;
 			children = (
-				0F856ABD286639BC0029BF5C /* CompactMapViewModel.swift */,
-				0F856ABB286639AA0029BF5C /* CompactMapView.swift */,
+				0F2BD84F28682F5D001A7148 /* CompactMap */,
+				0F2BD85428682F99001A7148 /* TryCompactMap */,
 			);
 			path = Filtering;
 			sourceTree = "<group>";
@@ -731,10 +753,12 @@
 				0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */,
 				0FF070682859D04C003B840E /* JustViewModel.swift in Sources */,
 				0FF070652859C76B003B840E /* DeferredFutureViewModel.swift in Sources */,
+				0F2BD85128682F82001A7148 /* TryCompactMapViewModel.swift in Sources */,
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */,
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
+				0F2BD85328682F91001A7148 /* TryCompactMapView.swift in Sources */,
 				0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */,
 				0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */,
 				0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */,
