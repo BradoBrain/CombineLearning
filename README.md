@@ -123,6 +123,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .scan - operator that give us the ability to see on previous returned item.
 
+.tryScan - operator like .scan with option to throw an error. Data after error don't come through down. 
 
 // Reducing
 
