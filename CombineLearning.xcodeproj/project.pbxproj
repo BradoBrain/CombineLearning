@@ -67,6 +67,8 @@
 		0F95686D28689E3500C9056A /* ReplaceEmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F95686C28689E3500C9056A /* ReplaceEmptyViewModel.swift */; };
 		0FA8C0472869A21300444F51 /* SetFailureTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C0462869A21300444F51 /* SetFailureTypeView.swift */; };
 		0FA8C0492869A21F00444F51 /* SetFailureTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C0482869A21F00444F51 /* SetFailureTypeViewModel.swift */; };
+		0FA8C04C2869ACFE00444F51 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C04B2869ACFE00444F51 /* ScanViewModel.swift */; };
+		0FA8C04E2869AD0B00444F51 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C04D2869AD0B00444F51 /* ScanView.swift */; };
 		0FB591DD2868C8E6007F5FB8 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */; };
 		0FB591DF2868C92C007F5FB8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591DE2868C92C007F5FB8 /* MapView.swift */; };
 		0FB591E22868D545007F5FB8 /* TryMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591E12868D545007F5FB8 /* TryMapView.swift */; };
@@ -166,6 +168,8 @@
 		0F95686C28689E3500C9056A /* ReplaceEmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceEmptyViewModel.swift; sourceTree = "<group>"; };
 		0FA8C0462869A21300444F51 /* SetFailureTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureTypeView.swift; sourceTree = "<group>"; };
 		0FA8C0482869A21F00444F51 /* SetFailureTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureTypeViewModel.swift; sourceTree = "<group>"; };
+		0FA8C04B2869ACFE00444F51 /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		0FA8C04D2869AD0B00444F51 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		0FB591DE2868C92C007F5FB8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0FB591E12868D545007F5FB8 /* TryMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMapView.swift; sourceTree = "<group>"; };
@@ -549,6 +553,15 @@
 			path = SetFailureType;
 			sourceTree = "<group>";
 		};
+		0FA8C04F2869AD1200444F51 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8C04B2869ACFE00444F51 /* ScanViewModel.swift */,
+				0FA8C04D2869AD0B00444F51 /* ScanView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
 		0FB591DB2868C89C007F5FB8 /* Mapping */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,6 +569,7 @@
 				0FB591E52868D55F007F5FB8 /* TryMap */,
 				0FB591EA2868DB75007F5FB8 /* ReplaceNil */,
 				0FA8C04A2869A22500444F51 /* SetFailureType */,
+				0FA8C04F2869AD1200444F51 /* Scan */,
 			);
 			path = Mapping;
 			sourceTree = "<group>";
@@ -874,6 +888,7 @@
 				0F95686B28689E2100C9056A /* ReplaceEmptyView.swift in Sources */,
 				0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */,
 				0FA8C0492869A21F00444F51 /* SetFailureTypeViewModel.swift in Sources */,
+				0FA8C04C2869ACFE00444F51 /* ScanViewModel.swift in Sources */,
 				0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */,
 				0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */,
 				0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */,
@@ -901,6 +916,7 @@
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0F87026128646B1400709E5A /* MeasureIntervalViewModel.swift in Sources */,
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
+				0FA8C04E2869AD0B00444F51 /* ScanView.swift in Sources */,
 				0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */,
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
