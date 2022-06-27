@@ -119,6 +119,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .replaceNil - operator that give us replace nil that we got from data on any value we specify.
 
+.setFailureType - operator that do not throw an error but give us to set error type with AnuPublisher<Type, ERROR> to non-error pipeline.
+
 
 // Reducing
 
