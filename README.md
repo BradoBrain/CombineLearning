@@ -121,6 +121,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .setFailureType - operator that do not throw an error but give us to set error type with AnuPublisher<Type, ERROR> to non-error pipeline.
 
+.scan - operator that give us the ability to see on previous returned item.
+
 
 // Reducing
 
