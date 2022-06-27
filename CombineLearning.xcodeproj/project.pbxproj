@@ -65,6 +65,8 @@
 		0F9568682868975900C9056A /*  TryRemoveDuplicatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9568672868975900C9056A /*  TryRemoveDuplicatesViewModel.swift */; };
 		0F95686B28689E2100C9056A /* ReplaceEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F95686A28689E2100C9056A /* ReplaceEmptyView.swift */; };
 		0F95686D28689E3500C9056A /* ReplaceEmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F95686C28689E3500C9056A /* ReplaceEmptyViewModel.swift */; };
+		0FA8C0472869A21300444F51 /* SetFailureTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C0462869A21300444F51 /* SetFailureTypeView.swift */; };
+		0FA8C0492869A21F00444F51 /* SetFailureTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C0482869A21F00444F51 /* SetFailureTypeViewModel.swift */; };
 		0FB591DD2868C8E6007F5FB8 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */; };
 		0FB591DF2868C92C007F5FB8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591DE2868C92C007F5FB8 /* MapView.swift */; };
 		0FB591E22868D545007F5FB8 /* TryMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591E12868D545007F5FB8 /* TryMapView.swift */; };
@@ -162,6 +164,8 @@
 		0F9568672868975900C9056A /*  TryRemoveDuplicatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TryRemoveDuplicatesViewModel.swift"; sourceTree = "<group>"; };
 		0F95686A28689E2100C9056A /* ReplaceEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceEmptyView.swift; sourceTree = "<group>"; };
 		0F95686C28689E3500C9056A /* ReplaceEmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceEmptyViewModel.swift; sourceTree = "<group>"; };
+		0FA8C0462869A21300444F51 /* SetFailureTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureTypeView.swift; sourceTree = "<group>"; };
+		0FA8C0482869A21F00444F51 /* SetFailureTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFailureTypeViewModel.swift; sourceTree = "<group>"; };
 		0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		0FB591DE2868C92C007F5FB8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0FB591E12868D545007F5FB8 /* TryMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMapView.swift; sourceTree = "<group>"; };
@@ -536,12 +540,22 @@
 			path = ReplaceEmpty;
 			sourceTree = "<group>";
 		};
+		0FA8C04A2869A22500444F51 /* SetFailureType */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8C0482869A21F00444F51 /* SetFailureTypeViewModel.swift */,
+				0FA8C0462869A21300444F51 /* SetFailureTypeView.swift */,
+			);
+			path = SetFailureType;
+			sourceTree = "<group>";
+		};
 		0FB591DB2868C89C007F5FB8 /* Mapping */ = {
 			isa = PBXGroup;
 			children = (
 				0FB591E02868C934007F5FB8 /* Map */,
 				0FB591E52868D55F007F5FB8 /* TryMap */,
 				0FB591EA2868DB75007F5FB8 /* ReplaceNil */,
+				0FA8C04A2869A22500444F51 /* SetFailureType */,
 			);
 			path = Mapping;
 			sourceTree = "<group>";
@@ -859,6 +873,7 @@
 				0F7AF72428686FFE003CC6CA /* TryFilterView.swift in Sources */,
 				0F95686B28689E2100C9056A /* ReplaceEmptyView.swift in Sources */,
 				0FE1E11C28577AF5001C764A /* StoreInViewModel.swift in Sources */,
+				0FA8C0492869A21F00444F51 /* SetFailureTypeViewModel.swift in Sources */,
 				0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */,
 				0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */,
 				0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */,
@@ -877,6 +892,7 @@
 				0FB591DF2868C92C007F5FB8 /* MapView.swift in Sources */,
 				0F87025F28646AFB00709E5A /* MeasureIntervalView.swift in Sources */,
 				0FF13EC2285F4E0D0087FEDC /* TryContainsWhereViewModel.swift in Sources */,
+				0FA8C0472869A21300444F51 /* SetFailureTypeView.swift in Sources */,
 				0F7AF727286875A8003CC6CA /* RemoveDuplicatesView.swift in Sources */,
 				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
