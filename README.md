@@ -128,6 +128,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 // Reducing
 .collect - operator that does not let items pass through the pipeline. Instead, it puts all items into an array, and then when the pipeline finishes it will publish the array.
 
+.collect(by: count) - operator that can get a number and putting items into an array until that number. It will continue to do this until pipeline finishes.
+
 // Selecting
 
 // Specifying shedulers
