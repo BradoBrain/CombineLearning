@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F002198285E4F1300B2719E /* TryAllSatisfyView.swift */; };
 		0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */; };
+		0F00FC9A286C3F2700D2CDE4 /* CollectByCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00FC99286C3F2700D2CDE4 /* CollectByCountView.swift */; };
+		0F00FC9C286C3F3800D2CDE4 /* CollectByCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00FC9B286C3F3800D2CDE4 /* CollectByCountViewModel.swift */; };
 		0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A128605E650004A781 /* MaxViewModel.swift */; };
 		0F0404A428605E730004A781 /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A328605E730004A781 /* MaxView.swift */; };
 		0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A528606A5E0004A781 /* MaxByView.swift */; };
@@ -114,6 +116,8 @@
 /* Begin PBXFileReference section */
 		0F002198285E4F1300B2719E /* TryAllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyView.swift; sourceTree = "<group>"; };
 		0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyViewModel.swift; sourceTree = "<group>"; };
+		0F00FC99286C3F2700D2CDE4 /* CollectByCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectByCountView.swift; sourceTree = "<group>"; };
+		0F00FC9B286C3F3800D2CDE4 /* CollectByCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectByCountViewModel.swift; sourceTree = "<group>"; };
 		0F0404A128605E650004A781 /* MaxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewModel.swift; sourceTree = "<group>"; };
 		0F0404A328605E730004A781 /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
 		0F0404A528606A5E0004A781 /* MaxByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByView.swift; sourceTree = "<group>"; };
@@ -235,6 +239,24 @@
 				0F002198285E4F1300B2719E /* TryAllSatisfyView.swift */,
 			);
 			path = TryAllSatisfy;
+			sourceTree = "<group>";
+		};
+		0F00FC98286C3F1200D2CDE4 /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				0FB4F752286C2053006B9A35 /* CollectViewModel.swift */,
+				0FB4F754286C2061006B9A35 /* CollectView.swift */,
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		0F00FC9D286C3F3E00D2CDE4 /* CollectByCount */ = {
+			isa = PBXGroup;
+			children = (
+				0F00FC9B286C3F3800D2CDE4 /* CollectByCountViewModel.swift */,
+				0F00FC99286C3F2700D2CDE4 /* CollectByCountView.swift */,
+			);
+			path = CollectByCount;
 			sourceTree = "<group>";
 		};
 		0F0404A028605E4E0004A781 /* Max */ = {
@@ -582,8 +604,8 @@
 		0FA8C0552869B9F300444F51 /* Reducing */ = {
 			isa = PBXGroup;
 			children = (
-				0FB4F752286C2053006B9A35 /* CollectViewModel.swift */,
-				0FB4F754286C2061006B9A35 /* CollectView.swift */,
+				0F00FC98286C3F1200D2CDE4 /* Collect */,
+				0F00FC9D286C3F3E00D2CDE4 /* CollectByCount */,
 			);
 			path = Reducing;
 			sourceTree = "<group>";
@@ -927,6 +949,7 @@
 				0FDEEDC028587E4C00165988 /* EmptyView.swift in Sources */,
 				0F8BE622285C7A5F00AAE827 /* DataTaskPublViewModel.swift in Sources */,
 				0FB591E72868DB5E007F5FB8 /* ReplaceNilViewModel.swift in Sources */,
+				0F00FC9A286C3F2700D2CDE4 /* CollectByCountView.swift in Sources */,
 				0F2E7F1A2861BAC10020263E /* AppendView.swift in Sources */,
 				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */,
@@ -1000,6 +1023,7 @@
 				0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */,
 				0FF0706A2859D05A003B840E /* JustView.swift in Sources */,
 				0FDF359028630BBE00CEF357 /* PrependView.swift in Sources */,
+				0F00FC9C286C3F3800D2CDE4 /* CollectByCountViewModel.swift in Sources */,
 				0FDF358B2862FF6E00CEF357 /* PrefixViewModel.swift in Sources */,
 				0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */,
 				0FB4F753286C2053006B9A35 /* CollectViewModel.swift in Sources */,
