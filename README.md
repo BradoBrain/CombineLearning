@@ -126,7 +126,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 .tryScan - operator like .scan with option to throw an error. Data after error don't come through down. 
 
 // Reducing
-
+.collect - operator that does not let items pass through the pipeline. Instead, it puts all items into an array, and then when the pipeline finishes it will publish the array.
 
 // Selecting
 
