@@ -130,6 +130,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .collect(by: count) - operator that can get a number and putting items into an array until that number. It will continue to do this until pipeline finishes.
 
+.collect(by: time) - operator that gets a time interval. During the interval it adds the items to an array
+
 // Selecting
 
 // Specifying shedulers
