@@ -11,6 +11,8 @@
 		0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */; };
 		0F00FC9A286C3F2700D2CDE4 /* CollectByCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00FC99286C3F2700D2CDE4 /* CollectByCountView.swift */; };
 		0F00FC9C286C3F3800D2CDE4 /* CollectByCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00FC9B286C3F3800D2CDE4 /* CollectByCountViewModel.swift */; };
+		0F00FCA1286C492900D2CDE4 /* CollectByTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00FCA0286C492900D2CDE4 /* CollectByTimeViewModel.swift */; };
+		0F00FCA3286C493A00D2CDE4 /* CollectByTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00FCA2286C493A00D2CDE4 /* CollectByTimeView.swift */; };
 		0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A128605E650004A781 /* MaxViewModel.swift */; };
 		0F0404A428605E730004A781 /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A328605E730004A781 /* MaxView.swift */; };
 		0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0404A528606A5E0004A781 /* MaxByView.swift */; };
@@ -118,6 +120,8 @@
 		0F00219A285E4F2C00B2719E /* TryAllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyViewModel.swift; sourceTree = "<group>"; };
 		0F00FC99286C3F2700D2CDE4 /* CollectByCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectByCountView.swift; sourceTree = "<group>"; };
 		0F00FC9B286C3F3800D2CDE4 /* CollectByCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectByCountViewModel.swift; sourceTree = "<group>"; };
+		0F00FCA0286C492900D2CDE4 /* CollectByTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectByTimeViewModel.swift; sourceTree = "<group>"; };
+		0F00FCA2286C493A00D2CDE4 /* CollectByTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectByTimeView.swift; sourceTree = "<group>"; };
 		0F0404A128605E650004A781 /* MaxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewModel.swift; sourceTree = "<group>"; };
 		0F0404A328605E730004A781 /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
 		0F0404A528606A5E0004A781 /* MaxByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByView.swift; sourceTree = "<group>"; };
@@ -257,6 +261,15 @@
 				0F00FC99286C3F2700D2CDE4 /* CollectByCountView.swift */,
 			);
 			path = CollectByCount;
+			sourceTree = "<group>";
+		};
+		0F00FCA4286C494200D2CDE4 /* CollectByTime */ = {
+			isa = PBXGroup;
+			children = (
+				0F00FCA0286C492900D2CDE4 /* CollectByTimeViewModel.swift */,
+				0F00FCA2286C493A00D2CDE4 /* CollectByTimeView.swift */,
+			);
+			path = CollectByTime;
 			sourceTree = "<group>";
 		};
 		0F0404A028605E4E0004A781 /* Max */ = {
@@ -606,6 +619,7 @@
 			children = (
 				0F00FC98286C3F1200D2CDE4 /* Collect */,
 				0F00FC9D286C3F3E00D2CDE4 /* CollectByCount */,
+				0F00FCA4286C494200D2CDE4 /* CollectByTime */,
 			);
 			path = Reducing;
 			sourceTree = "<group>";
@@ -925,6 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F00FCA1286C492900D2CDE4 /* CollectByTimeViewModel.swift in Sources */,
 				0F5A4419286454C000AF75BB /* DebounceView.swift in Sources */,
 				0F88E8B6285756D4008EE448 /* DelayViewModel.swift in Sources */,
 				0F0404A428605E730004A781 /* MaxView.swift in Sources */,
@@ -953,6 +968,7 @@
 				0F2E7F1A2861BAC10020263E /* AppendView.swift in Sources */,
 				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */,
+				0F00FCA3286C493A00D2CDE4 /* CollectByTimeView.swift in Sources */,
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
 				0FF13EC7285F5DD40087FEDC /* CountView.swift in Sources */,
 				0F856ABE286639BC0029BF5C /* CompactMapViewModel.swift in Sources */,
