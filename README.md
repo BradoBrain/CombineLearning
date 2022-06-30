@@ -130,7 +130,9 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .collect(by: count) - operator that can get a number and putting items into an array until that number. It will continue to do this until pipeline finishes.
 
-.collect(by: time) - operator that gets a time interval. During the interval it adds the items to an array
+.collect(by: time) - operator that gets a time interval. During the interval it adds the items to an array.
+
+// .collect(by: Time or Count) - we can set it by interval and count and when one of the limits is reashed the items collected will be published.
 
 // Selecting
 
