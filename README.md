@@ -132,7 +132,12 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .collect(by: time) - operator that gets a time interval. During the interval it adds the items to an array.
 
-// .collect(by: Time or Count) - we can set it by interval and count and when one of the limits is reashed the items collected will be published.
+.collect(by: Time or Count) - we can set it by interval and count and when one of the limits is reashed the items collected will be published.
+
+.ignoreOutput - operator that ignore anything that comes down pipeline (it will never reach a subscriber). Sink still detects when it is finished or failed.
+
+
+
 
 // Selecting
 
