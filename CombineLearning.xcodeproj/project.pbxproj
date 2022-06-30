@@ -91,6 +91,8 @@
 		0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB8F28572E24006C3310 /* PublishedView.swift */; };
 		0FBBDB9328573860006C3310 /* CancellableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB9228573860006C3310 /* CancellableViewModel.swift */; };
 		0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBDB942857388C006C3310 /* CancellableView.swift */; };
+		0FC9154F286DDCC100500C73 /* CollectTimeOrCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9154E286DDCC100500C73 /* CollectTimeOrCountView.swift */; };
+		0FC91551286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91550286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift */; };
 		0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */; };
 		0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */; };
 		0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */; };
@@ -201,6 +203,8 @@
 		0FBBDB8F28572E24006C3310 /* PublishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedView.swift; sourceTree = "<group>"; };
 		0FBBDB9228573860006C3310 /* CancellableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableViewModel.swift; sourceTree = "<group>"; };
 		0FBBDB942857388C006C3310 /* CancellableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableView.swift; sourceTree = "<group>"; };
+		0FC9154E286DDCC100500C73 /* CollectTimeOrCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTimeOrCountView.swift; sourceTree = "<group>"; };
+		0FC91550286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTimeOrCountViewModel.swift; sourceTree = "<group>"; };
 		0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubView.swift; sourceTree = "<group>"; };
 		0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubViewModel.swift; sourceTree = "<group>"; };
 		0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
@@ -620,6 +624,7 @@
 				0F00FC98286C3F1200D2CDE4 /* Collect */,
 				0F00FC9D286C3F3E00D2CDE4 /* CollectByCount */,
 				0F00FCA4286C494200D2CDE4 /* CollectByTime */,
+				0FC91552286DDCE000500C73 /* CollectTimeOrCount */,
 			);
 			path = Reducing;
 			sourceTree = "<group>";
@@ -755,6 +760,15 @@
 				0FBBDB942857388C006C3310 /* CancellableView.swift */,
 			);
 			path = Cancellable;
+			sourceTree = "<group>";
+		};
+		0FC91552286DDCE000500C73 /* CollectTimeOrCount */ = {
+			isa = PBXGroup;
+			children = (
+				0FC91550286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift */,
+				0FC9154E286DDCC100500C73 /* CollectTimeOrCountView.swift */,
+			);
+			path = CollectTimeOrCount;
 			sourceTree = "<group>";
 		};
 		0FD2013C285B1DBD000072FD /* PassthroughSubject */ = {
@@ -944,6 +958,7 @@
 				0F88E8B6285756D4008EE448 /* DelayViewModel.swift in Sources */,
 				0F0404A428605E730004A781 /* MaxView.swift in Sources */,
 				0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */,
+				0FC91551286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift in Sources */,
 				0FF13EC9285F5DE30087FEDC /* CountViewModel.swift in Sources */,
 				0FB591E42868D557007F5FB8 /* TryMapViewModel.swift in Sources */,
 				0FBBDB9328573860006C3310 /* CancellableViewModel.swift in Sources */,
@@ -960,6 +975,7 @@
 				0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */,
 				0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */,
 				0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */,
+				0FC9154F286DDCC100500C73 /* CollectTimeOrCountView.swift in Sources */,
 				0FF13EC4285F4E1C0087FEDC /* TryContainsWhereView.swift in Sources */,
 				0FDEEDC028587E4C00165988 /* EmptyView.swift in Sources */,
 				0F8BE622285C7A5F00AAE827 /* DataTaskPublViewModel.swift in Sources */,
