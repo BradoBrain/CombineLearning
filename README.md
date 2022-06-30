@@ -126,6 +126,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 .tryScan - operator like .scan with option to throw an error. Data after error don't come through down. 
 
 // Reducing
+
 .collect - operator that does not let items pass through the pipeline. Instead, it puts all items into an array, and then when the pipeline finishes it will publish the array.
 
 .collect(by: count) - operator that can get a number and putting items into an array until that number. It will continue to do this until pipeline finishes.
@@ -136,7 +137,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .ignoreOutput - operator that ignore anything that comes down pipeline (it will never reach a subscriber). Sink still detects when it is finished or failed.
 
-
+.reduce - operator that is identical to .scan but publishes only one item at the end.
 
 
 // Selecting
