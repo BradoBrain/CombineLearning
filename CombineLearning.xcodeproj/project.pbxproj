@@ -95,6 +95,8 @@
 		0FC91551286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91550286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift */; };
 		0FC91554286DE63900500C73 /* IgnoreOutputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91553286DE63900500C73 /* IgnoreOutputViewModel.swift */; };
 		0FC91556286DE64F00500C73 /* IgnoreOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91555286DE64F00500C73 /* IgnoreOutputView.swift */; };
+		0FC91559286DECCD00500C73 /* ReduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91558286DECCD00500C73 /* ReduceView.swift */; };
+		0FC9155B286DECDC00500C73 /* ReduceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9155A286DECDC00500C73 /* ReduceViewModel.swift */; };
 		0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */; };
 		0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */; };
 		0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */; };
@@ -209,6 +211,8 @@
 		0FC91550286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTimeOrCountViewModel.swift; sourceTree = "<group>"; };
 		0FC91553286DE63900500C73 /* IgnoreOutputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreOutputViewModel.swift; sourceTree = "<group>"; };
 		0FC91555286DE64F00500C73 /* IgnoreOutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreOutputView.swift; sourceTree = "<group>"; };
+		0FC91558286DECCD00500C73 /* ReduceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceView.swift; sourceTree = "<group>"; };
+		0FC9155A286DECDC00500C73 /* ReduceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceViewModel.swift; sourceTree = "<group>"; };
 		0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubView.swift; sourceTree = "<group>"; };
 		0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubViewModel.swift; sourceTree = "<group>"; };
 		0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
@@ -630,6 +634,7 @@
 				0F00FCA4286C494200D2CDE4 /* CollectByTime */,
 				0FC91552286DDCE000500C73 /* CollectTimeOrCount */,
 				0FC91557286DE65400500C73 /* IgnoreOutput */,
+				0FC9155C286DECE200500C73 /* Reduce */,
 			);
 			path = Reducing;
 			sourceTree = "<group>";
@@ -783,6 +788,15 @@
 				0FC91555286DE64F00500C73 /* IgnoreOutputView.swift */,
 			);
 			path = IgnoreOutput;
+			sourceTree = "<group>";
+		};
+		0FC9155C286DECE200500C73 /* Reduce */ = {
+			isa = PBXGroup;
+			children = (
+				0FC9155A286DECDC00500C73 /* ReduceViewModel.swift */,
+				0FC91558286DECCD00500C73 /* ReduceView.swift */,
+			);
+			path = Reduce;
 			sourceTree = "<group>";
 		};
 		0FD2013C285B1DBD000072FD /* PassthroughSubject */ = {
@@ -1014,12 +1028,14 @@
 				0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */,
 				0F0404A828606A6E0004A781 /* MaxByViewModel.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
+				0FC91559286DECCD00500C73 /* ReduceView.swift in Sources */,
 				0F87026128646B1400709E5A /* MeasureIntervalViewModel.swift in Sources */,
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
 				0FA8C04E2869AD0B00444F51 /* ScanView.swift in Sources */,
 				0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */,
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
+				0FC9155B286DECDC00500C73 /* ReduceViewModel.swift in Sources */,
 				0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */,
 				0F95686D28689E3500C9056A /* ReplaceEmptyViewModel.swift in Sources */,
 				0FDF35862862FC9900CEF357 /* DropFirstCountView.swift in Sources */,
