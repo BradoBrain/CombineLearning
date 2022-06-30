@@ -139,6 +139,9 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .reduce - operator that is identical to .scan but publishes only one item at the end.
 
+.tryReduce - the same like the .reduce but with error option.
+
+
 
 // Selecting
 
