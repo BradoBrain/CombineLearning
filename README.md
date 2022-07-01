@@ -145,7 +145,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .first - operator that will publish the first element that comes through pipeline and close it.
 
-
+.first(where: ) - operator that publishes first item that satisfies condition in (where: ).
 
 
 
