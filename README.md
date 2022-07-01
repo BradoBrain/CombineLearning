@@ -141,9 +141,17 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryReduce - the same like the .reduce but with error option.
 
-
-
 // Selecting
+
+.first - operator that will publish the first element that comes through pipeline and close it.
+
+
+
+
+
+
+
+
 
 // Specifying shedulers
 
