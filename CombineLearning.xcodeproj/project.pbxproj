@@ -75,6 +75,8 @@
 		0FA8C04E2869AD0B00444F51 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C04D2869AD0B00444F51 /* ScanView.swift */; };
 		0FA8C0512869B55000444F51 /* TryScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C0502869B55000444F51 /* TryScanView.swift */; };
 		0FA8C0532869B56100444F51 /* TryScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8C0522869B56100444F51 /* TryScanViewModel.swift */; };
+		0FABB52D28702847005EE025 /* TryFirstWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FABB52C28702847005EE025 /* TryFirstWhereViewModel.swift */; };
+		0FABB52F287028A7005EE025 /* TryFirstWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FABB52E287028A7005EE025 /* TryFirstWhereView.swift */; };
 		0FB4F753286C2053006B9A35 /* CollectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4F752286C2053006B9A35 /* CollectViewModel.swift */; };
 		0FB4F755286C2061006B9A35 /* CollectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4F754286C2061006B9A35 /* CollectView.swift */; };
 		0FB591DD2868C8E6007F5FB8 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */; };
@@ -194,6 +196,8 @@
 		0FA8C04D2869AD0B00444F51 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		0FA8C0502869B55000444F51 /* TryScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryScanView.swift; sourceTree = "<group>"; };
 		0FA8C0522869B56100444F51 /* TryScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryScanViewModel.swift; sourceTree = "<group>"; };
+		0FABB52C28702847005EE025 /* TryFirstWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFirstWhereViewModel.swift; sourceTree = "<group>"; };
+		0FABB52E287028A7005EE025 /* TryFirstWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFirstWhereView.swift; sourceTree = "<group>"; };
 		0FB4F752286C2053006B9A35 /* CollectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectViewModel.swift; sourceTree = "<group>"; };
 		0FB4F754286C2061006B9A35 /* CollectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectView.swift; sourceTree = "<group>"; };
 		0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
@@ -647,6 +651,15 @@
 			path = Reducing;
 			sourceTree = "<group>";
 		};
+		0FABB530287028B0005EE025 /* TryFirstWhere */ = {
+			isa = PBXGroup;
+			children = (
+				0FABB52C28702847005EE025 /* TryFirstWhereViewModel.swift */,
+				0FABB52E287028A7005EE025 /* TryFirstWhereView.swift */,
+			);
+			path = TryFirstWhere;
+			sourceTree = "<group>";
+		};
 		0FB591DB2868C89C007F5FB8 /* Mapping */ = {
 			isa = PBXGroup;
 			children = (
@@ -786,6 +799,7 @@
 			children = (
 				0FBFDD1E286F6DB9008EB31C /* First */,
 				0FBFDD23286F6E27008EB31C /* FirstWhere */,
+				0FABB530287028B0005EE025 /* TryFirstWhere */,
 			);
 			path = Selecting;
 			sourceTree = "<group>";
@@ -1108,6 +1122,7 @@
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
 				0F11DE872861C259000DB83F /* DropUntilViewModel.swift in Sources */,
+				0FABB52F287028A7005EE025 /* TryFirstWhereView.swift in Sources */,
 				0F7AF72228686FF2003CC6CA /* TryFilterViewModel.swift in Sources */,
 				0F2BD8562868368A001A7148 /* FilterView.swift in Sources */,
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
@@ -1131,6 +1146,7 @@
 				0FDF358B2862FF6E00CEF357 /* PrefixViewModel.swift in Sources */,
 				0FF070632859C755003B840E /* DeferredFutureView.swift in Sources */,
 				0FB4F753286C2053006B9A35 /* CollectViewModel.swift in Sources */,
+				0FABB52D28702847005EE025 /* TryFirstWhereViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
