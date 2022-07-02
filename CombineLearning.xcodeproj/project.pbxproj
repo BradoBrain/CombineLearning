@@ -83,6 +83,8 @@
 		0FABB52F287028A7005EE025 /* TryFirstWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FABB52E287028A7005EE025 /* TryFirstWhereView.swift */; };
 		0FB264162870C38C00178FF7 /* OutputAtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB264152870C38C00178FF7 /* OutputAtViewModel.swift */; };
 		0FB264182870C39C00178FF7 /* OutputAtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB264172870C39C00178FF7 /* OutputAtView.swift */; };
+		0FB2641B2870C8A900178FF7 /* OutputInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2641A2870C8A900178FF7 /* OutputInViewModel.swift */; };
+		0FB2641D2870C8B800178FF7 /* OutputInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2641C2870C8B800178FF7 /* OutputInView.swift */; };
 		0FB4F753286C2053006B9A35 /* CollectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4F752286C2053006B9A35 /* CollectViewModel.swift */; };
 		0FB4F755286C2061006B9A35 /* CollectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4F754286C2061006B9A35 /* CollectView.swift */; };
 		0FB591DD2868C8E6007F5FB8 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */; };
@@ -210,6 +212,8 @@
 		0FABB52E287028A7005EE025 /* TryFirstWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFirstWhereView.swift; sourceTree = "<group>"; };
 		0FB264152870C38C00178FF7 /* OutputAtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputAtViewModel.swift; sourceTree = "<group>"; };
 		0FB264172870C39C00178FF7 /* OutputAtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputAtView.swift; sourceTree = "<group>"; };
+		0FB2641A2870C8A900178FF7 /* OutputInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputInViewModel.swift; sourceTree = "<group>"; };
+		0FB2641C2870C8B800178FF7 /* OutputInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputInView.swift; sourceTree = "<group>"; };
 		0FB4F752286C2053006B9A35 /* CollectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectViewModel.swift; sourceTree = "<group>"; };
 		0FB4F754286C2061006B9A35 /* CollectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectView.swift; sourceTree = "<group>"; };
 		0FB591DC2868C8E6007F5FB8 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
@@ -699,6 +703,15 @@
 			path = OutputAt;
 			sourceTree = "<group>";
 		};
+		0FB2641E2870C8BE00178FF7 /* OutputIn */ = {
+			isa = PBXGroup;
+			children = (
+				0FB2641A2870C8A900178FF7 /* OutputInViewModel.swift */,
+				0FB2641C2870C8B800178FF7 /* OutputInView.swift */,
+			);
+			path = OutputIn;
+			sourceTree = "<group>";
+		};
 		0FB591DB2868C89C007F5FB8 /* Mapping */ = {
 			isa = PBXGroup;
 			children = (
@@ -842,6 +855,7 @@
 				0F8188C52870400900B70ECB /* Last */,
 				0F8188CA287043D300B70ECB /* LastWhere */,
 				0FB264192870C3A200178FF7 /* OutputAt */,
+				0FB2641E2870C8BE00178FF7 /* OutputIn */,
 			);
 			path = Selecting;
 			sourceTree = "<group>";
@@ -1093,6 +1107,7 @@
 				0FA8C04C2869ACFE00444F51 /* ScanViewModel.swift in Sources */,
 				0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */,
 				0FB264162870C38C00178FF7 /* OutputAtViewModel.swift in Sources */,
+				0FB2641D2870C8B800178FF7 /* OutputInView.swift in Sources */,
 				0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */,
 				0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */,
 				0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */,
@@ -1150,6 +1165,7 @@
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */,
 				0FB264182870C39C00178FF7 /* OutputAtView.swift in Sources */,
+				0FB2641B2870C8A900178FF7 /* OutputInViewModel.swift in Sources */,
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
 				0F2BD85328682F91001A7148 /* TryCompactMapView.swift in Sources */,
