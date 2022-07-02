@@ -155,6 +155,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .tryLast(where: ) - operator like .last(where: ) but with throw error option.
 
+.output(at: ) - operator that can spesify an index and when an item at that index comes throgh pipeline will be republished and pipeline closed. If number of index higher then number of items than nothing is published.
+
 
 
 // Specifying shedulers
