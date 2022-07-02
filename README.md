@@ -153,6 +153,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .last(where: ) - operator that give us the last item which matches our criteria.
 
+.tryLast(where: ) - operator like .last(where: ) but with throw error option.
 
 
 
