@@ -151,7 +151,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .last - operator that give us the last item of pipeline
 
-
+.last(where: ) - operator that give us the last item which matches our criteria.
 
 
 
