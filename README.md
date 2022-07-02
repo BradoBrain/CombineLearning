@@ -157,7 +157,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .output(at: ) - operator that can spesify an index and when an item at that index comes throgh pipeline will be republished and pipeline closed. If number of index higher then number of items than nothing is published.
 
-
+.output(in: ) - operator that work like .output(at: ) but set a range of values that come through pipeline. If index will be out of range the code is crashed (pay attention on it)
 
 // Specifying shedulers
 
