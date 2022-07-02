@@ -47,6 +47,8 @@
 		0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */; };
 		0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C128703D8400B70ECB /* LastViewModel.swift */; };
 		0F8188C42870400300B70ECB /* LastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C32870400300B70ECB /* LastView.swift */; };
+		0F8188C7287043BD00B70ECB /* LastWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C6287043BD00B70ECB /* LastWhereView.swift */; };
+		0F8188C9287043CD00B70ECB /* LastWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C8287043CD00B70ECB /* LastWhereViewModel.swift */; };
 		0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9A285F22490062CC44 /* ContainsWhereView.swift */; };
 		0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */; };
 		0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F856ABB286639AA0029BF5C /* CompactMapView.swift */; };
@@ -170,6 +172,8 @@
 		0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesViewModel.swift; sourceTree = "<group>"; };
 		0F8188C128703D8400B70ECB /* LastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewModel.swift; sourceTree = "<group>"; };
 		0F8188C32870400300B70ECB /* LastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastView.swift; sourceTree = "<group>"; };
+		0F8188C6287043BD00B70ECB /* LastWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastWhereView.swift; sourceTree = "<group>"; };
+		0F8188C8287043CD00B70ECB /* LastWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastWhereViewModel.swift; sourceTree = "<group>"; };
 		0F848A9A285F22490062CC44 /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
 		0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
 		0F856ABB286639AA0029BF5C /* CompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapView.swift; sourceTree = "<group>"; };
@@ -498,6 +502,15 @@
 			path = Last;
 			sourceTree = "<group>";
 		};
+		0F8188CA287043D300B70ECB /* LastWhere */ = {
+			isa = PBXGroup;
+			children = (
+				0F8188C8287043CD00B70ECB /* LastWhereViewModel.swift */,
+				0F8188C6287043BD00B70ECB /* LastWhereView.swift */,
+			);
+			path = LastWhere;
+			sourceTree = "<group>";
+		};
 		0F848A99285F22020062CC44 /* ContainsWhere */ = {
 			isa = PBXGroup;
 			children = (
@@ -814,6 +827,7 @@
 				0FBFDD23286F6E27008EB31C /* FirstWhere */,
 				0FABB530287028B0005EE025 /* TryFirstWhere */,
 				0F8188C52870400900B70ECB /* Last */,
+				0F8188CA287043D300B70ECB /* LastWhere */,
 			);
 			path = Selecting;
 			sourceTree = "<group>";
@@ -1069,11 +1083,13 @@
 				0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */,
 				0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */,
 				0FC91554286DE63900500C73 /* IgnoreOutputViewModel.swift in Sources */,
+				0F8188C7287043BD00B70ECB /* LastWhereView.swift in Sources */,
 				0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */,
 				0FC9154F286DDCC100500C73 /* CollectTimeOrCountView.swift in Sources */,
 				0FF13EC4285F4E1C0087FEDC /* TryContainsWhereView.swift in Sources */,
 				0FDEEDC028587E4C00165988 /* EmptyView.swift in Sources */,
 				0F8BE622285C7A5F00AAE827 /* DataTaskPublViewModel.swift in Sources */,
+				0F8188C9287043CD00B70ECB /* LastWhereViewModel.swift in Sources */,
 				0FB591E72868DB5E007F5FB8 /* ReplaceNilViewModel.swift in Sources */,
 				0F00FC9A286C3F2700D2CDE4 /* CollectByCountView.swift in Sources */,
 				0FC91556286DE64F00500C73 /* IgnoreOutputView.swift in Sources */,
