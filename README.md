@@ -147,6 +147,9 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .first(where: ) - operator that publishes first item that satisfies condition in (where: ).
 
+.tryFirst(where: ) - the same operator like .first(where: ) with throw error options.
+
+
 
 
 
