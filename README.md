@@ -12,9 +12,8 @@ Operators - - [x]
 Subscribers - in process
 
 
-
-- [x] **Publishers**
-
+<details>
+<summary> **Publishers** </summary>
 @Published - property wrapper with ObservableObject to notify any view that @Published has been changed. We use it with @StateObject.
 
 Empty - publisher that publishes nothing. Immediately or fail immediately (or keep pipeline open without complete).
@@ -34,6 +33,10 @@ Sequence - publisher that sends elements of a collection through a pipeline one 
 Timer - publisher repeatedly publish current date and time with interval that you set up. You also could attach operators to run some code at an interval.
 
 DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
+</details>
+
+
+
 
 - [x] **Operators**
 
