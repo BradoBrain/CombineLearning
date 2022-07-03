@@ -12,8 +12,7 @@ Current status:
 Subscribers - in process
 
 
-<details>
-<summary> Publishers </summary>
+- <details><summary>Publishers</summary>
   
 @Published - property wrapper with ObservableObject to notify any view that @Published has been changed. We use it with @StateObject.
 
@@ -36,8 +35,7 @@ Timer - publisher repeatedly publish current date and time with interval that yo
 DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
   
   
-<details> 
-<summary> Operators </summary>
+- <details><summary>Operators</summary>
 
 // Operators to check matching criteria
 
@@ -171,12 +169,15 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
   <details> 
     
     
-<details> 
-<summary> Subscribers </summary>
+- <details><summary>Subscribers</summary>
 
 .assign(to:) - simple subscriber to write value from operators to property.
 
 .store(in:) - uses instead assign(to:) when we need to add cancel() funcrion to more than one property (multiCancellable pipline). 
 
 .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy.
+    
 </details>
+</details>
+</details>
+    
