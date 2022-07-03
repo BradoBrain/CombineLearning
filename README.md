@@ -12,7 +12,8 @@ Current status:
 Subscribers - in process
 
 
-- <details><summary>Publishers</summary>  
+- <details>
+  <summary>Publishers</summary>  
 - @Published - property wrapper with ObservableObject to notify any view that @Published has been changed. We use it with @StateObject.
 - Empty - publisher that publishes nothing. Immediately or fail immediately (or keep pipeline open without complete).
 - Fail - publisher that published a failure (with an error). If input is valid, return a publisher, else return a Fail publisher.
@@ -26,10 +27,9 @@ Subscribers - in process
 </details>
 
   
-- <details><summary>Operators</summary>
-
+- <details>
+  <summary>Operators</summary>
 // Operators to check matching criteria
-
 .allSatisfy - operator to test all items that are coming through pipeline and check the criteria. As soon as on of the items does not match it, false will be published. If all items match criteria then true is published.
 
 .tryAllSatisfy - operator that work like the .allSatisfy and can publish an error
