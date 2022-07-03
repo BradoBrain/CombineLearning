@@ -161,6 +161,10 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 // Specifying shedulers
 
+.receive(on: ) - operator that give us to specify thread and how work is done.
+
+
+
 
 **Subscribers**
 
