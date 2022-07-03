@@ -29,6 +29,8 @@
 		0F2BD8582868369A001A7148 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD8572868369A001A7148 /* FilterViewModel.swift */; };
 		0F2E7F1A2861BAC10020263E /* AppendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F192861BAC10020263E /* AppendView.swift */; };
 		0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */; };
+		0F2FB94D2871865A00C0A9EC /* ReceiveOnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2FB94C2871865A00C0A9EC /* ReceiveOnViewModel.swift */; };
+		0F2FB94F2871866D00C0A9EC /* ReceiveOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2FB94E2871866D00C0A9EC /* ReceiveOnView.swift */; };
 		0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */; };
 		0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F330BA02858CEBC0011A237 /* FutureView.swift */; };
 		0F382B9D2858947100D68D57 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F382B9C2858947100D68D57 /* FailView.swift */; };
@@ -158,6 +160,8 @@
 		0F2BD8572868369A001A7148 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		0F2E7F192861BAC10020263E /* AppendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendView.swift; sourceTree = "<group>"; };
 		0F2E7F1B2861BACF0020263E /* AppendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendViewModel.swift; sourceTree = "<group>"; };
+		0F2FB94C2871865A00C0A9EC /* ReceiveOnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveOnViewModel.swift; sourceTree = "<group>"; };
+		0F2FB94E2871866D00C0A9EC /* ReceiveOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveOnView.swift; sourceTree = "<group>"; };
 		0F330B9E2858CEAB0011A237 /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
 		0F330BA02858CEBC0011A237 /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
 		0F382B9C2858947100D68D57 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
@@ -404,6 +408,15 @@
 				0F2E7F192861BAC10020263E /* AppendView.swift */,
 			);
 			path = Append;
+			sourceTree = "<group>";
+		};
+		0F2FB94B2871848E00C0A9EC /* SpecifyingShedulers */ = {
+			isa = PBXGroup;
+			children = (
+				0F2FB94C2871865A00C0A9EC /* ReceiveOnViewModel.swift */,
+				0F2FB94E2871866D00C0A9EC /* ReceiveOnView.swift */,
+			);
+			path = SpecifyingShedulers;
 			sourceTree = "<group>";
 		};
 		0F330BA22858CEC20011A237 /* Future */ = {
@@ -817,6 +830,7 @@
 				0FB591DB2868C89C007F5FB8 /* Mapping */,
 				0FA8C0552869B9F300444F51 /* Reducing */,
 				0FBFDD19286F6A70008EB31C /* Selecting */,
+				0F2FB94B2871848E00C0A9EC /* SpecifyingShedulers */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -1170,6 +1184,7 @@
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
 				0F2BD85328682F91001A7148 /* TryCompactMapView.swift in Sources */,
 				0FB591E22868D545007F5FB8 /* TryMapView.swift in Sources */,
+				0F2FB94D2871865A00C0A9EC /* ReceiveOnViewModel.swift in Sources */,
 				0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */,
 				0F002199285E4F1300B2719E /* TryAllSatisfyView.swift in Sources */,
 				0F3BD1502865E657001E6932 /* ThrottleViewModel.swift in Sources */,
@@ -1197,6 +1212,7 @@
 				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F3BD1522865E667001E6932 /* ThrottleView.swift in Sources */,
+				0F2FB94F2871866D00C0A9EC /* ReceiveOnView.swift in Sources */,
 				0FBFDD22286F6E02008EB31C /* FirstWhereViewModel.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
