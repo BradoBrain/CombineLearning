@@ -5,9 +5,9 @@ In Combine we have a three main topics: Publishers, Operators and Subscribers.
 
 Current status: 
 
-- [x] Publishers
+:white_check_mark: Publishers
 
-- [x] Operators
+:white_check_mark: Operators
 
 Subscribers - in process
 
