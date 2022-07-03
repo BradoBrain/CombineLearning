@@ -113,6 +113,8 @@
 		0FC91556286DE64F00500C73 /* IgnoreOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91555286DE64F00500C73 /* IgnoreOutputView.swift */; };
 		0FC91559286DECCD00500C73 /* ReduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91558286DECCD00500C73 /* ReduceView.swift */; };
 		0FC9155B286DECDC00500C73 /* ReduceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9155A286DECDC00500C73 /* ReduceViewModel.swift */; };
+		0FCE2B9428719511005D5A62 /* SubscribeOnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE2B9328719511005D5A62 /* SubscribeOnViewModel.swift */; };
+		0FCE2B9628719520005D5A62 /* SubscribeOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE2B9528719520005D5A62 /* SubscribeOnView.swift */; };
 		0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */; };
 		0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */; };
 		0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */; };
@@ -245,6 +247,8 @@
 		0FC91555286DE64F00500C73 /* IgnoreOutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreOutputView.swift; sourceTree = "<group>"; };
 		0FC91558286DECCD00500C73 /* ReduceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceView.swift; sourceTree = "<group>"; };
 		0FC9155A286DECDC00500C73 /* ReduceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceViewModel.swift; sourceTree = "<group>"; };
+		0FCE2B9328719511005D5A62 /* SubscribeOnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOnViewModel.swift; sourceTree = "<group>"; };
+		0FCE2B9528719520005D5A62 /* SubscribeOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOnView.swift; sourceTree = "<group>"; };
 		0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubView.swift; sourceTree = "<group>"; };
 		0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubViewModel.swift; sourceTree = "<group>"; };
 		0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
@@ -413,8 +417,8 @@
 		0F2FB94B2871848E00C0A9EC /* SpecifyingShedulers */ = {
 			isa = PBXGroup;
 			children = (
-				0F2FB94C2871865A00C0A9EC /* ReceiveOnViewModel.swift */,
-				0F2FB94E2871866D00C0A9EC /* ReceiveOnView.swift */,
+				0FCE2B92287194F6005D5A62 /* ReceiveOn */,
+				0FCE2B9728719550005D5A62 /* SubscribeOn */,
 			);
 			path = SpecifyingShedulers;
 			sourceTree = "<group>";
@@ -919,6 +923,24 @@
 			path = Reduce;
 			sourceTree = "<group>";
 		};
+		0FCE2B92287194F6005D5A62 /* ReceiveOn */ = {
+			isa = PBXGroup;
+			children = (
+				0F2FB94C2871865A00C0A9EC /* ReceiveOnViewModel.swift */,
+				0F2FB94E2871866D00C0A9EC /* ReceiveOnView.swift */,
+			);
+			path = ReceiveOn;
+			sourceTree = "<group>";
+		};
+		0FCE2B9728719550005D5A62 /* SubscribeOn */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE2B9328719511005D5A62 /* SubscribeOnViewModel.swift */,
+				0FCE2B9528719520005D5A62 /* SubscribeOnView.swift */,
+			);
+			path = SubscribeOn;
+			sourceTree = "<group>";
+		};
 		0FD2013C285B1DBD000072FD /* PassthroughSubject */ = {
 			isa = PBXGroup;
 			children = (
@@ -1207,12 +1229,14 @@
 				0F0404A228605E650004A781 /* MaxViewModel.swift in Sources */,
 				0FDF358E28630BB100CEF357 /* PrependViewModel.swift in Sources */,
 				0F9568682868975900C9056A /*  TryRemoveDuplicatesViewModel.swift in Sources */,
+				0FCE2B9628719520005D5A62 /* SubscribeOnView.swift in Sources */,
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
 				0FB4F755286C2061006B9A35 /* CollectView.swift in Sources */,
 				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F3BD1522865E667001E6932 /* ThrottleView.swift in Sources */,
 				0F2FB94F2871866D00C0A9EC /* ReceiveOnView.swift in Sources */,
+				0FCE2B9428719511005D5A62 /* SubscribeOnViewModel.swift in Sources */,
 				0FBFDD22286F6E02008EB31C /* FirstWhereViewModel.swift in Sources */,
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
