@@ -1,7 +1,7 @@
 # CombineLearning
 
 Repo for adding materials of learning Combine framework. 
-In Combine we have a three main topics: Publishers, Operators and Subscribers.
+There are three main topic in Combine: Publishers, Operators and Subscribers.
 
 Current status: 
 
@@ -9,7 +9,7 @@ Current status:
 
 :white_check_mark: Operators
 
-Subscribers - in process
+:black_square_button: Subscribers - in process
 
 
 - <details>
