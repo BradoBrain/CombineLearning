@@ -3,11 +3,13 @@
 Repo for adding materials of learning Combine framework. 
 In Combine we have a three main topics: Publishers, Operators and Subscribers.
 
-Status of the repo: 
+Current status: 
 
-The main part of publishers - done
+Publishers - - [x]
 
-Operators in process ...
+Operators - - [x]
+
+Subscribers - in process
 
 
 
@@ -33,7 +35,7 @@ Timer - publisher repeatedly publish current date and time with interval that yo
 
 DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
 
-**Operators**
+- [x] **Operators**
 
 // Operators to check matching criteria
 
@@ -163,8 +165,7 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .receive(on: ) - operator that give us to specify thread and how work is done.
 
-
-
+.subscribe(on: ) - operator that give us to suggest that work be done in the background for upstream publishers and operators. “Suggest” because subscribe(on:) does NOT guarantee that the work in operators will actually be performed in the background.
 
 **Subscribers**
 
