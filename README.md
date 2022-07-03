@@ -13,7 +13,8 @@ Subscribers - in process
 
 
 <details>
-<summary> **Publishers** </summary>
+<summary> Publishers </summary>
+  
 @Published - property wrapper with ObservableObject to notify any view that @Published has been changed. We use it with @StateObject.
 
 Empty - publisher that publishes nothing. Immediately or fail immediately (or keep pipeline open without complete).
@@ -33,12 +34,13 @@ Sequence - publisher that sends elements of a collection through a pipeline one 
 Timer - publisher repeatedly publish current date and time with interval that you set up. You also could attach operators to run some code at an interval.
 
 DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
+  
 </details>
 
 
 
-
-- [x] **Operators**
+</details>
+<summary> Operators </summary>
 
 // Operators to check matching criteria
 
@@ -170,10 +172,14 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .subscribe(on: ) - operator that give us to suggest that work be done in the background for upstream publishers and operators. “Suggest” because subscribe(on:) does NOT guarantee that the work in operators will actually be performed in the background.
 
-**Subscribers**
+</details>
+
+</details>
+<summary> Subscribers </summary>
 
 .assign(to:) - simple subscriber to write value from operators to property.
 
 .store(in:) - uses instead assign(to:) when we need to add cancel() funcrion to more than one property (multiCancellable pipline). 
 
 .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy.
+</details>
