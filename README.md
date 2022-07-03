@@ -35,6 +35,8 @@ Timer - publisher repeatedly publish current date and time with interval that yo
 
 DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
   
+  
+<details> 
 <summary> Operators </summary>
 
 // Operators to check matching criteria
@@ -166,7 +168,10 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 .receive(on: ) - operator that give us to specify thread and how work is done.
 
 .subscribe(on: ) - operator that give us to suggest that work be done in the background for upstream publishers and operators. “Suggest” because subscribe(on:) does NOT guarantee that the work in operators will actually be performed in the background.
-
+  <details> 
+    
+    
+<details> 
 <summary> Subscribers </summary>
 
 .assign(to:) - simple subscriber to write value from operators to property.
