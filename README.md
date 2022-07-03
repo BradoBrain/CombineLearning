@@ -25,6 +25,9 @@ Subscribers - in process
 - Timer - publisher repeatedly publish current date and time with interval that you set up. You also could attach operators to run some code at an interval.
 - DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
   
+</details>
+
+  
 - <details><summary>Operators</summary>
 
 // Operators to check matching criteria
@@ -167,6 +170,6 @@ Subscribers - in process
 
 .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy.
     
-</details>
+
 </details>
 </details>
