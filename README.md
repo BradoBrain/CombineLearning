@@ -167,7 +167,4 @@ Subscribers - in process
 .store(in:) - uses instead assign(to:) when we need to add cancel() funcrion to more than one property (multiCancellable pipline). 
 
 .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy.
-    
 
-</details>
-</details>
