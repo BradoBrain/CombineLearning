@@ -167,7 +167,6 @@ Subscribers - in process
 
 .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy.
     
-
 </details>
 </details>
 </details>
