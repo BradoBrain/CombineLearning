@@ -33,7 +33,9 @@ Sequence - publisher that sends elements of a collection through a pipeline one 
 Timer - publisher repeatedly publish current date and time with interval that you set up. You also could attach operators to run some code at an interval.
 
 DataTaskPublisher - publisher for URLSession (it can send a results of a URL API down a pipeline and assign results to a property).
-  
+
+</details>
+
   
 - <details><summary>Operators</summary>
 
@@ -166,6 +168,8 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 .receive(on: ) - operator that give us to specify thread and how work is done.
 
 .subscribe(on: ) - operator that give us to suggest that work be done in the background for upstream publishers and operators. “Suggest” because subscribe(on:) does NOT guarantee that the work in operators will actually be performed in the background.
+
+</details>
     
     
 - <details><summary>Subscribers</summary>
@@ -176,7 +180,5 @@ DataTaskPublisher - publisher for URLSession (it can send a results of a URL API
 
 .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy.
     
-</details>
-</details>
 </details>
     
