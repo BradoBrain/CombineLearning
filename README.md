@@ -176,7 +176,7 @@ Current status:
 - <details>
   <summary>Subscribers</summary>
 
-  - .assign(to:) - simple subscriber to write value from operators to property.
+  - .assign(to:) - simple subscriber to write value from operators to property. It gets value and directly assigns it to a @Publisher property. It works with pulished property.
 
   - .store(in:) - uses instead assign(to:) when we need to add cancel() funcrion to more than one property (multiCancellable pipline). 
 
