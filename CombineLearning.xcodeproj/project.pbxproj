@@ -115,6 +115,8 @@
 		0FC9155B286DECDC00500C73 /* ReduceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9155A286DECDC00500C73 /* ReduceViewModel.swift */; };
 		0FCE2B9428719511005D5A62 /* SubscribeOnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE2B9328719511005D5A62 /* SubscribeOnViewModel.swift */; };
 		0FCE2B9628719520005D5A62 /* SubscribeOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE2B9528719520005D5A62 /* SubscribeOnView.swift */; };
+		0FCF0E552872D83900C2D42A /* AssignToViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF0E542872D83900C2D42A /* AssignToViewModel.swift */; };
+		0FCF0E572872D84C00C2D42A /* AssignToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF0E562872D84C00C2D42A /* AssignToView.swift */; };
 		0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */; };
 		0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */; };
 		0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */; };
@@ -249,6 +251,8 @@
 		0FC9155A286DECDC00500C73 /* ReduceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceViewModel.swift; sourceTree = "<group>"; };
 		0FCE2B9328719511005D5A62 /* SubscribeOnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOnViewModel.swift; sourceTree = "<group>"; };
 		0FCE2B9528719520005D5A62 /* SubscribeOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOnView.swift; sourceTree = "<group>"; };
+		0FCF0E542872D83900C2D42A /* AssignToViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignToViewModel.swift; sourceTree = "<group>"; };
+		0FCF0E562872D84C00C2D42A /* AssignToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignToView.swift; sourceTree = "<group>"; };
 		0FD2013D285B1DF4000072FD /* PassthroughSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubView.swift; sourceTree = "<group>"; };
 		0FD2013F285B1E08000072FD /* PassthroughSubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubViewModel.swift; sourceTree = "<group>"; };
 		0FDEEDBD28587E3D00165988 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
@@ -662,6 +666,15 @@
 			path = ReplaceEmpty;
 			sourceTree = "<group>";
 		};
+		0F9E1A892873004100957DD6 /* AssignTo */ = {
+			isa = PBXGroup;
+			children = (
+				0FCF0E542872D83900C2D42A /* AssignToViewModel.swift */,
+				0FCF0E562872D84C00C2D42A /* AssignToView.swift */,
+			);
+			path = AssignTo;
+			sourceTree = "<group>";
+		};
 		0FA8C04A2869A22500444F51 /* SetFailureType */ = {
 			isa = PBXGroup;
 			children = (
@@ -842,6 +855,7 @@
 		0FBBDB8A28572B46006C3310 /* Subscriber */ = {
 			isa = PBXGroup;
 			children = (
+				0F9E1A892873004100957DD6 /* AssignTo */,
 			);
 			path = Subscriber;
 			sourceTree = "<group>";
@@ -1143,6 +1157,7 @@
 				0FA8C04C2869ACFE00444F51 /* ScanViewModel.swift in Sources */,
 				0F945191285DC9D9001C300C /* DataTaskPubImageView.swift in Sources */,
 				0FB264162870C38C00178FF7 /* OutputAtViewModel.swift in Sources */,
+				0FCF0E572872D84C00C2D42A /* AssignToView.swift in Sources */,
 				0FB2641D2870C8B800178FF7 /* OutputInView.swift in Sources */,
 				0F0404AD28607D900004A781 /* TryMaxByView.swift in Sources */,
 				0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */,
@@ -1205,6 +1220,7 @@
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
 				0F2BD85328682F91001A7148 /* TryCompactMapView.swift in Sources */,
+				0FCF0E552872D83900C2D42A /* AssignToViewModel.swift in Sources */,
 				0FB591E22868D545007F5FB8 /* TryMapView.swift in Sources */,
 				0F2FB94D2871865A00C0A9EC /* ReceiveOnViewModel.swift in Sources */,
 				0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */,
