@@ -11,10 +11,13 @@ struct AssignToView: View {
     @StateObject var vm = AssignToViewModel()
     
     var body: some View {
-        Text(vm.greeting)
-            .onAppear {
-                vm.fetch()
-            }
+        VStack {
+            Text(vm.greeting)
+            
+            TextField("Enter a city name", text: $vm.city)
+                .padding()
+                .textFieldStyle(.roundedBorder)
+        }
     }
 }
 

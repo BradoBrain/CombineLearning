@@ -43,6 +43,8 @@
 		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
 		0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */; };
 		0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441F286458ED00AF75BB /* DelayForView.swift */; };
+		0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F770A7D287580B800529EB1 /* SinkViewModel.swift */; };
+		0F770A80287580C200529EB1 /* SinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F770A7F287580C200529EB1 /* SinkView.swift */; };
 		0F7AF72228686FF2003CC6CA /* TryFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF72128686FF2003CC6CA /* TryFilterViewModel.swift */; };
 		0F7AF72428686FFE003CC6CA /* TryFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF72328686FFE003CC6CA /* TryFilterView.swift */; };
 		0F7AF727286875A8003CC6CA /* RemoveDuplicatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF726286875A8003CC6CA /* RemoveDuplicatesView.swift */; };
@@ -178,6 +180,8 @@
 		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
 		0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForViewModel.swift; sourceTree = "<group>"; };
 		0F5A441F286458ED00AF75BB /* DelayForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForView.swift; sourceTree = "<group>"; };
+		0F770A7D287580B800529EB1 /* SinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkViewModel.swift; sourceTree = "<group>"; };
+		0F770A7F287580C200529EB1 /* SinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkView.swift; sourceTree = "<group>"; };
 		0F7AF72128686FF2003CC6CA /* TryFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFilterViewModel.swift; sourceTree = "<group>"; };
 		0F7AF72328686FFE003CC6CA /* TryFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFilterView.swift; sourceTree = "<group>"; };
 		0F7AF726286875A8003CC6CA /* RemoveDuplicatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesView.swift; sourceTree = "<group>"; };
@@ -502,6 +506,15 @@
 				0F5A441F286458ED00AF75BB /* DelayForView.swift */,
 			);
 			path = DelayFor;
+			sourceTree = "<group>";
+		};
+		0F770A81287580F800529EB1 /* Sink */ = {
+			isa = PBXGroup;
+			children = (
+				0F770A7D287580B800529EB1 /* SinkViewModel.swift */,
+				0F770A7F287580C200529EB1 /* SinkView.swift */,
+			);
+			path = Sink;
 			sourceTree = "<group>";
 		};
 		0F7AF72528687004003CC6CA /* TryFilter */ = {
@@ -856,6 +869,7 @@
 			isa = PBXGroup;
 			children = (
 				0F9E1A892873004100957DD6 /* AssignTo */,
+				0F770A81287580F800529EB1 /* Sink */,
 			);
 			path = Subscriber;
 			sourceTree = "<group>";
@@ -1190,6 +1204,7 @@
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */,
 				0FBFDD20286F6DED008EB31C /* FirstWhereView.swift in Sources */,
+				0F770A80287580C200529EB1 /* SinkView.swift in Sources */,
 				0F0404A828606A6E0004A781 /* MaxByViewModel.swift in Sources */,
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0FC91559286DECCD00500C73 /* ReduceView.swift in Sources */,
@@ -1231,6 +1246,7 @@
 				0F9568662868974000C9056A /*  TryRemoveDuplicatesView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
 				0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */,
+				0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */,
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,

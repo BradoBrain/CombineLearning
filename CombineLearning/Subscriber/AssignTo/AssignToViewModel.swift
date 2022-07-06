@@ -11,17 +11,13 @@ import Combine
 // .assign(to: ) - subscriber that get value and directly assigns it to a @Publisher property. It works with pulished property.
 
 class AssignToViewModel: ObservableObject {
-    @Published var city = ""
+    @Published var city = "Kyiv"
     @Published var greeting = ""
     
     init() {
         $city // Every time when the city is changed, the greeting will be automaticly updated
             .map { self.greetingCity(with: $0) }
             .assign(to: &$greeting)
-    }
-    
-    func fetch() {
-        city = "Kyiv"
     }
     
     func greetingCity(with city: String) -> String {
