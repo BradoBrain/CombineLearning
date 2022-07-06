@@ -180,6 +180,6 @@ Current status:
 
   - .store(in:) - uses instead assign(to:) when we need to add cancel() funcrion to more than one property (multiCancellable pipline). 
 
-  - .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy.
+  - .sink - subscriber returns us AnyCancellable class which has one function in its protocol Cancellable - cancel(). We can stop pipeline manualy. The subscriber that allow us to just receive values and do what we want with them. We also can get completes and error.
 
 </details>
