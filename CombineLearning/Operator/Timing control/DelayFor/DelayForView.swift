@@ -26,7 +26,7 @@ struct DelayForView: View {
             Button("Fetch Data") { vm.fetch() }
             
             if vm.isFetched {
-                ProgressView()
+                CustomProgressView()
             } else {
                 Text(vm.data)
             }
@@ -42,7 +42,7 @@ struct DelayForView_Previews: PreviewProvider {
     }
 }
 
-struct ProgressView: View {
+struct CustomProgressView: View {
     @State var isProgress1 = false
     @State var isProgress2 = false
     @State var isProgress3 = false
