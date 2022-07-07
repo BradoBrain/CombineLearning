@@ -111,6 +111,8 @@
 		0FBFDD1D286F6AAB008EB31C /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFDD1C286F6AAB008EB31C /* FirstView.swift */; };
 		0FBFDD20286F6DED008EB31C /* FirstWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFDD1F286F6DED008EB31C /* FirstWhereView.swift */; };
 		0FBFDD22286F6E02008EB31C /* FirstWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFDD21286F6E02008EB31C /* FirstWhereViewModel.swift */; };
+		0FC34C552876CE0100832003 /* PropertiesAndFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC34C542876CE0100832003 /* PropertiesAndFunction.swift */; };
+		0FC34C572876D6CD00832003 /* AnyPublisherUnderstanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC34C562876D6CD00832003 /* AnyPublisherUnderstanding.swift */; };
 		0FC9154F286DDCC100500C73 /* CollectTimeOrCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9154E286DDCC100500C73 /* CollectTimeOrCountView.swift */; };
 		0FC91551286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91550286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift */; };
 		0FC91554286DE63900500C73 /* IgnoreOutputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC91553286DE63900500C73 /* IgnoreOutputViewModel.swift */; };
@@ -251,6 +253,8 @@
 		0FBFDD1C286F6AAB008EB31C /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		0FBFDD1F286F6DED008EB31C /* FirstWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWhereView.swift; sourceTree = "<group>"; };
 		0FBFDD21286F6E02008EB31C /* FirstWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWhereViewModel.swift; sourceTree = "<group>"; };
+		0FC34C542876CE0100832003 /* PropertiesAndFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesAndFunction.swift; sourceTree = "<group>"; };
+		0FC34C562876D6CD00832003 /* AnyPublisherUnderstanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyPublisherUnderstanding.swift; sourceTree = "<group>"; };
 		0FC9154E286DDCC100500C73 /* CollectTimeOrCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTimeOrCountView.swift; sourceTree = "<group>"; };
 		0FC91550286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectTimeOrCountViewModel.swift; sourceTree = "<group>"; };
 		0FC91553286DE63900500C73 /* IgnoreOutputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreOutputViewModel.swift; sourceTree = "<group>"; };
@@ -825,6 +829,7 @@
 				0FBBDB8828572B12006C3310 /* Publisher */,
 				0FBBDB8928572B2C006C3310 /* Operator */,
 				0FBBDB8A28572B46006C3310 /* Subscriber */,
+				0FC34C532876CDCB00832003 /* Additional */,
 				0FBBDB7E285728F2006C3310 /* Assets.xcassets */,
 				0FBBDB80285728F2006C3310 /* Preview Content */,
 			);
@@ -928,6 +933,15 @@
 				0FBFDD1F286F6DED008EB31C /* FirstWhereView.swift */,
 			);
 			path = FirstWhere;
+			sourceTree = "<group>";
+		};
+		0FC34C532876CDCB00832003 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				0FC34C542876CE0100832003 /* PropertiesAndFunction.swift */,
+				0FC34C562876D6CD00832003 /* AnyPublisherUnderstanding.swift */,
+			);
+			path = Additional;
 			sourceTree = "<group>";
 		};
 		0FC91552286DDCE000500C73 /* CollectTimeOrCount */ = {
@@ -1259,6 +1273,7 @@
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
 				0F3BD1572865F05C001E6932 /* TimeOutViewModel.swift in Sources */,
+				0FC34C552876CE0100832003 /* PropertiesAndFunction.swift in Sources */,
 				0FB591E92868DB6D007F5FB8 /* ReplaceNilView.swift in Sources */,
 				0F382B9F2858948200D68D57 /* FailViewModel.swift in Sources */,
 				0FDF35842862FC8200CEF357 /* DropFirstCountViewModel.swift in Sources */,
@@ -1271,6 +1286,7 @@
 				0F9568682868975900C9056A /*  TryRemoveDuplicatesViewModel.swift in Sources */,
 				0FCE2B9628719520005D5A62 /* SubscribeOnView.swift in Sources */,
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
+				0FC34C572876D6CD00832003 /* AnyPublisherUnderstanding.swift in Sources */,
 				0FB4F755286C2061006B9A35 /* CollectView.swift in Sources */,
 				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
