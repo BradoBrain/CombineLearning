@@ -43,16 +43,3 @@ class AnyPublisherViewModelUnderstanding: ObservableObject {
     }
 }
 
-struct AnyPublisherUnderstanding: View {
-    @StateObject var vm = AnyPublisherViewModelUnderstanding()
-    
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct AnyPublisher_Previews: PreviewProvider {
-    static var previews: some View {
-        AnyPublisherUnderstanding()
-    }
-}
