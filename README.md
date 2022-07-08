@@ -169,6 +169,12 @@ Current status:
     - .receive(on: ) - operator that give us to specify thread and how work is done.
 
     - .subscribe(on: ) - operator that give us to suggest that work be done in the background for upstream publishers and operators. “Suggest” because subscribe(on:) does NOT guarantee that the work in operators will actually be performed in the background.
+    
+  - Organization
+  
+    - AnyPublisher object can represent, well, any publisher or operator. (Operators are a form of publishers.) When you create pipelines and want to store them in properties or return them from functions, their resulting types can bet pretty big because you will find they are nested. You can use AnyPublisher to turn these seemingly complex types into a simpler type.
+  
+    - .combineLastest - operator we can connect two or more pipelines and then use a closure to process the latest data received from each publisher in some way. There is also a .combineLatest to connect 3 or even 4 pipelines together. You will still have just one pipeline after connecting all of the publishers.
 
 </details>
     
