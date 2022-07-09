@@ -43,6 +43,8 @@
 		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
 		0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */; };
 		0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441F286458ED00AF75BB /* DelayForView.swift */; };
+		0F6F318F287985B000D58DE9 /* FlatMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F318E287985B000D58DE9 /* FlatMapViewModel.swift */; };
+		0F6F3191287985BD00D58DE9 /* FlatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F3190287985BD00D58DE9 /* FlatMapView.swift */; };
 		0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F770A7D287580B800529EB1 /* SinkViewModel.swift */; };
 		0F770A80287580C200529EB1 /* SinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F770A7F287580C200529EB1 /* SinkView.swift */; };
 		0F770A8328759EDC00529EB1 /* SinkCompletionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F770A8228759EDC00529EB1 /* SinkCompletionViewModel.swift */; };
@@ -187,6 +189,8 @@
 		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
 		0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForViewModel.swift; sourceTree = "<group>"; };
 		0F5A441F286458ED00AF75BB /* DelayForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForView.swift; sourceTree = "<group>"; };
+		0F6F318E287985B000D58DE9 /* FlatMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapViewModel.swift; sourceTree = "<group>"; };
+		0F6F3190287985BD00D58DE9 /* FlatMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapView.swift; sourceTree = "<group>"; };
 		0F770A7D287580B800529EB1 /* SinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkViewModel.swift; sourceTree = "<group>"; };
 		0F770A7F287580C200529EB1 /* SinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkView.swift; sourceTree = "<group>"; };
 		0F770A8228759EDC00529EB1 /* SinkCompletionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkCompletionViewModel.swift; sourceTree = "<group>"; };
@@ -522,6 +526,15 @@
 			path = DelayFor;
 			sourceTree = "<group>";
 		};
+		0F6F3192287985C500D58DE9 /* FlatMap */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F318E287985B000D58DE9 /* FlatMapViewModel.swift */,
+				0F6F3190287985BD00D58DE9 /* FlatMapView.swift */,
+			);
+			path = FlatMap;
+			sourceTree = "<group>";
+		};
 		0F770A81287580F800529EB1 /* Sink */ = {
 			isa = PBXGroup;
 			children = (
@@ -816,6 +829,7 @@
 			children = (
 				0FC34C532876CDCB00832003 /* Additional */,
 				0FB86AB228783FB000DF10EC /* CombineLatest */,
+				0F6F3192287985C500D58DE9 /* FlatMap */,
 			);
 			path = Organization;
 			sourceTree = "<group>";
@@ -1282,6 +1296,7 @@
 				0FB264182870C39C00178FF7 /* OutputAtView.swift in Sources */,
 				0FB2641B2870C8A900178FF7 /* OutputInViewModel.swift in Sources */,
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
+				0F6F318F287985B000D58DE9 /* FlatMapViewModel.swift in Sources */,
 				0F945199285DDF7E001C300C /* AllSatisfyView.swift in Sources */,
 				0F2BD85328682F91001A7148 /* TryCompactMapView.swift in Sources */,
 				0FCF0E552872D83900C2D42A /* AssignToViewModel.swift in Sources */,
@@ -1325,6 +1340,7 @@
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
 				0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */,
+				0F6F3191287985BD00D58DE9 /* FlatMapView.swift in Sources */,
 				0F0404AB28607D810004A781 /* TryMaxByViewModel.swift in Sources */,
 				0F3BD1552865F04A001E6932 /* TimeOutView.swift in Sources */,
 				0F0404A628606A5E0004A781 /* MaxByView.swift in Sources */,
