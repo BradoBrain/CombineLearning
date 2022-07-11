@@ -181,6 +181,8 @@ Current status:
     - .merge - operator that give us to publish the same type of values from different pipelines to the operator and sends it downstream by one pipeline.
     
     - .switchLatest - operator that give us to publishes just latest publisher and cancel others publishers (for example like .flatMap). It looks like .combineLatest but for publishers.
+    
+    - .zip - operator that connect two pipelines and then uses a clouser to process the data. There are also .zip3, .zip4 to connect more pipelines.
 
 </details>
     
