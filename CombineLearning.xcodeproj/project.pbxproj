@@ -43,6 +43,8 @@
 		0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */; };
 		0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */; };
 		0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A441F286458ED00AF75BB /* DelayForView.swift */; };
+		0F5EA0FB287C04390054A0C7 /* MergeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EA0FA287C04390054A0C7 /* MergeViewModel.swift */; };
+		0F5EA0FD287C04430054A0C7 /* MergeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EA0FC287C04430054A0C7 /* MergeView.swift */; };
 		0F6F318F287985B000D58DE9 /* FlatMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F318E287985B000D58DE9 /* FlatMapViewModel.swift */; };
 		0F6F3191287985BD00D58DE9 /* FlatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F3190287985BD00D58DE9 /* FlatMapView.swift */; };
 		0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F770A7D287580B800529EB1 /* SinkViewModel.swift */; };
@@ -189,6 +191,8 @@
 		0F5A441A286454CE00AF75BB /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
 		0F5A441D286458DC00AF75BB /* DelayForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForViewModel.swift; sourceTree = "<group>"; };
 		0F5A441F286458ED00AF75BB /* DelayForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayForView.swift; sourceTree = "<group>"; };
+		0F5EA0FA287C04390054A0C7 /* MergeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeViewModel.swift; sourceTree = "<group>"; };
+		0F5EA0FC287C04430054A0C7 /* MergeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeView.swift; sourceTree = "<group>"; };
 		0F6F318E287985B000D58DE9 /* FlatMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapViewModel.swift; sourceTree = "<group>"; };
 		0F6F3190287985BD00D58DE9 /* FlatMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapView.swift; sourceTree = "<group>"; };
 		0F770A7D287580B800529EB1 /* SinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinkViewModel.swift; sourceTree = "<group>"; };
@@ -526,6 +530,15 @@
 			path = DelayFor;
 			sourceTree = "<group>";
 		};
+		0F5EA0FE287C04490054A0C7 /* Merge */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EA0FA287C04390054A0C7 /* MergeViewModel.swift */,
+				0F5EA0FC287C04430054A0C7 /* MergeView.swift */,
+			);
+			path = Merge;
+			sourceTree = "<group>";
+		};
 		0F6F3192287985C500D58DE9 /* FlatMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -830,6 +843,7 @@
 				0FC34C532876CDCB00832003 /* Additional */,
 				0FB86AB228783FB000DF10EC /* CombineLatest */,
 				0F6F3192287985C500D58DE9 /* FlatMap */,
+				0F5EA0FE287C04490054A0C7 /* Merge */,
 			);
 			path = Organization;
 			sourceTree = "<group>";
@@ -1271,6 +1285,7 @@
 				0FBBDB7D285728F0006C3310 /* ContentView.swift in Sources */,
 				0FC91559286DECCD00500C73 /* ReduceView.swift in Sources */,
 				0F87026128646B1400709E5A /* MeasureIntervalViewModel.swift in Sources */,
+				0F5EA0FB287C04390054A0C7 /* MergeViewModel.swift in Sources */,
 				0F8BE61D285C72BC00AAE827 /* TimerView.swift in Sources */,
 				0FA8C04E2869AD0B00444F51 /* ScanView.swift in Sources */,
 				0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */,
@@ -1331,6 +1346,7 @@
 				0F86F074285B28C600369D99 /* SequenceViewModel.swift in Sources */,
 				0FC34C572876D6CD00832003 /* AnyPublisherUnderstanding.swift in Sources */,
 				0FB4F755286C2061006B9A35 /* CollectView.swift in Sources */,
+				0F5EA0FD287C04430054A0C7 /* MergeView.swift in Sources */,
 				0F11DE8D2861C821000DB83F /* DropFirstViewModel.swift in Sources */,
 				0F382B9D2858947100D68D57 /* FailView.swift in Sources */,
 				0F3BD1522865E667001E6932 /* ThrottleView.swift in Sources */,

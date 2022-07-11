@@ -30,7 +30,9 @@ class FlatMapViewModel: ObservableObject {
             .map { name -> (String, URL) in
                 (name, URL(string: "https://api.genderize.io/?name=\(name)")!)
             }
-            .flatMap { (name, url) -> AnyPublisher<FamilyResult, Never> in
+        //            .flatMap { (name, url) -> AnyPublisher<FamilyResult, Never> in
+            .flatMap(maxPublishers: Subscribers.Demand.max(1)) { (name, url) -> AnyPublisher<FamilyResult, Never> in
+                // with max(value) we create conctraint for number of publishing value
                 URLSession.shared.dataTaskPublisher(for: url)
                     .map { $0.data }
                     .decode(type: FamilyResult.self, decoder: JSONDecoder())
