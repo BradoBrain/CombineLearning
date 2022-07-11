@@ -179,6 +179,8 @@ Current status:
     - .flatMap - operator that give us to have publisher withing a publisher.
     
     - .merge - operator that give us to publish the same type of values from different pipelines to the operator and sends it downstream by one pipeline.
+    
+    - .switchLatest - operator that give us to publishes just latest publisher and cancel others publishers (for example like .flatMap). It looks like .combineLatest but for publishers.
 
 </details>
     
