@@ -15,7 +15,7 @@ class MergeViewModel: ObservableObject {
     
     func fetch() {
         let names = ["Artem", "Demid", "Oksana", "Busya"]
-        let favoriteColors = ["blue", "Blue", "green", "clear"]
+        let favoriteColors = ["blue", "blue", "green", "clear"]
         
         _ = names.publisher
             .merge(with: favoriteColors.publisher)

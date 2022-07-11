@@ -55,6 +55,8 @@
 		0F7AF72428686FFE003CC6CA /* TryFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF72328686FFE003CC6CA /* TryFilterView.swift */; };
 		0F7AF727286875A8003CC6CA /* RemoveDuplicatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF726286875A8003CC6CA /* RemoveDuplicatesView.swift */; };
 		0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */; };
+		0F7F3382287C08F800307D50 /* SwitchToLatestViewMOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */; };
+		0F7F3384287C090800307D50 /* SwitchToLatestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3383287C090800307D50 /* SwitchToLatestView.swift */; };
 		0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C128703D8400B70ECB /* LastViewModel.swift */; };
 		0F8188C42870400300B70ECB /* LastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C32870400300B70ECB /* LastView.swift */; };
 		0F8188C7287043BD00B70ECB /* LastWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C6287043BD00B70ECB /* LastWhereView.swift */; };
@@ -203,6 +205,8 @@
 		0F7AF72328686FFE003CC6CA /* TryFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryFilterView.swift; sourceTree = "<group>"; };
 		0F7AF726286875A8003CC6CA /* RemoveDuplicatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesView.swift; sourceTree = "<group>"; };
 		0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesViewModel.swift; sourceTree = "<group>"; };
+		0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestViewMOdel.swift; sourceTree = "<group>"; };
+		0F7F3383287C090800307D50 /* SwitchToLatestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestView.swift; sourceTree = "<group>"; };
 		0F8188C128703D8400B70ECB /* LastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewModel.swift; sourceTree = "<group>"; };
 		0F8188C32870400300B70ECB /* LastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastView.swift; sourceTree = "<group>"; };
 		0F8188C6287043BD00B70ECB /* LastWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastWhereView.swift; sourceTree = "<group>"; };
@@ -577,6 +581,15 @@
 			path = RemoveDuplicates;
 			sourceTree = "<group>";
 		};
+		0F7F3385287C090F00307D50 /* SwitchToLatest */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */,
+				0F7F3383287C090800307D50 /* SwitchToLatestView.swift */,
+			);
+			path = SwitchToLatest;
+			sourceTree = "<group>";
+		};
 		0F8188C52870400900B70ECB /* Last */ = {
 			isa = PBXGroup;
 			children = (
@@ -844,6 +857,7 @@
 				0FB86AB228783FB000DF10EC /* CombineLatest */,
 				0F6F3192287985C500D58DE9 /* FlatMap */,
 				0F5EA0FE287C04490054A0C7 /* Merge */,
+				0F7F3385287C090F00307D50 /* SwitchToLatest */,
 			);
 			path = Organization;
 			sourceTree = "<group>";
@@ -1230,6 +1244,7 @@
 				0F0404A428605E730004A781 /* MaxView.swift in Sources */,
 				0FBFDD1B286F6A99008EB31C /* FirstViewModel.swift in Sources */,
 				0F330BA12858CEBC0011A237 /* FutureView.swift in Sources */,
+				0F7F3382287C08F800307D50 /* SwitchToLatestViewMOdel.swift in Sources */,
 				0FC91551286DDCCF00500C73 /* CollectTimeOrCountViewModel.swift in Sources */,
 				0FF13EC9285F5DE30087FEDC /* CountViewModel.swift in Sources */,
 				0FB86AB12878367D00DF10EC /* CombineLatestView.swift in Sources */,
@@ -1291,6 +1306,7 @@
 				0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */,
 				0F770A8328759EDC00529EB1 /* SinkCompletionViewModel.swift in Sources */,
 				0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */,
+				0F7F3384287C090800307D50 /* SwitchToLatestView.swift in Sources */,
 				0FD20140285B1E08000072FD /* PassthroughSubViewModel.swift in Sources */,
 				0FC9155B286DECDC00500C73 /* ReduceViewModel.swift in Sources */,
 				0F5A4420286458ED00AF75BB /* DelayForView.swift in Sources */,
