@@ -177,6 +177,8 @@ Current status:
     - .combineLastest - operator we can connect two or more pipelines and then use a closure to process the latest data received from each publisher in some way. There is also a .combineLatest to connect 3 or even 4 pipelines together. You will still have just one pipeline after connecting all of the publishers.
     
     - .flatMap - operator that give us to have publisher withing a publisher.
+    
+    - .merge - operator that give us to publish the same type of values from different pipelines to the operator and sends it downstream by one pipeline.
 
 </details>
     
