@@ -160,6 +160,8 @@
 		0FF8D5A8287D569F007E3229 /* AssertNoFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5A7287D569F007E3229 /* AssertNoFailureView.swift */; };
 		0FF8D5AB287D668F007E3229 /* CatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5AA287D668F007E3229 /* CatchViewModel.swift */; };
 		0FF8D5AD287D669C007E3229 /* CatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5AC287D669C007E3229 /* CatchView.swift */; };
+		0FF8D5B0287D7D19007E3229 /* TryCatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5AF287D7D19007E3229 /* TryCatchViewModel.swift */; };
+		0FF8D5B2287D7D27007E3229 /* TryCatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -317,6 +319,8 @@
 		0FF8D5A7287D569F007E3229 /* AssertNoFailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertNoFailureView.swift; sourceTree = "<group>"; };
 		0FF8D5AA287D668F007E3229 /* CatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchViewModel.swift; sourceTree = "<group>"; };
 		0FF8D5AC287D669C007E3229 /* CatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchView.swift; sourceTree = "<group>"; };
+		0FF8D5AF287D7D19007E3229 /* TryCatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatchViewModel.swift; sourceTree = "<group>"; };
+		0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1196,6 +1200,7 @@
 			children = (
 				0FF8D5A9287D56A5007E3229 /* AssertNoFailure */,
 				0FF8D5AE287D66A2007E3229 /* Catch */,
+				0FF8D5B3287D7D2E007E3229 /* TryCatch */,
 			);
 			path = HandlingErrors;
 			sourceTree = "<group>";
@@ -1216,6 +1221,15 @@
 				0FF8D5AC287D669C007E3229 /* CatchView.swift */,
 			);
 			path = Catch;
+			sourceTree = "<group>";
+		};
+		0FF8D5B3287D7D2E007E3229 /* TryCatch */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8D5AF287D7D19007E3229 /* TryCatchViewModel.swift */,
+				0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */,
+			);
+			path = TryCatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1344,6 +1358,7 @@
 				0FF13EC2285F4E0D0087FEDC /* TryContainsWhereViewModel.swift in Sources */,
 				0FA8C0472869A21300444F51 /* SetFailureTypeView.swift in Sources */,
 				0F7AF727286875A8003CC6CA /* RemoveDuplicatesView.swift in Sources */,
+				0FF8D5B0287D7D19007E3229 /* TryCatchViewModel.swift in Sources */,
 				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */,
@@ -1395,6 +1410,7 @@
 				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
 				0F9568662868974000C9056A /*  TryRemoveDuplicatesView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
+				0FF8D5B2287D7D27007E3229 /* TryCatchView.swift in Sources */,
 				0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */,
 				0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */,
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
