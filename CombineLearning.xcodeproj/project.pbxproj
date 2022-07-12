@@ -162,6 +162,8 @@
 		0FF8D5AD287D669C007E3229 /* CatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5AC287D669C007E3229 /* CatchView.swift */; };
 		0FF8D5B0287D7D19007E3229 /* TryCatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5AF287D7D19007E3229 /* TryCatchViewModel.swift */; };
 		0FF8D5B2287D7D27007E3229 /* TryCatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */; };
+		0FF8D5B5287D8190007E3229 /* MapErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5B4287D8190007E3229 /* MapErrorViewModel.swift */; };
+		0FF8D5B7287D819D007E3229 /* MapErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5B6287D819D007E3229 /* MapErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -321,6 +323,8 @@
 		0FF8D5AC287D669C007E3229 /* CatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchView.swift; sourceTree = "<group>"; };
 		0FF8D5AF287D7D19007E3229 /* TryCatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatchViewModel.swift; sourceTree = "<group>"; };
 		0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatchView.swift; sourceTree = "<group>"; };
+		0FF8D5B4287D8190007E3229 /* MapErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapErrorViewModel.swift; sourceTree = "<group>"; };
+		0FF8D5B6287D819D007E3229 /* MapErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1201,6 +1205,7 @@
 				0FF8D5A9287D56A5007E3229 /* AssertNoFailure */,
 				0FF8D5AE287D66A2007E3229 /* Catch */,
 				0FF8D5B3287D7D2E007E3229 /* TryCatch */,
+				0FF8D5B8287D81A2007E3229 /* MapError */,
 			);
 			path = HandlingErrors;
 			sourceTree = "<group>";
@@ -1230,6 +1235,15 @@
 				0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */,
 			);
 			path = TryCatch;
+			sourceTree = "<group>";
+		};
+		0FF8D5B8287D81A2007E3229 /* MapError */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8D5B4287D8190007E3229 /* MapErrorViewModel.swift */,
+				0FF8D5B6287D819D007E3229 /* MapErrorView.swift */,
+			);
+			path = MapError;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1387,6 +1401,7 @@
 				0FA8C0532869B56100444F51 /* TryScanViewModel.swift in Sources */,
 				0FB591DD2868C8E6007F5FB8 /* MapViewModel.swift in Sources */,
 				0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */,
+				0FF8D5B7287D819D007E3229 /* MapErrorView.swift in Sources */,
 				0FF070682859D04C003B840E /* JustViewModel.swift in Sources */,
 				0F956863286890D300C9056A /* RemoveDuplicatesByView.swift in Sources */,
 				0F8188C42870400300B70ECB /* LastView.swift in Sources */,
@@ -1414,6 +1429,7 @@
 				0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */,
 				0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */,
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
+				0FF8D5B5287D8190007E3229 /* MapErrorViewModel.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
 				0FF8D5A8287D569F007E3229 /* AssertNoFailureView.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
