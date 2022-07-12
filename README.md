@@ -189,6 +189,8 @@ Current status:
     - .assertNoFailure - operator to ensure there will be no errors. If there is, the app will crash.
     
     - .catch - operator that give us to catch an error and then specify it by new publisher. The publisher into .catch must return the same type as the upstream publisher.
+    
+    - .tryCatch - operator like .catch but has option to throw an error.
 
 </details>
     
