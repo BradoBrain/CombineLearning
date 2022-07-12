@@ -183,6 +183,12 @@ Current status:
     - .switchLatest - operator that give us to publishes just latest publisher and cancel others publishers (for example like .flatMap). It looks like .combineLatest but for publishers.
     
     - .zip - operator that connect two pipelines and then uses a clouser to process the data. There are also .zip3, .zip4 to connect more pipelines.
+    
+  - Handling errors
+    
+    - .assertNoFailure - operator to ensure there will be no errors. If there is, the app will crash.
+    
+    - .catch - operator that give us to catch an error and then specify it by new publisher. The publisher into .catch must return the same type as the upstream publisher.
 
 </details>
     
