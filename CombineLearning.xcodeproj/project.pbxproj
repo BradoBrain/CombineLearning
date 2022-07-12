@@ -156,6 +156,10 @@
 		0FF13EC4285F4E1C0087FEDC /* TryContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF13EC3285F4E1C0087FEDC /* TryContainsWhereView.swift */; };
 		0FF13EC7285F5DD40087FEDC /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF13EC6285F5DD40087FEDC /* CountView.swift */; };
 		0FF13EC9285F5DE30087FEDC /* CountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF13EC8285F5DE30087FEDC /* CountViewModel.swift */; };
+		0FF8D5A5287D5678007E3229 /* AssertNoFailureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5A4287D5678007E3229 /* AssertNoFailureViewModel.swift */; };
+		0FF8D5A8287D569F007E3229 /* AssertNoFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5A7287D569F007E3229 /* AssertNoFailureView.swift */; };
+		0FF8D5AB287D668F007E3229 /* CatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5AA287D668F007E3229 /* CatchViewModel.swift */; };
+		0FF8D5AD287D669C007E3229 /* CatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5AC287D669C007E3229 /* CatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -309,6 +313,10 @@
 		0FF13EC3285F4E1C0087FEDC /* TryContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryContainsWhereView.swift; sourceTree = "<group>"; };
 		0FF13EC6285F5DD40087FEDC /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		0FF13EC8285F5DE30087FEDC /* CountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewModel.swift; sourceTree = "<group>"; };
+		0FF8D5A4287D5678007E3229 /* AssertNoFailureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertNoFailureViewModel.swift; sourceTree = "<group>"; };
+		0FF8D5A7287D569F007E3229 /* AssertNoFailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertNoFailureView.swift; sourceTree = "<group>"; };
+		0FF8D5AA287D668F007E3229 /* CatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchViewModel.swift; sourceTree = "<group>"; };
+		0FF8D5AC287D669C007E3229 /* CatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -952,6 +960,7 @@
 				0FBFDD19286F6A70008EB31C /* Selecting */,
 				0F2FB94B2871848E00C0A9EC /* SpecifyingShedulers */,
 				0FB86AAD2878363C00DF10EC /* Organization */,
+				0FF8D5A6287D5680007E3229 /* HandlingErrors */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -1182,6 +1191,33 @@
 			path = Count;
 			sourceTree = "<group>";
 		};
+		0FF8D5A6287D5680007E3229 /* HandlingErrors */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8D5A9287D56A5007E3229 /* AssertNoFailure */,
+				0FF8D5AE287D66A2007E3229 /* Catch */,
+			);
+			path = HandlingErrors;
+			sourceTree = "<group>";
+		};
+		0FF8D5A9287D56A5007E3229 /* AssertNoFailure */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8D5A4287D5678007E3229 /* AssertNoFailureViewModel.swift */,
+				0FF8D5A7287D569F007E3229 /* AssertNoFailureView.swift */,
+			);
+			path = AssertNoFailure;
+			sourceTree = "<group>";
+		};
+		0FF8D5AE287D66A2007E3229 /* Catch */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8D5AA287D668F007E3229 /* CatchViewModel.swift */,
+				0FF8D5AC287D669C007E3229 /* CatchView.swift */,
+			);
+			path = Catch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1280,6 +1316,7 @@
 				0F8BE624285C7A7000AAE827 /* DataTaskPublView.swift in Sources */,
 				0F863583287C16AB000170EC /* ZipViewModel.swift in Sources */,
 				0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */,
+				0FF8D5A5287D5678007E3229 /* AssertNoFailureViewModel.swift in Sources */,
 				0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */,
 				0F863585287C16B8000170EC /* ZipView.swift in Sources */,
 				0FC91554286DE63900500C73 /* IgnoreOutputViewModel.swift in Sources */,
@@ -1298,6 +1335,7 @@
 				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */,
 				0F00FCA3286C493A00D2CDE4 /* CollectByTimeView.swift in Sources */,
+				0FF8D5AD287D669C007E3229 /* CatchView.swift in Sources */,
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
 				0FF13EC7285F5DD40087FEDC /* CountView.swift in Sources */,
 				0F856ABE286639BC0029BF5C /* CompactMapViewModel.swift in Sources */,
@@ -1309,6 +1347,7 @@
 				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
 				0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */,
+				0FF8D5AB287D668F007E3229 /* CatchViewModel.swift in Sources */,
 				0FBFDD20286F6DED008EB31C /* FirstWhereView.swift in Sources */,
 				0F770A80287580C200529EB1 /* SinkView.swift in Sources */,
 				0F0404A828606A6E0004A781 /* MaxByViewModel.swift in Sources */,
@@ -1360,6 +1399,7 @@
 				0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */,
 				0F5A441B286454CE00AF75BB /* DebounceViewModel.swift in Sources */,
 				0FBBDB7B285728F0006C3310 /* CombineLearningApp.swift in Sources */,
+				0FF8D5A8287D569F007E3229 /* AssertNoFailureView.swift in Sources */,
 				0F86F076285B28E200369D99 /* SequenceView.swift in Sources */,
 				0F3BD1572865F05C001E6932 /* TimeOutViewModel.swift in Sources */,
 				0FC34C552876CE0100832003 /* PropertiesAndFunction.swift in Sources */,
