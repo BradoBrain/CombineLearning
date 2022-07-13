@@ -197,6 +197,10 @@ Current status:
     - .replaceError - operator to substitude a value instead of error.
   
     - .retry - operator that does not give the subscriber get error and send it back to publisher to try send it again number of time we specify.
+  
+  - Debugging
+    
+    - .breakpoint - operator that give us to set condition to have the app break during execution.
 
 </details>
     
