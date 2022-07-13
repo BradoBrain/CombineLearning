@@ -15,7 +15,7 @@ class RetryViewModel: ObservableObject {
     private var cancellable: AnyCancellable?
     
     func fetch() {
-        let url = URL(string: "https://oidutsniatnuomgib.com/")
+        let url = URL(string: "https://fakeLink.com/")
         
         cancellable = URLSession.shared.dataTaskPublisher(for: url!)
             .retry(3)

@@ -59,6 +59,8 @@
 		0F7D5F43287EBC2F0007AAD8 /* ReplaceErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F42287EBC2F0007AAD8 /* ReplaceErrorView.swift */; };
 		0F7D5F46287EC02A0007AAD8 /* RetryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F45287EC02A0007AAD8 /* RetryViewModel.swift */; };
 		0F7D5F48287EC0380007AAD8 /* RetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F47287EC0380007AAD8 /* RetryView.swift */; };
+		0F7D5F4C287EC5A80007AAD8 /* BreakpointViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F4B287EC5A80007AAD8 /* BreakpointViewModel.swift */; };
+		0F7D5F4E287EC5B50007AAD8 /* BreakpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F4D287EC5B50007AAD8 /* BreakpointView.swift */; };
 		0F7F3382287C08F800307D50 /* SwitchToLatestViewMOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */; };
 		0F7F3384287C090800307D50 /* SwitchToLatestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3383287C090800307D50 /* SwitchToLatestView.swift */; };
 		0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C128703D8400B70ECB /* LastViewModel.swift */; };
@@ -223,6 +225,8 @@
 		0F7D5F42287EBC2F0007AAD8 /* ReplaceErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceErrorView.swift; sourceTree = "<group>"; };
 		0F7D5F45287EC02A0007AAD8 /* RetryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryViewModel.swift; sourceTree = "<group>"; };
 		0F7D5F47287EC0380007AAD8 /* RetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryView.swift; sourceTree = "<group>"; };
+		0F7D5F4B287EC5A80007AAD8 /* BreakpointViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakpointViewModel.swift; sourceTree = "<group>"; };
+		0F7D5F4D287EC5B50007AAD8 /* BreakpointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakpointView.swift; sourceTree = "<group>"; };
 		0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestViewMOdel.swift; sourceTree = "<group>"; };
 		0F7F3383287C090800307D50 /* SwitchToLatestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestView.swift; sourceTree = "<group>"; };
 		0F8188C128703D8400B70ECB /* LastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewModel.swift; sourceTree = "<group>"; };
@@ -627,6 +631,23 @@
 			path = Retry;
 			sourceTree = "<group>";
 		};
+		0F7D5F4A287EC3A10007AAD8 /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D5F4F287EC5BA0007AAD8 /* Breakpoint */,
+			);
+			path = Debugging;
+			sourceTree = "<group>";
+		};
+		0F7D5F4F287EC5BA0007AAD8 /* Breakpoint */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D5F4B287EC5A80007AAD8 /* BreakpointViewModel.swift */,
+				0F7D5F4D287EC5B50007AAD8 /* BreakpointView.swift */,
+			);
+			path = Breakpoint;
+			sourceTree = "<group>";
+		};
 		0F7F3385287C090F00307D50 /* SwitchToLatest */ = {
 			isa = PBXGroup;
 			children = (
@@ -995,6 +1016,7 @@
 				0F2FB94B2871848E00C0A9EC /* SpecifyingShedulers */,
 				0FB86AAD2878363C00DF10EC /* Organization */,
 				0FF8D5A6287D5680007E3229 /* HandlingErrors */,
+				0F7D5F4A287EC3A10007AAD8 /* Debugging */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -1391,6 +1413,7 @@
 				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */,
 				0F00FCA3286C493A00D2CDE4 /* CollectByTimeView.swift in Sources */,
+				0F7D5F4C287EC5A80007AAD8 /* BreakpointViewModel.swift in Sources */,
 				0F7D5F46287EC02A0007AAD8 /* RetryViewModel.swift in Sources */,
 				0FF8D5AD287D669C007E3229 /* CatchView.swift in Sources */,
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
@@ -1440,6 +1463,7 @@
 				0FBBDB9028572E24006C3310 /* PublishedView.swift in Sources */,
 				0F2E7F1C2861BACF0020263E /* AppendViewModel.swift in Sources */,
 				0FB264182870C39C00178FF7 /* OutputAtView.swift in Sources */,
+				0F7D5F4E287EC5B50007AAD8 /* BreakpointView.swift in Sources */,
 				0FB2641B2870C8A900178FF7 /* OutputInViewModel.swift in Sources */,
 				0F8BE61F285C72CB00AAE827 /* TimerViewModel.swift in Sources */,
 				0F6F318F287985B000D58DE9 /* FlatMapViewModel.swift in Sources */,
