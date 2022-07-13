@@ -57,6 +57,8 @@
 		0F7AF729286875B6003CC6CA /* RemoveDuplicatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */; };
 		0F7D5F41287EBC220007AAD8 /* ReplaceErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F40287EBC220007AAD8 /* ReplaceErrorViewModel.swift */; };
 		0F7D5F43287EBC2F0007AAD8 /* ReplaceErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F42287EBC2F0007AAD8 /* ReplaceErrorView.swift */; };
+		0F7D5F46287EC02A0007AAD8 /* RetryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F45287EC02A0007AAD8 /* RetryViewModel.swift */; };
+		0F7D5F48287EC0380007AAD8 /* RetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F47287EC0380007AAD8 /* RetryView.swift */; };
 		0F7F3382287C08F800307D50 /* SwitchToLatestViewMOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */; };
 		0F7F3384287C090800307D50 /* SwitchToLatestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3383287C090800307D50 /* SwitchToLatestView.swift */; };
 		0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C128703D8400B70ECB /* LastViewModel.swift */; };
@@ -219,6 +221,8 @@
 		0F7AF728286875B6003CC6CA /* RemoveDuplicatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesViewModel.swift; sourceTree = "<group>"; };
 		0F7D5F40287EBC220007AAD8 /* ReplaceErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceErrorViewModel.swift; sourceTree = "<group>"; };
 		0F7D5F42287EBC2F0007AAD8 /* ReplaceErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceErrorView.swift; sourceTree = "<group>"; };
+		0F7D5F45287EC02A0007AAD8 /* RetryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryViewModel.swift; sourceTree = "<group>"; };
+		0F7D5F47287EC0380007AAD8 /* RetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryView.swift; sourceTree = "<group>"; };
 		0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestViewMOdel.swift; sourceTree = "<group>"; };
 		0F7F3383287C090800307D50 /* SwitchToLatestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestView.swift; sourceTree = "<group>"; };
 		0F8188C128703D8400B70ECB /* LastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewModel.swift; sourceTree = "<group>"; };
@@ -612,6 +616,15 @@
 				0F7D5F42287EBC2F0007AAD8 /* ReplaceErrorView.swift */,
 			);
 			path = ReplaceError;
+			sourceTree = "<group>";
+		};
+		0F7D5F49287EC03D0007AAD8 /* Retry */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D5F45287EC02A0007AAD8 /* RetryViewModel.swift */,
+				0F7D5F47287EC0380007AAD8 /* RetryView.swift */,
+			);
+			path = Retry;
 			sourceTree = "<group>";
 		};
 		0F7F3385287C090F00307D50 /* SwitchToLatest */ = {
@@ -1220,6 +1233,7 @@
 				0FF8D5B3287D7D2E007E3229 /* TryCatch */,
 				0FF8D5B8287D81A2007E3229 /* MapError */,
 				0F7D5F44287EBC3C0007AAD8 /* ReplaceError */,
+				0F7D5F49287EC03D0007AAD8 /* Retry */,
 			);
 			path = HandlingErrors;
 			sourceTree = "<group>";
@@ -1377,6 +1391,7 @@
 				0F945197285DDF6E001C300C /* AllSatisfyViewModel.swift in Sources */,
 				0FDF35892862FF5A00CEF357 /* PrefixView.swift in Sources */,
 				0F00FCA3286C493A00D2CDE4 /* CollectByTimeView.swift in Sources */,
+				0F7D5F46287EC02A0007AAD8 /* RetryViewModel.swift in Sources */,
 				0FF8D5AD287D669C007E3229 /* CatchView.swift in Sources */,
 				0FDEEDBE28587E3D00165988 /* EmptyViewModel.swift in Sources */,
 				0FF13EC7285F5DD40087FEDC /* CountView.swift in Sources */,
@@ -1389,6 +1404,7 @@
 				0FF8D5B0287D7D19007E3229 /* TryCatchViewModel.swift in Sources */,
 				0FF1224A285F0EAC0052F11E /* ContainsViewModel.swift in Sources */,
 				0FBBDB952857388C006C3310 /* CancellableView.swift in Sources */,
+				0F7D5F48287EC0380007AAD8 /* RetryView.swift in Sources */,
 				0F11DE892861C268000DB83F /* DropUntilView.swift in Sources */,
 				0FF8D5AB287D668F007E3229 /* CatchViewModel.swift in Sources */,
 				0FBFDD20286F6DED008EB31C /* FirstWhereView.swift in Sources */,
