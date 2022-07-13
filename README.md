@@ -7,9 +7,9 @@ Current status:
 
 :white_check_mark: Publishers
 
-:white_check_mark: Operators
+:black_square_button: Operators - in process
 
-:black_square_button: Subscribers - in process
+:white_check_mark: in process Subscribers
 
 
 - <details>
