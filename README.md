@@ -193,6 +193,8 @@ Current status:
     - .tryCatch - operator like .catch but has option to throw an error.
   
     - .mapError - operator which allow usa central place to catch errors before subscriber and give us a clouser to throw new error.
+    
+    - .replaceError - operator to substitude a value instead of error.
 
 </details>
     
