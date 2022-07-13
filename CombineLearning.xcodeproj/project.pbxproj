@@ -61,6 +61,8 @@
 		0F7D5F48287EC0380007AAD8 /* RetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F47287EC0380007AAD8 /* RetryView.swift */; };
 		0F7D5F4C287EC5A80007AAD8 /* BreakpointViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F4B287EC5A80007AAD8 /* BreakpointViewModel.swift */; };
 		0F7D5F4E287EC5B50007AAD8 /* BreakpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F4D287EC5B50007AAD8 /* BreakpointView.swift */; };
+		0F7D5F51287ED1810007AAD8 /* BreakpointOnErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F50287ED1810007AAD8 /* BreakpointOnErrorViewModel.swift */; };
+		0F7D5F53287ED18E0007AAD8 /* BreakpointOnErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D5F52287ED18E0007AAD8 /* BreakpointOnErrorView.swift */; };
 		0F7F3382287C08F800307D50 /* SwitchToLatestViewMOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */; };
 		0F7F3384287C090800307D50 /* SwitchToLatestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F3383287C090800307D50 /* SwitchToLatestView.swift */; };
 		0F8188C228703D8400B70ECB /* LastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C128703D8400B70ECB /* LastViewModel.swift */; };
@@ -227,6 +229,8 @@
 		0F7D5F47287EC0380007AAD8 /* RetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryView.swift; sourceTree = "<group>"; };
 		0F7D5F4B287EC5A80007AAD8 /* BreakpointViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakpointViewModel.swift; sourceTree = "<group>"; };
 		0F7D5F4D287EC5B50007AAD8 /* BreakpointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakpointView.swift; sourceTree = "<group>"; };
+		0F7D5F50287ED1810007AAD8 /* BreakpointOnErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakpointOnErrorViewModel.swift; sourceTree = "<group>"; };
+		0F7D5F52287ED18E0007AAD8 /* BreakpointOnErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakpointOnErrorView.swift; sourceTree = "<group>"; };
 		0F7F3381287C08F800307D50 /* SwitchToLatestViewMOdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestViewMOdel.swift; sourceTree = "<group>"; };
 		0F7F3383287C090800307D50 /* SwitchToLatestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToLatestView.swift; sourceTree = "<group>"; };
 		0F8188C128703D8400B70ECB /* LastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewModel.swift; sourceTree = "<group>"; };
@@ -635,6 +639,7 @@
 			isa = PBXGroup;
 			children = (
 				0F7D5F4F287EC5BA0007AAD8 /* Breakpoint */,
+				0F7D5F54287ED1940007AAD8 /* BreakpointOnError */,
 			);
 			path = Debugging;
 			sourceTree = "<group>";
@@ -646,6 +651,15 @@
 				0F7D5F4D287EC5B50007AAD8 /* BreakpointView.swift */,
 			);
 			path = Breakpoint;
+			sourceTree = "<group>";
+		};
+		0F7D5F54287ED1940007AAD8 /* BreakpointOnError */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D5F50287ED1810007AAD8 /* BreakpointOnErrorViewModel.swift */,
+				0F7D5F52287ED18E0007AAD8 /* BreakpointOnErrorView.swift */,
+			);
+			path = BreakpointOnError;
 			sourceTree = "<group>";
 		};
 		0F7F3385287C090F00307D50 /* SwitchToLatest */ = {
@@ -1450,6 +1464,7 @@
 				0F95686D28689E3500C9056A /* ReplaceEmptyViewModel.swift in Sources */,
 				0FDF35862862FC9900CEF357 /* DropFirstCountView.swift in Sources */,
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
+				0F7D5F53287ED18E0007AAD8 /* BreakpointOnErrorView.swift in Sources */,
 				0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */,
 				0FA8C0532869B56100444F51 /* TryScanViewModel.swift in Sources */,
 				0FB591DD2868C8E6007F5FB8 /* MapViewModel.swift in Sources */,
@@ -1480,6 +1495,7 @@
 				0F00219B285E4F2C00B2719E /* TryAllSatisfyViewModel.swift in Sources */,
 				0F9568662868974000C9056A /*  TryRemoveDuplicatesView.swift in Sources */,
 				0F88E8B82857573A008EE448 /* DelayView.swift in Sources */,
+				0F7D5F51287ED1810007AAD8 /* BreakpointOnErrorViewModel.swift in Sources */,
 				0FF8D5B2287D7D27007E3229 /* TryCatchView.swift in Sources */,
 				0F956861286890C700C9056A /* RemoveDuplicatesByViewModel.swift in Sources */,
 				0F770A7E287580B800529EB1 /* SinkViewModel.swift in Sources */,
