@@ -195,6 +195,8 @@ Current status:
     - .mapError - operator which allow usa central place to catch errors before subscriber and give us a clouser to throw new error.
     
     - .replaceError - operator to substitude a value instead of error.
+  
+    - .retry - operator that does not give the subscriber get error and send it back to publisher to try send it again number of time we specify.
 
 </details>
     
