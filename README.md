@@ -7,7 +7,7 @@ Current status:
 
 :white_check_mark: Publishers
 
-:black_square_button: Operators - in process
+:white_check_mark: Operators
 
 :white_check_mark: Subscribers
 
@@ -205,6 +205,8 @@ Current status:
     - .breakpointOnError - it pause execution when we g=have any error.
     
     - .handleEvents - operator that can expose 5 different events and give you closures for each one so you can write debugging code or other code as you will see in the following examples.
+  
+    - .print - operator to watch what pipeline does.
 
 </details>
     
