@@ -9,7 +9,7 @@ Current status:
 
 :black_square_button: Operators - in process
 
-:white_check_mark: in process Subscribers
+:white_check_mark: Subscribers
 
 
 - <details>
