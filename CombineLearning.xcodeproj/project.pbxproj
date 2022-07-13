@@ -71,6 +71,8 @@
 		0F8188C9287043CD00B70ECB /* LastWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8188C8287043CD00B70ECB /* LastWhereViewModel.swift */; };
 		0F848A9B285F22490062CC44 /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9A285F22490062CC44 /* ContainsWhereView.swift */; };
 		0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */; };
+		0F84A7EA287F19A9001C7E2C /* PrintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A7E9287F19A9001C7E2C /* PrintViewModel.swift */; };
+		0F84A7EC287F19B8001C7E2C /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A7EB287F19B8001C7E2C /* PrintView.swift */; };
 		0F856ABC286639AA0029BF5C /* CompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F856ABB286639AA0029BF5C /* CompactMapView.swift */; };
 		0F856ABE286639BC0029BF5C /* CompactMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F856ABD286639BC0029BF5C /* CompactMapViewModel.swift */; };
 		0F863583287C16AB000170EC /* ZipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F863582287C16AB000170EC /* ZipViewModel.swift */; };
@@ -241,6 +243,8 @@
 		0F8188C8287043CD00B70ECB /* LastWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastWhereViewModel.swift; sourceTree = "<group>"; };
 		0F848A9A285F22490062CC44 /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
 		0F848A9C285F225B0062CC44 /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
+		0F84A7E9287F19A9001C7E2C /* PrintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintViewModel.swift; sourceTree = "<group>"; };
+		0F84A7EB287F19B8001C7E2C /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
 		0F856ABB286639AA0029BF5C /* CompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapView.swift; sourceTree = "<group>"; };
 		0F856ABD286639BC0029BF5C /* CompactMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapViewModel.swift; sourceTree = "<group>"; };
 		0F863582287C16AB000170EC /* ZipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewModel.swift; sourceTree = "<group>"; };
@@ -645,6 +649,7 @@
 				0F7D5F4F287EC5BA0007AAD8 /* Breakpoint */,
 				0F7D5F54287ED1940007AAD8 /* BreakpointOnError */,
 				0FFD627A287F12CD00D3DE3D /* HandleEvents */,
+				0F84A7ED287F19BF001C7E2C /* Print */,
 			);
 			path = Debugging;
 			sourceTree = "<group>";
@@ -701,6 +706,15 @@
 				0F848A9A285F22490062CC44 /* ContainsWhereView.swift */,
 			);
 			path = ContainsWhere;
+			sourceTree = "<group>";
+		};
+		0F84A7ED287F19BF001C7E2C /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				0F84A7E9287F19A9001C7E2C /* PrintViewModel.swift */,
+				0F84A7EB287F19B8001C7E2C /* PrintView.swift */,
+			);
+			path = Print;
 			sourceTree = "<group>";
 		};
 		0F856ABA2866395A0029BF5C /* Filtering */ = {
@@ -1426,6 +1440,7 @@
 				0FE1E11E28577E05001C764A /* StoreInView.swift in Sources */,
 				0F863585287C16B8000170EC /* ZipView.swift in Sources */,
 				0FC91554286DE63900500C73 /* IgnoreOutputViewModel.swift in Sources */,
+				0F84A7EA287F19A9001C7E2C /* PrintViewModel.swift in Sources */,
 				0F8188C7287043BD00B70ECB /* LastWhereView.swift in Sources */,
 				0FD2013E285B1DF4000072FD /* PassthroughSubView.swift in Sources */,
 				0FB86AAF2878366F00DF10EC /* CombineLatestViewModel.swift in Sources */,
@@ -1481,6 +1496,7 @@
 				0FBBDB8E28572C6F006C3310 /* PublishedViewModel.swift in Sources */,
 				0F7D5F53287ED18E0007AAD8 /* BreakpointOnErrorView.swift in Sources */,
 				0F11DE8B2861C80D000DB83F /* DropFirstView.swift in Sources */,
+				0F84A7EC287F19B8001C7E2C /* PrintView.swift in Sources */,
 				0FA8C0532869B56100444F51 /* TryScanViewModel.swift in Sources */,
 				0FB591DD2868C8E6007F5FB8 /* MapViewModel.swift in Sources */,
 				0FF1224E285F0ED50052F11E /* ContainsView.swift in Sources */,
