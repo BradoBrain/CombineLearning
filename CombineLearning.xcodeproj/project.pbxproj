@@ -172,6 +172,8 @@
 		0FF8D5B2287D7D27007E3229 /* TryCatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */; };
 		0FF8D5B5287D8190007E3229 /* MapErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5B4287D8190007E3229 /* MapErrorViewModel.swift */; };
 		0FF8D5B7287D819D007E3229 /* MapErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8D5B6287D819D007E3229 /* MapErrorView.swift */; };
+		0FFD6277287F12B600D3DE3D /* HandleEventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD6276287F12B600D3DE3D /* HandleEventsViewModel.swift */; };
+		0FFD6279287F12C400D3DE3D /* HandleEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD6278287F12C400D3DE3D /* HandleEventsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -341,6 +343,8 @@
 		0FF8D5B1287D7D27007E3229 /* TryCatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatchView.swift; sourceTree = "<group>"; };
 		0FF8D5B4287D8190007E3229 /* MapErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapErrorViewModel.swift; sourceTree = "<group>"; };
 		0FF8D5B6287D819D007E3229 /* MapErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapErrorView.swift; sourceTree = "<group>"; };
+		0FFD6276287F12B600D3DE3D /* HandleEventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleEventsViewModel.swift; sourceTree = "<group>"; };
+		0FFD6278287F12C400D3DE3D /* HandleEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleEventsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -640,6 +644,7 @@
 			children = (
 				0F7D5F4F287EC5BA0007AAD8 /* Breakpoint */,
 				0F7D5F54287ED1940007AAD8 /* BreakpointOnError */,
+				0FFD627A287F12CD00D3DE3D /* HandleEvents */,
 			);
 			path = Debugging;
 			sourceTree = "<group>";
@@ -1310,6 +1315,15 @@
 			path = MapError;
 			sourceTree = "<group>";
 		};
+		0FFD627A287F12CD00D3DE3D /* HandleEvents */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD6276287F12B600D3DE3D /* HandleEventsViewModel.swift */,
+				0FFD6278287F12C400D3DE3D /* HandleEventsView.swift */,
+			);
+			path = HandleEvents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1436,6 +1450,7 @@
 				0FB591DF2868C92C007F5FB8 /* MapView.swift in Sources */,
 				0F87025F28646AFB00709E5A /* MeasureIntervalView.swift in Sources */,
 				0FF13EC2285F4E0D0087FEDC /* TryContainsWhereViewModel.swift in Sources */,
+				0FFD6279287F12C400D3DE3D /* HandleEventsView.swift in Sources */,
 				0FA8C0472869A21300444F51 /* SetFailureTypeView.swift in Sources */,
 				0F7AF727286875A8003CC6CA /* RemoveDuplicatesView.swift in Sources */,
 				0FF8D5B0287D7D19007E3229 /* TryCatchViewModel.swift in Sources */,
@@ -1531,6 +1546,7 @@
 				0F330B9F2858CEAB0011A237 /* FutureViewModel.swift in Sources */,
 				0F848A9D285F225B0062CC44 /* ContainsWhereViewModel.swift in Sources */,
 				0F5A441E286458DC00AF75BB /* DelayForViewModel.swift in Sources */,
+				0FFD6277287F12B600D3DE3D /* HandleEventsViewModel.swift in Sources */,
 				0F7D5F41287EBC220007AAD8 /* ReplaceErrorViewModel.swift in Sources */,
 				0F6F3191287985BD00D58DE9 /* FlatMapView.swift in Sources */,
 				0F0404AB28607D810004A781 /* TryMaxByViewModel.swift in Sources */,
