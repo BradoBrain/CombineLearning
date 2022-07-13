@@ -203,6 +203,8 @@ Current status:
     - .breakpoint - operator that give us to set condition to have the app break during execution.
   
     - .breakpointOnError - it pause execution when we g=have any error.
+    
+    - .handleEvents - operator that can expose 5 different events and give you closures for each one so you can write debugging code or other code as you will see in the following examples.
 
 </details>
     
