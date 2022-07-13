@@ -16,7 +16,7 @@ struct MapErrorView: View {
                 Label(title: {
                     Text(item.title)
                 }, icon: {
-                    Image(systemName: item.isComplited ? "checkmark.circle.fill" : "circle")
+                    Image(systemName: item.completed ? "checkmark.circle.fill" : "circle")
                 })
             }
             

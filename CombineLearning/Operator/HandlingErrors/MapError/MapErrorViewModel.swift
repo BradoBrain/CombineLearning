@@ -13,7 +13,7 @@ import Combine
 struct TODO: Identifiable, Decodable {
     let id: Int
     var title: String
-    var isComplited: Bool
+    var completed: Bool // For example if we change the value name it will be error "Could not decode data"
 }
 
 struct ErrorForMapError: Identifiable, Error {
