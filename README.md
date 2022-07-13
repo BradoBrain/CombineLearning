@@ -201,6 +201,8 @@ Current status:
   - Debugging
     
     - .breakpoint - operator that give us to set condition to have the app break during execution.
+  
+    - .breakpointOnError - it pause execution when we g=have any error.
 
 </details>
     
